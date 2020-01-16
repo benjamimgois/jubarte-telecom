@@ -1,0 +1,7 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('Tmultiradioform','FORMDATA',[
+  'TPF0'#15'Tmultiradioform'#14'multiradioform'#4'Left'#3#186#0#6'Height'#3'h'#2
+  +#3'Top'#2'A'#5'Width'#3#232#3#7'Caption'#6#16'Multipoint Radio'#10'LCLVersio'
+  +'n'#6#7'1.0.4.0'#0#0
+]);

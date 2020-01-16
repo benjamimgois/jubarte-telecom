@@ -1,0 +1,473 @@
+object wavesimform: Twavesimform
+  Left = 288
+  Height = 588
+  Top = 117
+  Width = 751
+  ActiveControl = PageControl1
+  Caption = 'Signals and Waves'
+  ClientHeight = 588
+  ClientWidth = 751
+  LCLVersion = '0.9.28.2'
+  object PageControl1: TPageControl
+    Left = 2
+    Height = 586
+    Top = 2
+    Width = 746
+    ActivePage = TabSheet1
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = '   Stationary   '
+      ClientHeight = 551
+      ClientWidth = 740
+      object GroupBox6: TGroupBox
+        Left = 5
+        Height = 152
+        Top = 8
+        Width = 568
+        Caption = '  Input  '
+        ClientHeight = 133
+        ClientWidth = 564
+        Font.Height = -13
+        Font.Name = 'Sans'
+        Font.Style = [fsBold]
+        ParentFont = False
+        TabOrder = 0
+        object GroupBox1: TGroupBox
+          Left = 16
+          Height = 120
+          Top = 7
+          Width = 173
+          Caption = ' Signal A '
+          ClientHeight = 101
+          ClientWidth = 169
+          Font.Color = clBlue
+          Font.Height = -13
+          Font.Name = 'Sans'
+          ParentFont = False
+          TabOrder = 0
+          object Label1: TLabel
+            Left = 88
+            Height = 16
+            Top = 48
+            Width = 80
+            Caption = 'Wave Lenght'
+            Font.Color = clBlue
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ParentColor = False
+            ParentFont = False
+          end
+          object Label2: TLabel
+            Left = 13
+            Height = 16
+            Top = 48
+            Width = 63
+            Caption = 'Amplitude'
+            Font.Color = clBlue
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ParentColor = False
+            ParentFont = False
+          end
+          object SpinEdit1: TSpinEdit
+            Left = 93
+            Height = 25
+            Top = 71
+            Width = 66
+            Font.Color = clBlue
+            Font.Height = -12
+            Font.Name = 'Sans'
+            MaxValue = 1000
+            ParentFont = False
+            TabOrder = 0
+            Value = 1
+          end
+          object SpinEdit2: TSpinEdit
+            Left = 13
+            Height = 25
+            Top = 71
+            Width = 66
+            Font.Color = clBlue
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ParentFont = False
+            TabOrder = 1
+            Value = 1
+          end
+          object ComboBox1: TComboBox
+            Left = 10
+            Height = 27
+            Top = 7
+            Width = 149
+            Font.Color = clBlue
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ItemHeight = 0
+            Items.Strings = (
+              'Sine'
+              'Square'
+              'Triangle'
+            )
+            ParentFont = False
+            TabOrder = 2
+            Text = '      Waveform'
+          end
+        end
+        object GroupBox2: TGroupBox
+          Left = 204
+          Height = 120
+          Top = 7
+          Width = 173
+          Caption = ' Signal B '
+          ClientHeight = 101
+          ClientWidth = 169
+          Font.Color = clMaroon
+          Font.Height = -13
+          Font.Name = 'Sans'
+          ParentFont = False
+          TabOrder = 1
+          object Label3: TLabel
+            Left = 88
+            Height = 16
+            Top = 48
+            Width = 80
+            Caption = 'Wave Lenght'
+            Font.Color = clMaroon
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ParentColor = False
+            ParentFont = False
+          end
+          object Label4: TLabel
+            Left = 13
+            Height = 16
+            Top = 48
+            Width = 63
+            Caption = 'Amplitude'
+            Font.Color = clMaroon
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ParentColor = False
+            ParentFont = False
+          end
+          object SpinEdit3: TSpinEdit
+            Left = 93
+            Height = 25
+            Top = 71
+            Width = 66
+            Font.Color = clMaroon
+            Font.Height = -12
+            Font.Name = 'Sans'
+            MaxValue = 1000
+            ParentFont = False
+            TabOrder = 0
+            Value = 1
+          end
+          object SpinEdit4: TSpinEdit
+            Left = 13
+            Height = 25
+            Top = 71
+            Width = 66
+            Font.Color = clMaroon
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ParentFont = False
+            TabOrder = 1
+            Value = 1
+          end
+          object ComboBox2: TComboBox
+            Left = 10
+            Height = 27
+            Top = 7
+            Width = 149
+            Font.Color = clMaroon
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ItemHeight = 0
+            Items.Strings = (
+              'Sine'
+              'Square'
+              'Triangle'
+            )
+            ParentFont = False
+            TabOrder = 2
+            Text = '      Waveform'
+          end
+        end
+        object GroupBox5: TGroupBox
+          Left = 386
+          Height = 120
+          Top = 7
+          Width = 173
+          Caption = ' Signal C '
+          ClientHeight = 101
+          ClientWidth = 169
+          Font.Color = clGreen
+          Font.Height = -13
+          Font.Name = 'Sans'
+          ParentFont = False
+          TabOrder = 2
+          object Label9: TLabel
+            Left = 88
+            Height = 16
+            Top = 48
+            Width = 80
+            Caption = 'Wave Lenght'
+            Font.Color = clGreen
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ParentColor = False
+            ParentFont = False
+          end
+          object Label10: TLabel
+            Left = 13
+            Height = 16
+            Top = 48
+            Width = 63
+            Caption = 'Amplitude'
+            Font.Color = clGreen
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ParentColor = False
+            ParentFont = False
+          end
+          object SpinEdit9: TSpinEdit
+            Left = 93
+            Height = 25
+            Top = 71
+            Width = 66
+            Font.Color = clGreen
+            Font.Height = -12
+            Font.Name = 'Sans'
+            MaxValue = 1000
+            ParentFont = False
+            TabOrder = 0
+            Value = 1
+          end
+          object SpinEdit10: TSpinEdit
+            Left = 13
+            Height = 25
+            Top = 71
+            Width = 66
+            Font.Color = clGreen
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ParentFont = False
+            TabOrder = 1
+            Value = 1
+          end
+          object ComboBox5: TComboBox
+            Left = 10
+            Height = 27
+            Top = 7
+            Width = 149
+            Font.Color = clGreen
+            Font.Height = -12
+            Font.Name = 'Sans'
+            ItemHeight = 0
+            Items.Strings = (
+              'Sine'
+              'Square'
+              'Triangle'
+            )
+            ParentFont = False
+            TabOrder = 2
+            Text = '      Waveform'
+          end
+        end
+      end
+      object Panel1: TPanel
+        Left = 3
+        Height = 342
+        Top = 208
+        Width = 738
+        ClientHeight = 342
+        ClientWidth = 738
+        TabOrder = 1
+        object PlotPanel1: TPlotPanel
+          Left = 8
+          Height = 330
+          Top = 8
+          Width = 720
+          GridColor = clWindowText
+          BackColor = clBlack
+          Margin = 15
+          PlotMode = pmLine
+          PlotPen.Width = 4
+          LayerOption = False
+          XMin = 0
+          XMax = 50
+          XScaleLog = False
+          XMarks = True
+          XInterval = 5
+          XLabel = 'Lenght (m)'
+          YMin = -40
+          YMax = 40
+          YScaleLog = False
+          YMarks = True
+          YInterval = 5
+          YLabel = 'Amplitude'
+          Caption = ' '
+        end
+      end
+      object BitBtn1: TBitBtn
+        Left = 5
+        Height = 30
+        Top = 166
+        Width = 208
+        Caption = 'Start'
+        Kind = bkOK
+        ModalResult = 1
+        OnClick = BitBtn1Click
+        TabOrder = 2
+      end
+      object BitBtn2: TBitBtn
+        Left = 260
+        Height = 30
+        Top = 167
+        Width = 131
+        Caption = 'Stop'
+        OnClick = BitBtn2Click
+        TabOrder = 3
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Interference'
+      ClientHeight = 551
+      ClientWidth = 740
+      object GroupBox3: TGroupBox
+        Left = 16
+        Height = 144
+        Top = 16
+        Width = 300
+        Caption = ' Signal A '
+        ClientHeight = 125
+        ClientWidth = 296
+        TabOrder = 0
+        object Label5: TLabel
+          Left = 38
+          Height = 18
+          Top = 63
+          Width = 68
+          Caption = 'Frequency'
+          ParentColor = False
+        end
+        object Label6: TLabel
+          Left = 166
+          Height = 18
+          Top = 63
+          Width = 68
+          Caption = 'Amplitude'
+          ParentColor = False
+        end
+        object SpinEdit5: TSpinEdit
+          Left = 38
+          Height = 27
+          Top = 87
+          Width = 66
+          TabOrder = 0
+          Value = 1
+        end
+        object SpinEdit6: TSpinEdit
+          Left = 166
+          Height = 27
+          Top = 87
+          Width = 66
+          TabOrder = 1
+          Value = 1
+        end
+        object ComboBox3: TComboBox
+          Left = 70
+          Height = 29
+          Top = 15
+          Width = 136
+          ItemHeight = 0
+          TabOrder = 2
+          Text = '   Waveform'
+        end
+      end
+      object GroupBox4: TGroupBox
+        Left = 424
+        Height = 144
+        Top = 16
+        Width = 300
+        Caption = ' Signal B '
+        ClientHeight = 125
+        ClientWidth = 296
+        TabOrder = 1
+        object Label7: TLabel
+          Left = 38
+          Height = 18
+          Top = 63
+          Width = 68
+          Caption = 'Frequency'
+          ParentColor = False
+        end
+        object Label8: TLabel
+          Left = 166
+          Height = 18
+          Top = 63
+          Width = 68
+          Caption = 'Amplitude'
+          ParentColor = False
+        end
+        object SpinEdit7: TSpinEdit
+          Left = 38
+          Height = 27
+          Top = 87
+          Width = 66
+          TabOrder = 0
+          Value = 1
+        end
+        object SpinEdit8: TSpinEdit
+          Left = 166
+          Height = 27
+          Top = 87
+          Width = 66
+          TabOrder = 1
+          Value = 1
+        end
+        object ComboBox4: TComboBox
+          Left = 70
+          Height = 29
+          Top = 15
+          Width = 136
+          ItemHeight = 0
+          TabOrder = 2
+          Text = '   Waveform'
+        end
+      end
+      object BitBtn3: TBitBtn
+        Left = 336
+        Height = 30
+        Top = 119
+        Width = 75
+        Caption = 'Start'
+        Kind = bkOK
+        ModalResult = 1
+        TabOrder = 2
+      end
+    end
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 10
+    OnStartTimer = Timer1StartTimer
+    left = 416
+  end
+  object Timer2: TTimer
+    Enabled = False
+    Interval = 10
+    OnStartTimer = Timer2StartTimer
+    left = 480
+    top = 8
+  end
+  object Timer3: TTimer
+    Enabled = False
+    Interval = 10
+    OnStartTimer = Timer3StartTimer
+    left = 540
+    top = 8
+  end
+end

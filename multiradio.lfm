@@ -1,0 +1,8 @@
+object multiradioform: Tmultiradioform
+  Left = 186
+  Height = 616
+  Top = 65
+  Width = 1000
+  Caption = 'Multipoint Radio'
+  LCLVersion = '1.0.4.0'
+end
