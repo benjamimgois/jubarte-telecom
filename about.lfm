@@ -3,7 +3,7 @@ object AboutForm: TAboutForm
   Height = 473
   Top = 102
   Width = 520
-  ActiveControl = PageControl1
+  ActiveControl = TabSheet4
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsToolWindow
   Caption = 'About'
@@ -589,7 +589,7 @@ object AboutForm: TAboutForm
     C2F51EF1638E158074F1FF01081287C3A5A722580000000049454E44AE426082
   }
   Position = poScreenCenter
-  LCLVersion = '1.0.4.0'
+  LCLVersion = '3.6.0.0'
   object Image1: TImage
     Left = -40
     Height = 490
@@ -14376,8 +14376,8 @@ object AboutForm: TAboutForm
     TabOrder = 0
     object TabSheet4: TTabSheet
       Caption = 'Author'
-      ClientHeight = 430
-      ClientWidth = 499
+      ClientHeight = 424
+      ClientWidth = 501
       object Image4: TImage
         Left = 18
         Height = 122
@@ -45743,8 +45743,8 @@ object AboutForm: TAboutForm
     end
     object TabSheet1: TTabSheet
       Caption = 'Info'
-      ClientHeight = 430
-      ClientWidth = 499
+      ClientHeight = 424
+      ClientWidth = 501
       object Memo1: TMemo
         Left = -2
         Height = 419
@@ -45801,8 +45801,8 @@ object AboutForm: TAboutForm
     end
     object TabSheet2: TTabSheet
       Caption = 'Contributors'
-      ClientHeight = 430
-      ClientWidth = 499
+      ClientHeight = 424
+      ClientWidth = 501
       object Memo2: TMemo
         Left = 7
         Height = 415
@@ -45842,11 +45842,11 @@ object AboutForm: TAboutForm
     end
     object TabSheet3: TTabSheet
       Caption = 'License'
-      ClientHeight = 430
-      ClientWidth = 499
+      ClientHeight = 424
+      ClientWidth = 501
       object Memo3: TMemo
         Left = 0
-        Height = 430
+        Height = 424
         Top = 0
         Width = 492
         Align = alLeft

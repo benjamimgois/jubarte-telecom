@@ -1,33 +1,33 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="9"/>
+    <Version Value="12"/>
     <General>
       <Flags>
         <LRSInOutputDirectory Value="False"/>
+        <CompatibilityMode Value="True"/>
       </Flags>
-      <MainUnit Value="0"/>
       <Title Value="Jubarte"/>
       <UseAppBundle Value="False"/>
-      <ActiveWindowIndexAtStart Value="0"/>
     </General>
-    <VersionInfo>
-      <StringTable ProductVersion=""/>
-    </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="default" Default="True"/>
     </BuildModes>
     <PublishOptions>
       <Version Value="2"/>
-      <IgnoreBinaries Value="False"/>
-      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
-      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
     </PublishOptions>
     <RunParams>
       <local>
-        <FormatVersion Value="1"/>
-        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
       </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default">
+          <local>
+            <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T &apos;Lazarus Run Output&apos; -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+          </local>
+        </Mode0>
+      </Modes>
     </RunParams>
     <RequiredPackages Count="4">
       <Item1>
@@ -50,9 +50,7 @@
       <Unit0>
         <Filename Value="jubarte.lpr"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="jubarte"/>
         <EditorIndex Value="11"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="45"/>
         <CursorPos X="5" Y="56"/>
         <UsageCount Value="200"/>
@@ -80,12 +78,9 @@
         <Filename Value="multiradio.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="multiradioform"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="multiradio"/>
         <EditorIndex Value="2"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="24"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -105,8 +100,6 @@
         <ComponentName Value="opticallinkform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="opticallink"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="253"/>
         <CursorPos X="3" Y="277"/>
         <UsageCount Value="200"/>
@@ -117,8 +110,6 @@
         <ComponentName Value="satlinkform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="satlink"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="1346"/>
         <CursorPos X="7" Y="1372"/>
         <UsageCount Value="200"/>
@@ -129,9 +120,7 @@
         <ComponentName Value="coolingform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="cooling"/>
         <EditorIndex Value="4"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="210"/>
         <CursorPos X="11" Y="230"/>
         <UsageCount Value="200"/>
@@ -141,7 +130,7 @@
       <Unit8>
         <Filename Value="unit5.lrs"/>
         <TopLine Value="58948"/>
-        <CursorPos X="1" Y="58987"/>
+        <CursorPos Y="58987"/>
         <UsageCount Value="44"/>
       </Unit8>
       <Unit9>
@@ -152,12 +141,10 @@
       </Unit9>
       <Unit10>
         <Filename Value="../../lazarus/lcl/include/customform.inc"/>
-        <EditorIndex Value="12"/>
-        <WindowIndex Value="0"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="2163"/>
         <CursorPos X="23" Y="2171"/>
         <UsageCount Value="13"/>
-        <Loaded Value="True"/>
       </Unit10>
       <Unit11>
         <Filename Value="main.pas"/>
@@ -167,9 +154,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Main"/>
         <EditorIndex Value="1"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="47"/>
-        <CursorPos X="1" Y="58"/>
+        <CursorPos Y="58"/>
         <UsageCount Value="179"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -183,7 +169,6 @@
         <UnitName Value="RadioLink"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="7"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="553"/>
         <CursorPos X="25" Y="555"/>
         <UsageCount Value="179"/>
@@ -198,7 +183,6 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Splash"/>
         <EditorIndex Value="10"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="19"/>
         <CursorPos X="33" Y="7"/>
         <UsageCount Value="178"/>
@@ -210,9 +194,7 @@
         <ComponentName Value="converterform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="converter"/>
         <EditorIndex Value="8"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="28"/>
         <CursorPos X="7" Y="75"/>
         <UsageCount Value="64"/>
@@ -224,8 +206,6 @@
         <ComponentName Value="fresnelform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="fresnel"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="42"/>
         <CursorPos X="6" Y="84"/>
         <UsageCount Value="45"/>
@@ -235,9 +215,7 @@
         <ComponentName Value="upsform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="ups"/>
         <EditorIndex Value="9"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="174"/>
         <CursorPos X="35" Y="181"/>
         <UsageCount Value="73"/>
@@ -247,7 +225,7 @@
       <Unit17>
         <Filename Value="../../usr/lib/lazarus/0.9.28.2/lcl/include/customform.inc"/>
         <TopLine Value="1680"/>
-        <CursorPos X="1" Y="1692"/>
+        <CursorPos Y="1692"/>
         <UsageCount Value="4"/>
       </Unit17>
       <Unit18>
@@ -255,9 +233,7 @@
         <ComponentName Value="iptelform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="iptel"/>
         <EditorIndex Value="6"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="439"/>
         <CursorPos X="6" Y="373"/>
         <UsageCount Value="68"/>
@@ -270,8 +246,6 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="About"/>
-        <EditorIndex Value="0"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="8"/>
         <CursorPos X="38" Y="8"/>
         <UsageCount Value="78"/>
@@ -284,9 +258,7 @@
         <ComponentName Value="iptelqosform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="iptelqos"/>
         <EditorIndex Value="5"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="162"/>
         <CursorPos X="36" Y="177"/>
         <UsageCount Value="175"/>
@@ -295,9 +267,6 @@
       </Unit20>
       <Unit21>
         <Filename Value="../../delphi-chart/Chart_pas.pas"/>
-        <UnitName Value="Chart_pas"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="6"/>
       </Unit21>
       <Unit22>
@@ -312,9 +281,6 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="TryPlotPanelUnit"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="6"/>
       </Unit23>
       <Unit24>
@@ -323,8 +289,6 @@
         <ComponentName Value="powermeterform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="powermeter"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="151"/>
         <CursorPos X="48" Y="151"/>
         <UsageCount Value="139"/>
@@ -334,9 +298,6 @@
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="plotpaneldemounit"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
         <UsageCount Value="7"/>
       </Unit25>
       <Unit26>
@@ -345,7 +306,6 @@
         <ComponentName Value="wavesimform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="wavesim"/>
         <TopLine Value="237"/>
         <CursorPos X="15" Y="249"/>
         <UsageCount Value="86"/>
@@ -360,14 +320,11 @@
       <Unit28>
         <Filename Value="/usr/lib/lazarus/0.9.28.2/ide/lazarus.pp"/>
         <UnitName Value="Lazarus"/>
-        <TopLine Value="1"/>
         <CursorPos X="10" Y="126"/>
         <UsageCount Value="8"/>
       </Unit28>
       <Unit29>
         <Filename Value="../../.cache/.fr-r1rBkn/Jubarte/project1.lpr"/>
-        <UnitName Value="project1"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="7"/>
         <CursorPos X="24" Y="51"/>
         <UsageCount Value="10"/>
@@ -378,28 +335,21 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="3"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="3"/>
+        <CursorPos Y="3"/>
         <UsageCount Value="13"/>
         <Loaded Value="True"/>
       </Unit30>
       <Unit31>
         <Filename Value="radiolink.lrs"/>
-        <WindowIndex Value="0"/>
         <TopLine Value="11599"/>
-        <CursorPos X="1" Y="3"/>
+        <CursorPos Y="3"/>
         <UsageCount Value="10"/>
       </Unit31>
       <Unit32>
         <Filename Value="../../lazarus/lcl/forms.pp"/>
         <UnitName Value="Forms"/>
-        <EditorIndex Value="13"/>
-        <WindowIndex Value="0"/>
-        <TopLine Value="1"/>
-        <CursorPos X="1" Y="1"/>
+        <EditorIndex Value="-1"/>
         <UsageCount Value="13"/>
-        <Loaded Value="True"/>
       </Unit32>
     </Units>
     <JumpHistory Count="30" HistoryIndex="29">
@@ -429,15 +379,15 @@
       </Position6>
       <Position7>
         <Filename Value="main.pas"/>
-        <Caret Line="58" Column="1" TopLine="47"/>
+        <Caret Line="58" TopLine="47"/>
       </Position7>
       <Position8>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="203" Column="1" TopLine="193"/>
+        <Caret Line="203" TopLine="193"/>
       </Position8>
       <Position9>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="205" Column="1" TopLine="195"/>
+        <Caret Line="205" TopLine="195"/>
       </Position9>
       <Position10>
         <Filename Value="radiolink.pas"/>
@@ -534,18 +484,15 @@
       </SyntaxOptions>
     </Parsing>
     <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf3"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>
         </Win32>
       </Options>
     </Linking>
-    <Other>
-      <CompilerMessages>
-        <UseMsgFile Value="True"/>
-      </CompilerMessages>
-      <CompilerPath Value="$(CompPath)"/>
-    </Other>
   </CompilerOptions>
   <Debugging>
     <BreakPoints Count="4">

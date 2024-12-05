@@ -588,7 +588,7 @@ object MainForm: TMainForm
     C2F51EF1638E158074F1FF01081287C3A5A722580000000049454E44AE426082
   }
   Position = poScreenCenter
-  LCLVersion = '1.0.4.0'
+  LCLVersion = '3.6.0.0'
   object Image1: TImage
     Left = 0
     Height = 547
@@ -14372,7 +14372,7 @@ object MainForm: TMainForm
     Top = 56
     Width = 140
     AllowAllUp = True
-    Color = cl3DLight
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -15428,7 +15428,6 @@ object MainForm: TMainForm
       3D00A47B3C18A57B3C8FA57B3CE5A57B3CB8A67B3D39A77D3D04000000000000
       0000000000000000000000000000000000000000000000000000
     }
-    NumGlyphs = 0
     OnClick = SpeedButton1Click
     ShowHint = True
     ParentFont = False
@@ -15442,6 +15441,7 @@ object MainForm: TMainForm
     Top = 232
     Width = 140
     AllowAllUp = True
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -16126,7 +16126,6 @@ object MainForm: TMainForm
       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
       FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00
     }
-    NumGlyphs = 0
     OnClick = SpeedButton2Click
     ShowHint = True
     ParentFont = False
@@ -16140,6 +16139,7 @@ object MainForm: TMainForm
     Top = 56
     Width = 140
     AllowAllUp = True
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -17830,7 +17830,6 @@ object MainForm: TMainForm
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000
     }
-    NumGlyphs = 0
     OnClick = SpeedButton3Click
     ShowHint = True
     ParentFont = False
@@ -17838,12 +17837,12 @@ object MainForm: TMainForm
   end
   object Label2: TLabel
     Left = 23
-    Height = 20
+    Height = 19
     Top = 370
-    Width = 140
+    Width = 147
     Caption = 'Auxiliary Systems'
     Font.CharSet = ANSI_CHARSET
-    Font.Color = cl3DLight
+    Font.Color = clSilver
     Font.Height = -17
     Font.Name = 'Arial'
     Font.Pitch = fpVariable
@@ -17859,6 +17858,7 @@ object MainForm: TMainForm
     Hint = 'Cooling system'
     Top = 404
     Width = 140
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -18962,7 +18962,6 @@ object MainForm: TMainForm
       0000000000000000000000000000000000000000000000000000000000000000
       00000000000000000000
     }
-    NumGlyphs = 0
     OnClick = SpeedButton4Click
     ShowHint = True
     ParentFont = False
@@ -18975,6 +18974,7 @@ object MainForm: TMainForm
     Hint = 'Uninterruptible power supply system'
     Top = 404
     Width = 140
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -19828,7 +19828,6 @@ object MainForm: TMainForm
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000
     }
-    NumGlyphs = 0
     OnClick = SpeedButton5Click
     ShowHint = True
     ParentFont = False
@@ -19836,12 +19835,13 @@ object MainForm: TMainForm
   end
   object Label3: TLabel
     Left = 23
-    Height = 20
+    Height = 19
     Top = 17
-    Width = 145
+    Width = 151
     Caption = 'Radio Engineering'
+    Color = clNone
     Font.CharSet = ANSI_CHARSET
-    Font.Color = cl3DLight
+    Font.Color = clSilver
     Font.Height = -17
     Font.Name = 'Arial'
     Font.Pitch = fpVariable
@@ -19857,6 +19857,7 @@ object MainForm: TMainForm
     Hint = 'IP Telephony'
     Top = 232
     Width = 140
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -21193,7 +21194,6 @@ object MainForm: TMainForm
       FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
       FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
     }
-    NumGlyphs = 0
     OnClick = SpeedButton6Click
     ShowHint = True
     ParentFont = False
@@ -21203,7 +21203,7 @@ object MainForm: TMainForm
     Left = 656
     Height = 27
     Top = 504
-    Width = 66
+    Width = 75
     Caption = '&About'
     Color = clSkyBlue
     Font.CharSet = ANSI_CHARSET
@@ -21213,19 +21213,18 @@ object MainForm: TMainForm
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Kind = bkHelp
-    NumGlyphs = 0
     OnClick = BitBtn1Click
     ParentFont = False
     TabOrder = 0
   end
   object Label4: TLabel
     Left = 23
-    Height = 20
+    Height = 19
     Top = 192
-    Width = 245
+    Width = 254
     Caption = 'System and Traffic Engineering'
     Font.CharSet = ANSI_CHARSET
-    Font.Color = cl3DLight
+    Font.Color = clSilver
     Font.Height = -17
     Font.Name = 'Arial'
     Font.Pitch = fpVariable
@@ -21242,7 +21241,7 @@ object MainForm: TMainForm
     Top = 56
     Width = 140
     AllowAllUp = True
-    Color = cl3DLight
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -22251,7 +22250,6 @@ object MainForm: TMainForm
       0000000000000000000000000000000000000000000000000000000000000000
       00000000000000000000
     }
-    NumGlyphs = 0
     ShowHint = True
     ParentFont = False
     ParentShowHint = False
@@ -22264,6 +22262,7 @@ object MainForm: TMainForm
     Top = 56
     Width = 140
     AllowAllUp = True
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -23924,7 +23923,6 @@ object MainForm: TMainForm
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000
     }
-    NumGlyphs = 0
     ShowHint = True
     ParentFont = False
     ParentShowHint = False
@@ -23936,6 +23934,7 @@ object MainForm: TMainForm
     Hint = 'Lightning protection system'
     Top = 404
     Width = 140
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -25409,7 +25408,6 @@ object MainForm: TMainForm
       0000000000000000000000000000000000000000000000000000000000000000
       00000000000000000000
     }
-    NumGlyphs = 0
     OnClick = SpeedButton8Click
     ShowHint = True
     ParentFont = False
@@ -25428,7 +25426,7 @@ object MainForm: TMainForm
     WindowTop = 0
     WindowWidth = 0
     FillAttribute = 0
-    left = 712
-    top = 32
+    Left = 712
+    Top = 32
   end
 end
