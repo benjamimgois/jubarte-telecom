@@ -5,11 +5,11 @@ object iptelqosform: Tiptelqosform
   Width = 1000
   ActiveControl = ComboBox1
   Caption = 'QoS Generator'
-  ClientHeight = 606
+  ClientHeight = 626
   ClientWidth = 1000
   Menu = MainMenu1
   Position = poScreenCenter
-  LCLVersion = '1.0.4.0'
+  LCLVersion = '3.6.0.0'
   object Image4: TImage
     Left = 0
     Height = 618
@@ -1913,9 +1913,9 @@ object iptelqosform: Tiptelqosform
   end
   object Label3: TLabel
     Left = 424
-    Height = 17
+    Height = 15
     Top = 24
-    Width = 122
+    Width = 121
     Caption = 'Border Equipments'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -1929,9 +1929,9 @@ object iptelqosform: Tiptelqosform
   end
   object Label4: TLabel
     Left = 768
-    Height = 17
+    Height = 15
     Top = 24
-    Width = 109
+    Width = 108
     Caption = 'Core Equipments'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -2782,11 +2782,11 @@ object iptelqosform: Tiptelqosform
   end
   object ComboBox1: TComboBox
     Left = 10
-    Height = 24
+    Height = 32
     Hint = 'Select the vendor of the equipments:'#10'Enterasys config still in alpha'
     Top = 21
     Width = 104
-    Color = clMoneyGreen
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -2794,24 +2794,24 @@ object iptelqosform: Tiptelqosform
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
-    ItemHeight = 16
+    ItemHeight = 21
     Items.Strings = (
       'Cisco'
       'Enterasys'
     )
-    OnChange = ComboBox1Change
     ParentFont = False
     ParentShowHint = False
     ShowHint = True
     TabOrder = 0
     Text = '- Vendor -'
+    OnChange = ComboBox1Change
   end
   object Memo1: TMemo
     Left = 336
     Height = 431
     Top = 48
     Width = 318
-    Color = clCaptionText
+    Color = clGray
     Enabled = False
     Font.CharSet = ANSI_CHARSET
     Font.Color = clWhite
@@ -2843,7 +2843,7 @@ object iptelqosform: Tiptelqosform
     Height = 431
     Top = 48
     Width = 318
-    Color = clCaptionText
+    Color = clGray
     Enabled = False
     Font.CharSet = ANSI_CHARSET
     Font.Color = clWhite
@@ -2880,6 +2880,7 @@ object iptelqosform: Tiptelqosform
     Top = 504
     Width = 147
     Caption = '&Generate Config'
+    Color = clSkyBlue
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -2894,12 +2895,13 @@ object iptelqosform: Tiptelqosform
   end
   object GroupBox1: TGroupBox
     Left = 10
-    Height = 168
+    Height = 184
     Top = 80
     Width = 312
     Caption = ' Access Layer '
-    ClientHeight = 150
+    ClientHeight = 158
     ClientWidth = 308
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -2907,13 +2909,15 @@ object iptelqosform: Tiptelqosform
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
     ParentFont = False
     TabOrder = 4
     object Label5: TLabel
       Left = 9
-      Height = 17
+      Height = 15
       Top = 4
-      Width = 73
+      Width = 70
       Caption = 'Access Port'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -2926,9 +2930,9 @@ object iptelqosform: Tiptelqosform
     end
     object Label6: TLabel
       Left = 222
-      Height = 17
+      Height = 15
       Top = 4
-      Width = 65
+      Width = 64
       Caption = 'Uplink Port'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -3201,7 +3205,7 @@ object iptelqosform: Tiptelqosform
     end
     object Label7: TLabel
       Left = 116
-      Height = 17
+      Height = 15
       Top = 4
       Width = 78
       Caption = 'IPphone Vlan'
@@ -3216,10 +3220,11 @@ object iptelqosform: Tiptelqosform
     end
     object Edit3: TEdit
       Left = 9
-      Height = 24
+      Height = 29
       Hint = 'Interface that connects to PC or IP phone'
       Top = 24
       Width = 76
+      Color = clSilver
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -3233,10 +3238,11 @@ object iptelqosform: Tiptelqosform
     end
     object Edit4: TEdit
       Left = 222
-      Height = 24
+      Height = 29
       Hint = 'Interface that connects to distribution/Core layer'
       Top = 24
       Width = 73
+      Color = clSilver
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -3250,7 +3256,7 @@ object iptelqosform: Tiptelqosform
     end
     object SpinEdit1: TSpinEdit
       Left = 124
-      Height = 24
+      Height = 29
       Hint = 'Type the vlan designated to the IP phone'
       Top = 24
       Width = 56
@@ -3263,12 +3269,13 @@ object iptelqosform: Tiptelqosform
   end
   object GroupBox2: TGroupBox
     Left = 10
-    Height = 162
+    Height = 186
     Top = 280
     Width = 312
     Caption = ' Core Layer '
-    ClientHeight = 144
+    ClientHeight = 160
     ClientWidth = 308
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -3276,14 +3283,17 @@ object iptelqosform: Tiptelqosform
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
     ParentFont = False
     TabOrder = 5
     object Label8: TLabel
       Left = 175
-      Height = 17
+      Height = 15
       Top = 7
-      Width = 110
+      Width = 112
       Caption = 'Outbound Interface'
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -3580,9 +3590,9 @@ object iptelqosform: Tiptelqosform
     end
     object Label9: TLabel
       Left = 32
-      Height = 17
+      Height = 15
       Top = 7
-      Width = 63
+      Width = 62
       Caption = 'Voice Vlan'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -3595,10 +3605,11 @@ object iptelqosform: Tiptelqosform
     end
     object Edit6: TEdit
       Left = 206
-      Height = 24
+      Height = 32
       Hint = 'Outbound interface of the core router'
       Top = 27
       Width = 64
+      Color = clSilver
       Font.Height = -13
       Font.Name = 'Sans'
       ParentFont = False
@@ -3608,7 +3619,7 @@ object iptelqosform: Tiptelqosform
     end
     object SpinEdit2: TSpinEdit
       Left = 38
-      Height = 24
+      Height = 29
       Hint = 'Type the vlan designated to the voice traffic between access and core layers'
       Top = 27
       Width = 56
@@ -3620,8 +3631,8 @@ object iptelqosform: Tiptelqosform
     end
   end
   object MainMenu1: TMainMenu
-    left = 568
-    top = 72
+    Left = 568
+    Top = 72
     object MenuItem1: TMenuItem
       Caption = 'About'
     end
