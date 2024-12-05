@@ -784,8 +784,8 @@ LazarusResources.Add('Tsatlinkform','FORMDATA',[
   +#152#28#180'n'#20'['#196#219'!'#6#171#245#226'C'#28'?'#0#132'+'#0#8#28#180
   +#222''''#190'#~+'#238#23#179#172'mu'#138#172#194#245#30#241'c'#142#21#128't'
   +#241#255#1#8#18#135#195#165#167'"X'#0#0#0#0'IEND'#174'B`'#130#4'Menu'#7#9'Ma'
-  +'inMenu1'#8'Position'#7#14'poScreenCenter'#10'LCLVersion'#6#6'0.9.30'#0#6'TI'
-  +'mage'#6'Image2'#4'Left'#2#252#6'Height'#3#218#2#3'Top'#2#230#5'Width'#3#156
+  +'inMenu1'#8'Position'#7#14'poScreenCenter'#10'LCLVersion'#6#7'3.6.0.0'#0#6'T'
+  +'Image'#6'Image2'#4'Left'#2#252#6'Height'#3#218#2#3'Top'#2#230#5'Width'#3#156
   +#4#12'Picture.Data'#10'q'#236#0#0#23'TPortableNetworkGraphicU'#236#0#0#137'P'
   +'NG'#13#10#26#10#0#0#0#13'IHDR'#0#0#4'.'#0#0#2#232#8#2#0#0#0'8,#b'#0#0#0'LzT'
   +'XtRaw profile type exif'#0#0'x'#218#227'J'#173#200'L'#227'R'#0#3'c#.'#19'Ss'
@@ -6588,279 +6588,285 @@ LazarusResources.Add('Tsatlinkform','FORMDATA',[
   +#159#2#147'T'#172#186#175'f&'#185#0#0#0#0'IEND'#174'B`'#130#7'Stretch'#9#11
   +'Transparent'#9#0#0#9'TGroupBox'#9'GroupBox2'#4'Left'#2#14#6'Height'#3#136#0
   +#3'Top'#3#144#0#5'Width'#3'J'#4#7'Caption'#6#10' Frequency'#12'ClientHeight'
-  +#2'w'#11'ClientWidth'#3'F'#4#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Col'
-  +'or'#7#7'clGreen'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitc'
-  +'h'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBol'
-  +'d'#0#10'ParentFont'#8#8'TabOrder'#2#1#0#6'TLabel'#7'Label24'#4'Left'#2#8#6
-  +'Height'#2#16#3'Top'#2#12#5'Width'#2'0'#7'Caption'#6#6'UPLINK'#12'Font.CharS'
-  ,'et'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9
-  +'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7
-  +'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label25'#4'Left'
-  +#2'\'#6'Height'#2#16#3'Top'#2'&'#5'Width'#2#28#7'Caption'#6#3'MHz'#12'Font.C'
-  +'harSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243
-  +#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7
-  +'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label27'#4'Left'
-  +#2'\'#6'Height'#2#16#3'Top'#2'V'#5'Width'#2#28#7'Caption'#6#3'MHz'#12'Font.C'
-  +'harSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243
-  +#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7
-  +'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label28'#4'Left'
-  +#2#9#6'Height'#2#16#3'Top'#2'<'#5'Width'#2'F'#7'Caption'#6#8'DOWNLINK'#12'Fo'
-  +'nt.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2
-  +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
-  +#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label33'#4
-  +'Left'#3#167#1#6'Height'#2#16#3'Top'#2'"'#5'Width'#2'I'#7'Caption'#6#11'Tran'
-  +'sponder'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11
-  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
-  +#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLab'
-  +'el'#7'Label34'#4'Left'#3#10#2#6'Height'#2#16#3'Top'#2'"'#5'Width'#2#22#7'Ca'
-  +'ption'#6#2'BW'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBla'
-  +'ck'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVar'
-  +'iable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0
-  +#6'TLabel'#7'Label35'#4'Left'#3','#2#6'Height'#2#16#3'Top'#2'8'#5'Width'#2#28
-  +#7'Caption'#6#3'MHz'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
-  +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
-  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#6'TLabel'#7'Label36'#4'Left'#3#246#2#6'Height'#2#16#3'Top'#2'A'#5'Width'
-  +#2'Z'#7'Caption'#6#14'Demodulator IF'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10
-  +'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'F'
-  +'ont.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8
-  +#10'ParentFont'#8#0#0#6'TLabel'#7'Label37'#4'Left'#3'+'#3#6'Height'#2#16#3'T'
-  +'op'#2'Y'#5'Width'#2#28#7'Caption'#6#3'MHz'#12'Font.CharSet'#7#12'ANSI_CHARS'
-  +'ET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Aria'
-  +'l'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentC'
-  +'olor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label38'#4'Left'#3'v'#3#6'Height'#2
-  +#16#3'Top'#2'A'#5'Width'#3#134#0#7'Caption'#6#21'Downlink Converter RF'#12'F'
-  +'ont.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'
-  +#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quali'
-  +'ty'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label39'
-  +#4'Left'#3#179#3#6'Height'#2#16#3'Top'#2'Y'#5'Width'#2#28#7'Caption'#6#3'MHz'
+  +#2'n'#11'ClientWidth'#3'F'#4#5'Color'#7#6'clGray'#12'Font.CharSet'#7#12'ANSI'
+  +'_CHARSET'#10'Font.Color'#7#7'clGreen'#11'Font.Height'#2#243#9'Font.Name'#6#5
+  +'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Fon'
+  +'t.Style'#11#6'fsBold'#0#16'ParentBackground'#8#11'ParentColor'#8#10'ParentF'
+  +'ont'#8#8'TabOrder'#2#1#0#6'TLabel'#7'Label24'#4'Left'#2#8#6'Height'#2#15#3
+  ,'Top'#2#12#5'Width'#2'/'#7'Caption'#6#6'UPLINK'#12'Font.CharSet'#7#12'ANSI_C'
+  +'HARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5
+  +'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'Par'
+  +'entColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label25'#4'Left'#2'\'#6'Height'
+  +#2#15#3'Top'#2'&'#5'Width'#2#27#7'Caption'#6#3'MHz'#12'Font.CharSet'#7#12'AN'
+  +'SI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6
+  +#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'P'
+  +'arentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label27'#4'Left'#2'\'#6'Heig'
+  +'ht'#2#15#3'Top'#2'V'#5'Width'#2#27#7'Caption'#6#3'MHz'#12'Font.CharSet'#7#12
+  +'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'
+  +#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11
+  +'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label28'#4'Left'#2#9#6'Heig'
+  +'ht'#2#15#3'Top'#2'<'#5'Width'#2'F'#7'Caption'#6#8'DOWNLINK'#12'Font.CharSet'
+  +#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font'
+  +'.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDr'
+  +'aft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label33'#4'Left'#3
+  +#167#1#6'Height'#2#15#3'Top'#2'"'#5'Width'#2'K'#7'Caption'#6#11'Transponder'
   +#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Hei'
   +'ght'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.'
   +'Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'La'
-  +'bel40'#4'Left'#3#245#2#6'Height'#2#16#3'Top'#2#9#5'Width'#2'J'#7'Caption'#6
-  +#12'Modulator IF'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clB'
-  +'lack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpV'
-  +'ariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0
-  +#0#6'TLabel'#7'Label41'#4'Left'#3'*'#3#6'Height'#2#16#3'Top'#2'!'#5'Width'#2
-  +#28#7'Caption'#6#3'MHz'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7
-  +#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
-  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#6'TLabel'#7'Label42'#4'Left'#3'v'#3#6'Height'#2#16#3'Top'#2#9#5'Width'#2
-  +'t'#7'Caption'#6#19'Uplink converter RF'#12'Font.CharSet'#7#12'ANSI_CHARSET'
-  +#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10
-  +'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8
-  +#10'ParentFont'#8#0#0#6'TLabel'#7'Label43'#4'Left'#3#178#3#6'Height'#2#16#3
-  +'Top'#2'!'#5'Width'#2#28#7'Caption'#6#3'MHz'#12'Font.CharSet'#7#12'ANSI_CHAR'
+  +'bel34'#4'Left'#3#10#2#6'Height'#2#15#3'Top'#2'"'#5'Width'#2#22#7'Caption'#6
+  +#2'BW'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Fo'
+  +'nt.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12
+  +'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'
+  +#7'Label35'#4'Left'#3','#2#6'Height'#2#15#3'Top'#2'8'#5'Width'#2#27#7'Captio'
+  +'n'#6#3'MHz'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'
+  +#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariabl'
+  +'e'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'T'
+  +'Label'#7'Label36'#4'Left'#3#246#2#6'Height'#2#15#3'Top'#2'A'#5'Width'#2'Z'#7
+  +'Caption'#6#14'Demodulator IF'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.C'
+  +'olor'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pi'
+  +'tch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'Pa'
+  +'rentFont'#8#0#0#6'TLabel'#7'Label37'#4'Left'#3'+'#3#6'Height'#2#15#3'Top'#2
+  +'Y'#5'Width'#2#27#7'Caption'#6#3'MHz'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10
+  +'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'F'
+  +'ont.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8
+  +#10'ParentFont'#8#0#0#6'TLabel'#7'Label38'#4'Left'#3'v'#3#6'Height'#2#15#3'T'
+  +'op'#2'A'#5'Width'#3#135#0#7'Caption'#6#21'Downlink Converter RF'#12'Font.Ch'
+  +'arSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243
+  +#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7
+  +'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label39'#4'Left'
+  +#3#179#3#6'Height'#2#15#3'Top'#2'Y'#5'Width'#2#27#7'Caption'#6#3'MHz'#12'Fon'
+  +'t.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2
+  +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
+  +#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label40'#4
+  +'Left'#3#245#2#6'Height'#2#15#3'Top'#2#9#5'Width'#2'I'#7'Caption'#6#12'Modul'
+  +'ator IF'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11
+  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
+  +#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLab'
+  +'el'#7'Label41'#4'Left'#3'*'#3#6'Height'#2#15#3'Top'#2'!'#5'Width'#2#27#7'Ca'
+  +'ption'#6#3'MHz'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBl'
+  +'ack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVa'
+  +'riable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0
+  +#6'TLabel'#7'Label42'#4'Left'#3'v'#3#6'Height'#2#15#3'Top'#2#9#5'Width'#2's'
+  +#7'Caption'#6#19'Uplink converter RF'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10
+  +'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'F'
+  +'ont.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8
+  +#10'ParentFont'#8#0#0#6'TLabel'#7'Label43'#4'Left'#3#178#3#6'Height'#2#15#3
+  +'Top'#2'!'#5'Width'#2#27#7'Caption'#6#3'MHz'#12'Font.CharSet'#7#12'ANSI_CHAR'
   +'SET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Ari'
   +'al'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'Parent'
-  +'Color'#8#10'ParentFont'#8#0#0#5'TEdit'#6'Edit15'#4'Left'#2#8#6'Height'#2#25
-  +#3'Top'#2'L'#5'Width'#2'@'#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'
-  +#10'Font.Color'#7#7'clGreen'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10
-  +'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8
-  ,#8'TabOrder'#2#0#4'Text'#6#1'0'#0#0#11'TRadioGroup'#11'RadioGroup1'#4'Left'#3
-  +#144#0#6'Height'#2'0'#3'Top'#2#7#5'Width'#2'j'#8'AutoFill'#9#7'Caption'#6#4
-  +'Pol.'#28'ChildSizing.LeftRightSpacing'#2#6#28'ChildSizing.TopBottomSpacing'
-  +#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsHomogenousChildResize'#27'Chi'
-  +'ldSizing.EnlargeVertical'#7#24'crsHomogenousChildResize'#28'ChildSizing.Shr'
-  +'inkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crs'
-  +'ScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTopToBottom'#27
-  +'ChildSizing.ControlsPerLine'#2#2#12'ClientHeight'#2#31#11'ClientWidth'#2'f'
-  +#7'Columns'#2#2#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBla'
-  +'ck'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVar'
-  +'iable'#12'Font.Quality'#7#7'fqDraft'#13'Items.Strings'#1#6#1'V'#6#1'H'#0#7
-  +'OnClick'#7#16'RadioGroup1Click'#10'ParentFont'#8#8'TabOrder'#2#1#0#0#5'TEdi'
-  +'t'#6'Edit18'#4'Left'#3#167#1#6'Height'#2#25#3'Top'#2'1'#5'Width'#2'P'#7'Ena'
-  +'bled'#8#8'TabOrder'#2#2#0#0#5'TEdit'#6'Edit19'#4'Left'#3#10#2#6'Height'#2#25
-  +#3'Top'#2'1'#5'Width'#2#28#7'Enabled'#8#8'TabOrder'#2#3#0#0#11'TRadioGroup'
-  +#11'RadioGroup3'#4'Left'#3#144#0#6'Height'#2'0'#3'Top'#2'7'#5'Width'#2'j'#8
-  +'AutoFill'#9#7'Caption'#6#4'Pol.'#28'ChildSizing.LeftRightSpacing'#2#6#28'Ch'
-  +'ildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsH'
-  +'omogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChi'
-  +'ldResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSiz'
-  +'ing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLef'
-  +'tToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#2#12'ClientHeigh'
-  +'t'#2#31#11'ClientWidth'#2'f'#7'Columns'#2#2#12'Font.CharSet'#7#12'ANSI_CHAR'
-  +'SET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Ari'
-  +'al'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#13'Items.'
-  +'Strings'#1#6#1'V'#6#1'H'#0#10'ParentFont'#8#8'TabOrder'#2#4#0#0#5'TEdit'#6
-  +'Edit20'#4'Left'#3#245#2#6'Height'#2#25#4'Hint'#6#26'Demodulator tune freque'
-  +'ncy'#3'Top'#2'Q'#5'Width'#2'*'#7'Enabled'#8#14'ParentShowHint'#8#8'ShowHint'
-  +#9#8'TabOrder'#2#5#0#0#5'TEdit'#6'Edit21'#4'Left'#3'v'#3#6'Height'#2#25#4'Hi'
-  +'nt'#6'$Tune frequency of downlink converter'#3'Top'#2'Q'#5'Width'#2'9'#7'En'
-  +'abled'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#6#0#0#9'TSpinEdit'
-  +#9'SpinEdit1'#4'Left'#2#9#6'Height'#2#25#3'Top'#2#28#5'Width'#2'J'#12'Font.C'
-  +'harSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clGreen'#11'Font.Height'#2#243
-  +#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7
-  +'fqDraft'#8'OnChange'#7#15'SpinEdit1Change'#10'ParentFont'#8#8'TabOrder'#2#7
-  +#0#0#5'TEdit'#6'Edit22'#4'Left'#3#244#2#6'Height'#2#25#4'Hint'#6#24'Modulato'
-  +'r tune frequency'#3'Top'#2#25#5'Width'#2'+'#7'Enabled'#8#14'ParentShowHint'
-  +#8#8'ShowHint'#9#8'TabOrder'#2#8#0#0#5'TEdit'#6'Edit23'#4'Left'#3'v'#3#6'Hei'
-  +'ght'#2#25#4'Hint'#6'"Tune frequency of uplink converter'#3'Top'#2#25#5'Widt'
-  +'h'#2'9'#7'Enabled'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#9#0#0
-  +#0#9'TGroupBox'#9'GroupBox1'#4'Left'#2#16#6'Height'#3#136#0#3'Top'#2#0#5'Wid'
-  +'th'#3'I'#4#7'Caption'#6#24'Physical Characteristics'#12'ClientHeight'#2'w'
-  +#11'ClientWidth'#3'E'#4#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7
-  +#8'clMaroon'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7
-  +#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0
-  +#10'ParentFont'#8#8'TabOrder'#2#0#0#6'TLabel'#6'Label1'#4'Left'#2'F'#6'Heigh'
-  +'t'#2#16#3'Top'#2#7#5'Width'#2'?'#7'Caption'#6#10'Location A'#12'Font.CharSe'
-  +'t'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'F'
-  +'ont.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'f'
-  +'qDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label2'#4'Left'#3
-  +#179#3#6'Height'#2#16#3'Top'#2#7#5'Width'#2'?'#7'Caption'#6#10'Location B'#12
-  +'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'
-  +#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quali'
-  +'ty'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label4'
-  +#4'Left'#2#6#6'Height'#2#16#3'Top'#2'!'#5'Width'#2#23#7'Caption'#6#4'Lat.'#12
-  +'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'
-  +#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quali'
-  +'ty'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label5'
-  +#4'Left'#3'v'#3#6'Height'#2#16#3'Top'#2'!'#5'Width'#2#23#7'Caption'#6#4'Lat.'
+  +'Color'#8#10'ParentFont'#8#0#0#5'TEdit'#6'Edit15'#4'Left'#2#8#6'Height'#2#29
+  +#3'Top'#2'L'#5'Width'#2'@'#5'Color'#7#6'clGray'#7'Enabled'#8#12'Font.CharSet'
+  +#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clGreen'#11'Font.Height'#2#243#9'Font'
+  ,'.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDr'
+  +'aft'#10'ParentFont'#8#8'TabOrder'#2#0#4'Text'#6#1'0'#0#0#11'TRadioGroup'#11
+  +'RadioGroup1'#4'Left'#3#144#0#6'Height'#2'0'#3'Top'#2#7#5'Width'#2'j'#8'Auto'
+  +'Fill'#9#7'Caption'#6#4'Pol.'#28'ChildSizing.LeftRightSpacing'#2#6#28'ChildS'
+  +'izing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsHomog'
+  +'enousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChildRe'
+  +'size'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.'
+  +'ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToR'
+  +'ightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#2#12'ClientHeight'#2
+  +#22#11'ClientWidth'#2'f'#7'Columns'#2#2#12'Font.CharSet'#7#12'ANSI_CHARSET'
+  +#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10
+  +'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#13'Items.Strings'
+  +#1#6#1'V'#6#1'H'#0#7'OnClick'#7#16'RadioGroup1Click'#16'ParentBackground'#8
+  +#10'ParentFont'#8#8'TabOrder'#2#1#0#0#5'TEdit'#6'Edit18'#4'Left'#3#167#1#6'H'
+  +'eight'#2#29#3'Top'#2'1'#5'Width'#2'P'#5'Color'#7#6'clGray'#7'Enabled'#8#8'T'
+  +'abOrder'#2#2#0#0#5'TEdit'#6'Edit19'#4'Left'#3#10#2#6'Height'#2#29#3'Top'#2
+  +'1'#5'Width'#2#28#5'Color'#7#6'clGray'#7'Enabled'#8#8'TabOrder'#2#3#0#0#11'T'
+  +'RadioGroup'#11'RadioGroup3'#4'Left'#3#144#0#6'Height'#2'0'#3'Top'#2'7'#5'Wi'
+  +'dth'#2'j'#8'AutoFill'#9#7'Caption'#6#4'Pol.'#28'ChildSizing.LeftRightSpacin'
+  +'g'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizonta'
+  +'l'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsH'
+  +'omogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'
+  +#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7
+  +#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#2#12'Cl'
+  +'ientHeight'#2#22#11'ClientWidth'#2'f'#7'Columns'#2#2#12'Font.CharSet'#7#12
+  +'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'
+  +#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#13
+  +'Items.Strings'#1#6#1'V'#6#1'H'#0#16'ParentBackground'#8#10'ParentFont'#8#8
+  +'TabOrder'#2#4#0#0#5'TEdit'#6'Edit20'#4'Left'#3#245#2#6'Height'#2#29#4'Hint'
+  +#6#26'Demodulator tune frequency'#3'Top'#2'Q'#5'Width'#2'*'#5'Color'#7#6'clG'
+  +'ray'#7'Enabled'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#5#0#0#5
+  +'TEdit'#6'Edit21'#4'Left'#3'v'#3#6'Height'#2#29#4'Hint'#6'$Tune frequency of'
+  +' downlink converter'#3'Top'#2'Q'#5'Width'#2'9'#5'Color'#7#6'clGray'#7'Enabl'
+  +'ed'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#6#0#0#9'TSpinEdit'#9
+  +'SpinEdit1'#4'Left'#2#9#6'Height'#2#29#3'Top'#2#28#5'Width'#2'J'#5'Color'#7#6
+  +'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clGreen'#11
+  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
+  +#12'Font.Quality'#7#7'fqDraft'#8'OnChange'#7#15'SpinEdit1Change'#10'ParentFo'
+  +'nt'#8#8'TabOrder'#2#7#0#0#5'TEdit'#6'Edit22'#4'Left'#3#244#2#6'Height'#2#29
+  +#4'Hint'#6#24'Modulator tune frequency'#3'Top'#2#25#5'Width'#2'+'#5'Color'#7
+  +#6'clGray'#7'Enabled'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#8#0
+  +#0#5'TEdit'#6'Edit23'#4'Left'#3'v'#3#6'Height'#2#29#4'Hint'#6'"Tune frequenc'
+  +'y of uplink converter'#3'Top'#2#25#5'Width'#2'9'#5'Color'#7#6'clGray'#7'Ena'
+  +'bled'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#9#0#0#0#9'TGroupBo'
+  +'x'#9'GroupBox1'#4'Left'#2#16#6'Height'#3#136#0#3'Top'#2#0#5'Width'#3'I'#4#7
+  +'Caption'#6#24'Physical Characteristics'#12'ClientHeight'#2'n'#11'ClientWidt'
+  +'h'#3'E'#4#5'Color'#7#6'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.'
+  +'Color'#7#8'clMaroon'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.'
+  +'Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'f'
+  +'sBold'#0#16'ParentBackground'#8#11'ParentColor'#8#10'ParentFont'#8#8'TabOrd'
+  +'er'#2#0#0#6'TLabel'#6'Label1'#4'Left'#2'F'#6'Height'#2#15#3'Top'#2#7#5'Widt'
+  +'h'#2'='#7'Caption'#6#10'Location A'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10
+  +'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'F'
+  +'ont.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8
+  +#10'ParentFont'#8#0#0#6'TLabel'#6'Label2'#4'Left'#3#179#3#6'Height'#2#15#3'T'
+  +'op'#2#7#5'Width'#2'>'#7'Caption'#6#10'Location B'#12'Font.CharSet'#7#12'ANS'
+  +'I_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6
+  +#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'P'
+  +'arentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label4'#4'Left'#2#6#6'Height'
+  +#2#15#3'Top'#2'!'#5'Width'#2#22#7'Caption'#6#4'Lat.'#12'Font.CharSet'#7#12'A'
+  +'NSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'
+  +#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11
+  +'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label5'#4'Left'#3'v'#3#6'He'
+  +'ight'#2#15#3'Top'#2'!'#5'Width'#2#22#7'Caption'#6#4'Lat.'#12'Font.CharSet'#7
+  ,#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.N'
+  +'ame'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraf'
+  +'t'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label6'#4'Left'#2'f'#6
+  +'Height'#2#15#3'Top'#2'!'#5'Width'#2#29#7'Caption'#6#4'Long'#12'Font.CharSet'
+  +#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font'
+  +'.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDr'
+  +'aft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label7'#4'Left'#3
+  +#206#3#6'Height'#2#15#3'Top'#2'!'#5'Width'#2#29#7'Caption'#6#4'Long'#12'Font'
+  +'.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2
+  +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
+  +#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'Label8'#4'L'
+  +'eft'#2#6#6'Height'#2#15#3'Top'#2'A'#5'Width'#2'6'#7'Caption'#6#9'Elevation'
   +#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Hei'
   +'ght'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.'
   +'Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#6'La'
-  +'bel6'#4'Left'#2'f'#6'Height'#2#16#3'Top'#2'!'#5'Width'#2#29#7'Caption'#6#4
-  +'Long'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Fo'
-  ,'nt.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12
+  +'bel9'#4'Left'#2'V'#6'Height'#2#15#3'Top'#2'A'#5'Width'#2'/'#7'Caption'#6#7
+  +'Azimuth'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11
+  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
+  +#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLab'
+  +'el'#7'Label10'#4'Left'#3#166#0#6'Height'#2#15#3'Top'#2'A'#5'Width'#2'h'#7'C'
+  +'aption'#6#18'Polarization Angle'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Fon'
+  +'t.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font'
+  +'.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10
+  +'ParentFont'#8#0#0#6'TLabel'#7'Label11'#4'Left'#3'6'#3#6'Height'#2#15#3'Top'
+  +#2'A'#5'Width'#2'6'#7'Caption'#6#9'Elevation'#12'Font.CharSet'#7#12'ANSI_CHA'
+  +'RSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Ar'
+  +'ial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'Paren'
+  +'tColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label12'#4'Left'#3#134#3#6'Heigh'
+  +'t'#2#15#3'Top'#2'A'#5'Width'#2'/'#7'Caption'#6#7'Azimuth'#12'Font.CharSet'#7
+  +#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.N'
+  +'ame'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraf'
+  +'t'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label13'#4'Left'#3#206
+  +#3#6'Height'#2#15#3'Top'#2'A'#5'Width'#2'h'#7'Caption'#6#18'Polarization Ang'
+  +'le'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font'
+  +'.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'F'
+  +'ont.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7
+  +'Label14'#4'Left'#2'B'#6'Height'#2#15#3'Top'#2'M'#5'Width'#2#8#7'Caption'#6#1
+  +'o'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.'
+  +'Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Fo'
+  +'nt.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7
+  +'Label15'#4'Left'#3#150#0#6'Height'#2#15#3'Top'#2'L'#5'Width'#2#8#7'Caption'
+  +#6#1'o'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'F'
+  +'ont.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12
   +'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'
-  +#6'Label7'#4'Left'#3#206#3#6'Height'#2#16#3'Top'#2'!'#5'Width'#2#29#7'Captio'
-  +'n'#6#4'Long'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'
+  +#7'Label16'#4'Left'#3#227#0#6'Height'#2#15#3'Top'#2'M'#5'Width'#2#8#7'Captio'
+  +'n'#6#1'o'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11
+  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
+  +#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLab'
+  +'el'#7'Label17'#4'Left'#3's'#3#6'Height'#2#15#3'Top'#2'M'#5'Width'#2#8#7'Cap'
+  +'tion'#6#1'o'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'
   +#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariabl'
   +'e'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'T'
-  +'Label'#6'Label8'#4'Left'#2#6#6'Height'#2#16#3'Top'#2'A'#5'Width'#2'7'#7'Cap'
-  +'tion'#6#9'Elevation'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
-  +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
-  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#6'TLabel'#6'Label9'#4'Left'#2'V'#6'Height'#2#16#3'Top'#2'A'#5'Width'#2
-  +'1'#7'Caption'#6#7'Azimuth'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Colo'
-  +'r'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'
-  +#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentF'
-  +'ont'#8#0#0#6'TLabel'#7'Label10'#4'Left'#3#166#0#6'Height'#2#16#3'Top'#2'A'#5
-  +'Width'#2'j'#7'Caption'#6#18'Polarization Angle'#12'Font.CharSet'#7#12'ANSI_'
-  +'CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5
-  +'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'Par'
-  +'entColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label11'#4'Left'#3'6'#3#6'Heig'
-  +'ht'#2#16#3'Top'#2'A'#5'Width'#2'7'#7'Caption'#6#9'Elevation'#12'Font.CharSe'
-  +'t'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'F'
-  +'ont.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'f'
-  +'qDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label12'#4'Left'
-  +#3#134#3#6'Height'#2#16#3'Top'#2'A'#5'Width'#2'1'#7'Caption'#6#7'Azimuth'#12
-  +'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'
-  +#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quali'
-  +'ty'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label13'
-  +#4'Left'#3#206#3#6'Height'#2#16#3'Top'#2'A'#5'Width'#2'j'#7'Caption'#6#18'Po'
-  +'larization Angle'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'cl'
-  +'Black'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fp'
-  +'Variable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0
-  +#0#6'TLabel'#7'Label14'#4'Left'#2'B'#6'Height'#2#16#3'Top'#2'M'#5'Width'#2#8
+  +'Label'#7'Label18'#4'Left'#3#195#3#6'Height'#2#15#3'Top'#2'M'#5'Width'#2#8#7
+  +'Caption'#6#1'o'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBl'
+  +'ack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVa'
+  +'riable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0
+  +#6'TLabel'#7'Label19'#4'Left'#3#19#4#6'Height'#2#15#3'Top'#2'L'#5'Width'#2#8
   +#7'Caption'#6#1'o'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'cl'
   +'Black'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fp'
   +'Variable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0
-  +#0#6'TLabel'#7'Label15'#4'Left'#3#150#0#6'Height'#2#16#3'Top'#2'L'#5'Width'#2
-  +#8#7'Caption'#6#1'o'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
+  +#0#6'TLabel'#7'Label20'#4'Left'#3#226#1#6'Height'#2#15#3'Top'#2'W'#5'Width'#2
+  +#20#7'Caption'#6#2'Km'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
   +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
   +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#6'TLabel'#7'Label16'#4'Left'#3#227#0#6'Height'#2#16#3'Top'#2'M'#5'Width'
-  +#2#8#7'Caption'#6#1'o'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
-  +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
-  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#6'TLabel'#7'Label17'#4'Left'#3's'#3#6'Height'#2#16#3'Top'#2'M'#5'Width'
-  +#2#8#7'Caption'#6#1'o'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
-  +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
-  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#6'TLabel'#7'Label18'#4'Left'#3#195#3#6'Height'#2#16#3'Top'#2'M'#5'Width'
-  +#2#8#7'Caption'#6#1'o'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
-  +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
-  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#6'TLabel'#7'Label19'#4'Left'#3#19#4#6'Height'#2#16#3'Top'#2'L'#5'Width'
-  +#2#8#7'Caption'#6#1'o'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
-  +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
-  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#6'TLabel'#7'Label20'#4'Left'#3#226#1#6'Height'#2#16#3'Top'#2'W'#5'Width'
-  +#2#21#7'Caption'#6#2'Km'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7
-  +#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
-  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#6'TLabel'#7'Label21'#4'Left'#3'o'#1#6'Height'#2#16#3'Top'#2'A'#5'Width'
-  +#2'y'#7'Caption'#6#21'Distance A - Satelite'#12'Font.CharSet'#7#12'ANSI_CHAR'
+  ,#0#0#6'TLabel'#7'Label21'#4'Left'#3'o'#1#6'Height'#2#15#3'Top'#2'A'#5'Width'
+  +#2'u'#7'Caption'#6#21'Distance A - Satelite'#12'Font.CharSet'#7#12'ANSI_CHAR'
   +'SET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Ari'
   +'al'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'Parent'
   +'Color'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label22'#4'Left'#3#13#2#6'Height'
-  ,#2#16#3'Top'#2'A'#5'Width'#2'y'#7'Caption'#6#21'Distance B - Satelite'#12'Fo'
+  +#2#15#3'Top'#2'A'#5'Width'#2'v'#7'Caption'#6#21'Distance B - Satelite'#12'Fo'
   +'nt.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2
   +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
   +#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label23'#4
-  +'Left'#3'y'#2#6'Height'#2#16#3'Top'#2'W'#5'Width'#2#21#7'Caption'#6#2'Km'#12
+  +'Left'#3'y'#2#6'Height'#2#15#3'Top'#2'W'#5'Width'#2#20#7'Caption'#6#2'Km'#12
   +'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'
   +#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quali'
   +'ty'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label45'
-  +#4'Left'#3'W'#2#6'Height'#2#16#3'Top'#2#23#5'Width'#2#8#7'Caption'#6#1'o'#12
+  +#4'Left'#3'W'#2#6'Height'#2#15#3'Top'#2#23#5'Width'#2#8#7'Caption'#6#1'o'#12
   +'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'
   +#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quali'
   +'ty'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#5'TEdit'#5'Edit1'#4
-  +'Left'#2'&'#6'Height'#2#25#4'Hint'#6'8Enter the geographical coordinates, wi'
-  +'thout using signs.'#3'Top'#2#25#5'Width'#2'8'#12'Font.CharSet'#7#12'ANSI_CH'
-  +'ARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'A'
-  +'rial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Pare'
-  +'ntFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#0#0#0#5'TEdit'#5
-  +'Edit2'#4'Left'#3#142#0#6'Height'#2#25#4'Hint'#6'8Enter the geographical coo'
-  +'rdinates, without using signs.'#3'Top'#2#25#5'Width'#2'8'#12'Font.CharSet'#7
-  +#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.N'
-  +'ame'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraf'
-  +'t'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#1#0#0#5
-  +'TEdit'#5'Edit3'#4'Left'#3#142#3#6'Height'#2#25#4'Hint'#6'8Enter the geograp'
-  +'hical coordenates, without using signs.'#3'Top'#2#25#5'Width'#2'8'#12'Font.'
+  +'Left'#2'&'#6'Height'#2#29#4'Hint'#6'8Enter the geographical coordinates, wi'
+  +'thout using signs.'#3'Top'#2#25#5'Width'#2'8'#5'Color'#7#6'clGray'#12'Font.'
   +'CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2
   +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
   +#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'
-  +#2#2#0#0#5'TEdit'#5'Edit4'#4'Left'#3#246#3#6'Height'#2#25#4'Hint'#6'8Enter t'
+  +#2#0#0#0#5'TEdit'#5'Edit2'#4'Left'#3#142#0#6'Height'#2#29#4'Hint'#6'8Enter t'
   +'he geographical coordinates, without using signs.'#3'Top'#2#25#5'Width'#2'8'
-  +#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Hei'
-  +'ght'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.'
-  +'Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8
-  +'TabOrder'#2#3#0#0#9'TComboBox'#9'ComboBox1'#4'Left'#3#173#1#6'Height'#2#27#3
-  +'Top'#2#23#5'Width'#2'x'#5'Color'#7#14'clActiveBorder'#12'Font.CharSet'#7#12
-  +'ANSI_CHARSET'#10'Font.Color'#7#8'clMaroon'#11'Font.Height'#2#243#9'Font.Nam'
-  +'e'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'
-  +#10'Font.Style'#11#6'fsBold'#0#10'ItemHeight'#2#0#13'Items.Strings'#1#6#10'S'
-  +'tarOne C1'#6#8'Amazonas'#6#10'StarOne C2'#6#14'Estrela do Sul'#6#12'BrasilS'
-  +'at B3'#6#12'BrasilSat B4'#6#5'Other'#0#9'MaxLength'#4#255#255#0#0#8'OnChang'
-  +'e'#7#15'ComboBox1Change'#10'ParentFont'#8#8'TabOrder'#2#4#4'Text'#6#15'  - '
-  +'Satellite -'#0#0#5'TEdit'#5'Edit5'#4'Left'#3'.'#2#6'Height'#2#25#4'Hint'#6
-  +#14'West longitude'#3'Top'#2#23#5'Width'#2' '#14'ParentShowHint'#8#8'ShowHin'
-  +'t'#9#8'TabOrder'#2#5#0#0#5'TEdit'#5'Edit6'#4'Left'#2#6#6'Height'#2#25#3'Top'
-  +#2'Q'#5'Width'#2'0'#5'Color'#7#12'clMoneyGreen'#7'Enabled'#8#12'Font.CharSet'
-  +#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.'
+  +#5'Color'#7#6'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
+  +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
+  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHin'
+  +'t'#8#8'ShowHint'#9#8'TabOrder'#2#1#0#0#5'TEdit'#5'Edit3'#4'Left'#3#142#3#6
+  +'Height'#2#29#4'Hint'#6'8Enter the geographical coordenates, without using s'
+  +'igns.'#3'Top'#2#25#5'Width'#2'8'#5'Color'#7#6'clGray'#12'Font.CharSet'#7#12
+  +'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'
+  +#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10
+  +'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#2#0#0#5'TEdi'
+  +'t'#5'Edit4'#4'Left'#3#246#3#6'Height'#2#29#4'Hint'#6'8Enter the geographica'
+  +'l coordinates, without using signs.'#3'Top'#2#25#5'Width'#2'8'#5'Color'#7#6
+  +'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11
+  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
+  +#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowH'
+  +'int'#9#8'TabOrder'#2#3#0#0#9'TComboBox'#9'ComboBox1'#4'Left'#3#173#1#6'Heig'
+  +'ht'#2' '#3'Top'#2#23#5'Width'#2'x'#5'Color'#7#6'clGray'#12'Font.CharSet'#7
+  +#12'ANSI_CHARSET'#10'Font.Color'#7#8'clMaroon'#11'Font.Height'#2#243#9'Font.'
   +'Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDra'
-  +'ft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'TabOrder'#2#6#0#0#5'TE'
-  +'dit'#5'Edit7'#4'Left'#2'V'#6'Height'#2#25#3'Top'#2'Q'#5'Width'#2'9'#5'Color'
-  +#7#12'clMoneyGreen'#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font'
-  +'.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.P'
-  +'itch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fs'
-  +'Bold'#0#10'ParentFont'#8#8'TabOrder'#2#7#0#0#5'TEdit'#5'Edit8'#4'Left'#3#174
-  +#0#6'Height'#2#25#3'Top'#2'Q'#5'Width'#2'0'#5'Color'#7#12'clMoneyGreen'#7'En'
+  +'ft'#10'Font.Style'#11#6'fsBold'#0#10'ItemHeight'#2#21#13'Items.Strings'#1#6
+  +#10'StarOne C1'#6#8'Amazonas'#6#10'StarOne C2'#6#14'Estrela do Sul'#6#12'Bra'
+  +'silSat B3'#6#12'BrasilSat B4'#6#5'Other'#0#10'ParentFont'#8#8'TabOrder'#2#4
+  +#4'Text'#6#15'  - Satellite -'#8'OnChange'#7#15'ComboBox1Change'#0#0#5'TEdit'
+  +#5'Edit5'#4'Left'#3'.'#2#6'Height'#2#29#4'Hint'#6#14'West longitude'#3'Top'#2
+  +#23#5'Width'#2' '#5'Color'#7#6'clGray'#14'ParentShowHint'#8#8'ShowHint'#9#8
+  +'TabOrder'#2#5#0#0#5'TEdit'#5'Edit6'#4'Left'#2#6#6'Height'#2#29#3'Top'#2'Q'#5
+  +'Width'#2'0'#5'Color'#7#12'clMoneyGreen'#7'Enabled'#8#12'Font.CharSet'#7#12
+  +'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'
+  +#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10
+  +'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'TabOrder'#2#6#0#0#5'TEdit'#5
+  +'Edit7'#4'Left'#2'V'#6'Height'#2#29#3'Top'#2'Q'#5'Width'#2'9'#5'Color'#7#12
+  +'clMoneyGreen'#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Colo'
+  +'r'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'
+  +#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0
+  +#10'ParentFont'#8#8'TabOrder'#2#7#0#0#5'TEdit'#5'Edit8'#4'Left'#3#174#0#6'He'
+  +'ight'#2#29#3'Top'#2'Q'#5'Width'#2'0'#5'Color'#7#12'clMoneyGreen'#7'Enabled'
+  +#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.He'
+  +'ight'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font'
+  +'.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'Tab'
+  +'Order'#2#8#0#0#5'TEdit'#5'Edit9'#4'Left'#3'>'#3#6'Height'#2#29#3'Top'#2'Q'#5
+  +'Width'#2'0'#5'Color'#7#12'clMoneyGreen'#7'Enabled'#8#12'Font.CharSet'#7#12
+  ,'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'
+  +#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10
+  +'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'TabOrder'#2#9#0#0#5'TEdit'#6
+  +'Edit10'#4'Left'#3#134#3#6'Height'#2#29#3'Top'#2'Q'#5'Width'#2'8'#5'Color'#7
+  +#12'clMoneyGreen'#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.C'
+  +'olor'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pit'
+  +'ch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBo'
+  +'ld'#0#10'ParentFont'#8#8'TabOrder'#2#10#0#0#5'TEdit'#6'Edit11'#4'Left'#3#219
+  +#3#6'Height'#2#29#3'Top'#2'Q'#5'Width'#2'-'#5'Color'#7#12'clMoneyGreen'#7'En'
   +'abled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11
   +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
   +#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8
-  +#8'TabOrder'#2#8#0#0#5'TEdit'#5'Edit9'#4'Left'#3'>'#3#6'Height'#2#25#3'Top'#2
-  +'Q'#5'Width'#2'0'#5'Color'#7#12'clMoneyGreen'#7'Enabled'#8#12'Font.CharSet'#7
-  +#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Na'
-  +'me'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'
-  +#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'TabOrder'#2#9#0#0#5'TEdit'
-  +#6'Edit10'#4'Left'#3#134#3#6'Height'#2#25#3'Top'#2'Q'#5'Width'#2'8'#5'Color'
-  +#7#12'clMoneyGreen'#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font'
-  +'.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.P'
-  ,'itch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fs'
-  +'Bold'#0#10'ParentFont'#8#8'TabOrder'#2#10#0#0#5'TEdit'#6'Edit11'#4'Left'#3
-  +#219#3#6'Height'#2#25#3'Top'#2'Q'#5'Width'#2'-'#5'Color'#7#12'clMoneyGreen'#7
-  +'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11
-  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
-  +#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8
-  +#8'TabOrder'#2#11#0#0#5'TEdit'#6'Edit12'#4'Left'#3'~'#1#6'Height'#2#25#3'Top'
+  +#8'TabOrder'#2#11#0#0#5'TEdit'#6'Edit12'#4'Left'#3'~'#1#6'Height'#2#29#3'Top'
   +#2'Q'#5'Width'#2'X'#5'Color'#7#12'clMoneyGreen'#7'Enabled'#8#12'Font.CharSet'
   +#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.'
   +'Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDra'
   +'ft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'TabOrder'#2#12#0#0#5'T'
-  +'Edit'#6'Edit13'#4'Left'#3#22#2#6'Height'#2#25#3'Top'#2'Q'#5'Width'#2'X'#5'C'
+  +'Edit'#6'Edit13'#4'Left'#3#22#2#6'Height'#2#29#3'Top'#2'Q'#5'Width'#2'X'#5'C'
   +'olor'#7#12'clMoneyGreen'#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10
   +'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Fo'
   +'nt.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6
@@ -6872,335 +6878,340 @@ LazarusResources.Add('Tsatlinkform','FORMDATA',[
   +'esize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing'
   +'.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftTo'
   +'RightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#2#12'ClientHeight'#2
-  +#31#11'ClientWidth'#3#132#0#7'Columns'#2#2#12'Font.CharSet'#7#12'ANSI_CHARSE'
+  +#22#11'ClientWidth'#3#132#0#7'Columns'#2#2#12'Font.CharSet'#7#12'ANSI_CHARSE'
   +'T'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'
   +#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#13'Items.Stri'
-  +'ngs'#1#6#5'North'#6#5'South'#0#10'ParentFont'#8#8'TabOrder'#2#14#0#0#11'TRa'
-  +'dioGroup'#11'RadioGroup6'#4'Left'#3#230#2#6'Height'#2'0'#3'Top'#2#3#5'Width'
-  +#3#136#0#8'AutoFill'#9#7'Caption'#6#10'Hemisphere'#28'ChildSizing.LeftRightS'
-  +'pacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHori'
-  +'zontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24
-  +'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChi'
-  +'lds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Lay'
-  +'out'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#2
-  +#12'ClientHeight'#2#31#11'ClientWidth'#3#132#0#7'Columns'#2#2#12'Font.CharSe'
-  +'t'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'F'
-  +'ont.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'f'
-  +'qDraft'#13'Items.Strings'#1#6#5'North'#6#5'South'#0#10'ParentFont'#8#8'TabO'
-  +'rder'#2#15#0#0#0#7'TBitBtn'#7'BitBtn1'#4'Left'#3'y'#3#6'Height'#2' '#3'Top'
-  +#3#3#2#5'Width'#2'h'#7'Caption'#6#9'Calculate'#7'Default'#9#12'Font.CharSet'
-  +#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font'
-  +'.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDr'
-  +'aft'#4'Kind'#7#4'bkOK'#11'ModalResult'#2#1#9'NumGlyphs'#2#0#7'OnClick'#7#12
-  +'BitBtn1Click'#10'ParentFont'#8#8'TabOrder'#2#2#0#0#7'TBitBtn'#7'BitBtn2'#4
-  +'Left'#3#235#3#6'Height'#2' '#3'Top'#3#3#2#5'Width'#2'h'#6'Cancel'#9#7'Capti'
-  +'on'#6#5'Clear'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBla'
-  +'ck'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVar'
-  +'iable'#12'Font.Quality'#7#7'fqDraft'#4'Kind'#7#8'bkCancel'#11'ModalResult'#2
-  +#2#9'NumGlyphs'#2#0#7'OnClick'#7#12'BitBtn2Click'#10'ParentFont'#8#8'TabOrde'
-  +'r'#2#3#0#0#9'TGroupBox'#9'GroupBox3'#4'Left'#2#14#6'Height'#3#216#0#3'Top'#3
-  +' '#1#5'Width'#3'I'#4#7'Caption'#6#4'Link'#12'ClientHeight'#3#199#0#11'Clien'
-  +'tWidth'#3'E'#4#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNav'
-  +'y'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVari'
-  +'able'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'Parent'
-  +'Font'#8#8'TabOrder'#2#4#0#6'TLabel'#7'Label26'#4'Left'#2#8#6'Height'#2#16#3
-  +'Top'#2#9#5'Width'#2'%'#7'Caption'#6#5'Eb/No'#12'Font.CharSet'#7#12'ANSI_CHA'
-  +'RSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Ar'
-  +'ial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'Paren'
-  +'tColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label29'#4'Left'#2'~'#6'Height'#2
-  +#16#3'Top'#2#9#5'Width'#2#17#7'Caption'#6#2'dB'#12'Font.CharSet'#7#12'ANSI_C'
-  +'HARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5
-  +'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'Par'
-  +'entColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label30'#4'Left'#2#8#6'Height'
-  +#2#16#3'Top'#2'&'#5'Width'#2#17#7'Caption'#6#2'Rb'#12'Font.CharSet'#7#12'ANS'
-  ,'I_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6
-  +#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'P'
-  +'arentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label31'#4'Left'#2'~'#6'Heig'
-  +'ht'#2#16#3'Top'#2'&'#5'Width'#2#31#7'Caption'#6#4'Kbps'#12'Font.CharSet'#7
-  +#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.N'
-  +'ame'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraf'
-  +'t'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label32'#4'Left'#2#8#6
-  +'Height'#2#16#3'Top'#2'C'#5'Width'#2#21#7'Caption'#6#2'SM'#12'Font.CharSet'#7
-  +#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.N'
-  +'ame'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraf'
-  +'t'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label46'#4'Left'#2'~'
-  +#6'Height'#2#16#3'Top'#2'C'#5'Width'#2#17#7'Caption'#6#2'dB'#12'Font.CharSet'
-  +#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font'
-  +'.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDr'
-  +'aft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label47'#4'Left'#3
-  +'z'#3#6'Height'#2#16#3'Top'#2#9#5'Width'#2'4'#7'Caption'#6#8'(C/No)1p'#12'Fo'
-  +'nt.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2
-  +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
-  +#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label48'#4
-  +'Left'#3#10#4#6'Height'#2#16#3'Top'#2#14#5'Width'#2'&'#7'Caption'#6#5'dB*Hz'
-  +#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Hei'
-  +'ght'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.'
-  +'Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'La'
-  +'bel49'#4'Left'#3#134#3#6'Height'#2#16#3'Top'#2'('#5'Width'#2'('#7'Caption'#6
-  +#5'BW 1p'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11
+  +'ngs'#1#6#5'North'#6#5'South'#0#16'ParentBackground'#8#10'ParentFont'#8#8'Ta'
+  +'bOrder'#2#14#0#0#11'TRadioGroup'#11'RadioGroup6'#4'Left'#3#230#2#6'Height'#2
+  +'0'#3'Top'#2#3#5'Width'#3#136#0#8'AutoFill'#9#7'Caption'#6#10'Hemisphere'#28
+  +'ChildSizing.LeftRightSpacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'C'
+  +'hildSizing.EnlargeHorizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing'
+  +'.EnlargeVertical'#7#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHoriz'
+  +'ontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChi'
+  +'lds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSiz'
+  +'ing.ControlsPerLine'#2#2#12'ClientHeight'#2#22#11'ClientWidth'#3#132#0#7'Co'
+  +'lumns'#2#2#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'
+  +#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariabl'
+  +'e'#12'Font.Quality'#7#7'fqDraft'#13'Items.Strings'#1#6#5'North'#6#5'South'#0
+  +#16'ParentBackground'#8#10'ParentFont'#8#8'TabOrder'#2#15#0#0#0#7'TBitBtn'#7
+  +'BitBtn1'#4'Left'#3'y'#3#6'Height'#2' '#3'Top'#3#3#2#5'Width'#2'h'#7'Caption'
+  +#6#9'Calculate'#5'Color'#7#9'clSkyBlue'#7'Default'#9#12'Font.CharSet'#7#12'A'
+  +'NSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'
+  +#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#4
+  +'Kind'#7#4'bkOK'#11'ModalResult'#2#1#7'OnClick'#7#12'BitBtn1Click'#10'Parent'
+  +'Font'#8#8'TabOrder'#2#2#0#0#7'TBitBtn'#7'BitBtn2'#4'Left'#3#235#3#6'Height'
+  +#2' '#3'Top'#3#3#2#5'Width'#2'h'#6'Cancel'#9#7'Caption'#6#5'Clear'#5'Color'#7
+  +#6'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11
+  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
+  +#12'Font.Quality'#7#7'fqDraft'#4'Kind'#7#8'bkCancel'#11'ModalResult'#2#2#7'O'
+  +'nClick'#7#12'BitBtn2Click'#10'ParentFont'#8#8'TabOrder'#2#3#0#0#9'TGroupBox'
+  +#9'GroupBox3'#4'Left'#2#14#6'Height'#3#216#0#3'Top'#3' '#1#5'Width'#3'I'#4#7
+  +'Caption'#6#4'Link'#12'ClientHeight'#3#190#0#11'ClientWidth'#3'E'#4#5'Color'
+  +#7#6'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'
+  +#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariabl'
+  +'e'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#16'ParentBac'
+  +'kground'#8#11'ParentColor'#8#10'ParentFont'#8#8'TabOrder'#2#4#0#6'TLabel'#7
+  +'Label26'#4'Left'#2#8#6'Height'#2#15#3'Top'#2#9#5'Width'#2'%'#7'Caption'#6#5
+  +'Eb/No'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'F'
+  ,'ont.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12
+  +'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'
+  +#7'Label29'#4'Left'#2'~'#6'Height'#2#15#3'Top'#2#9#5'Width'#2#16#7'Caption'#6
+  +#2'dB'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Fo'
+  +'nt.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12
+  +'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'
+  +#7'Label30'#4'Left'#2#8#6'Height'#2#15#3'Top'#2'&'#5'Width'#2#17#7'Caption'#6
+  +#2'Rb'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Fo'
+  +'nt.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12
+  +'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'
+  +#7'Label31'#4'Left'#2'~'#6'Height'#2#15#3'Top'#2'&'#5'Width'#2#30#7'Caption'
+  +#6#4'Kbps'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11
   +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
   +#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLab'
-  +'el'#7'Label50'#4'Left'#3#10#4#6'Height'#2#16#3'Top'#2'+'#5'Width'#2#28#7'Ca'
-  +'ption'#6#3'MHz'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBl'
+  +'el'#7'Label32'#4'Left'#2#8#6'Height'#2#15#3'Top'#2'C'#5'Width'#2#20#7'Capti'
+  +'on'#6#2'SM'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'
+  +#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariabl'
+  +'e'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'T'
+  +'Label'#7'Label46'#4'Left'#2'~'#6'Height'#2#15#3'Top'#2'C'#5'Width'#2#16#7'C'
+  +'aption'#6#2'dB'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBl'
   +'ack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVa'
   +'riable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0
-  +#6'TLabel'#7'Label51'#4'Left'#3'm'#3#6'Height'#2#16#3'Top'#3#133#0#5'Width'#2
-  +'<'#7'Caption'#6#10'(C/No) req'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.'
-  +'Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.P'
-  +'itch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'P'
-  +'arentFont'#8#0#0#6'TLabel'#7'Label52'#4'Left'#3#10#4#6'Height'#2#16#3'Top'#3
-  +#133#0#5'Width'#2'&'#7'Caption'#6#5'dB*Hz'#12'Font.CharSet'#7#12'ANSI_CHARSE'
+  +#6'TLabel'#7'Label47'#4'Left'#3'z'#3#6'Height'#2#15#3'Top'#2#9#5'Width'#2'5'
+  +#7'Caption'#6#8'(C/No)1p'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'
+  +#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7
+  +#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFon'
+  +'t'#8#0#0#6'TLabel'#7'Label48'#4'Left'#3#10#4#6'Height'#2#15#3'Top'#2#14#5'W'
+  +'idth'#2'%'#7'Caption'#6#5'dB*Hz'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Fon'
+  +'t.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font'
+  +'.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10
+  +'ParentFont'#8#0#0#6'TLabel'#7'Label49'#4'Left'#3#134#3#6'Height'#2#15#3'Top'
+  +#2'('#5'Width'#2''''#7'Caption'#6#5'BW 1p'#12'Font.CharSet'#7#12'ANSI_CHARSE'
   +'T'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'
   +#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColo'
-  +'r'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label53'#4'Left'#3'n'#3#6'Height'#2#16
-  +#3'Top'#3#163#0#5'Width'#2'D'#7'Caption'#6#11'(C/No) Calc'#12'Font.CharSet'#7
-  +#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.N'
-  +'ame'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraf'
-  +'t'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label54'#4'Left'#3#10
-  +#4#6'Height'#2#16#3'Top'#3#163#0#5'Width'#2'&'#7'Caption'#6#5'dB*Hz'#12'Font'
-  +'.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2
-  +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
-  +#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label80'#4
-  +'Left'#3#150#3#6'Height'#2#16#3'Top'#2'H'#5'Width'#2#18#7'Caption'#6#2'Qp'#12
+  +'r'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label50'#4'Left'#3#10#4#6'Height'#2#15
+  +#3'Top'#2'+'#5'Width'#2#27#7'Caption'#6#3'MHz'#12'Font.CharSet'#7#12'ANSI_CH'
+  +'ARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'A'
+  +'rial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'Pare'
+  +'ntColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label51'#4'Left'#3'm'#3#6'Heigh'
+  +'t'#2#15#3'Top'#3#133#0#5'Width'#2'='#7'Caption'#6#10'(C/No) req'#12'Font.Ch'
+  +'arSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243
+  +#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7
+  +'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label52'#4'Left'
+  +#3#10#4#6'Height'#2#15#3'Top'#3#133#0#5'Width'#2'%'#7'Caption'#6#5'dB*Hz'#12
   +'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'
   +#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quali'
-  +'ty'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#5'TEdit'#6'Edit14'#4
-  +'Left'#2'>'#6'Height'#2#25#4'Hint'#6'GProvided by the demodulator manufactur'
-  +'er. Changes with BER,FEC and Mod.'#3'Top'#2#4#5'Width'#2'9'#12'Font.CharSet'
-  +#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.'
-  +'Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDra'
-  +'ft'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#0#0#0
-  +#5'TEdit'#6'Edit16'#4'Left'#2'>'#6'Height'#2#25#4'Hint'#6#18'Transmission sp'
-  +'eed'#3'Top'#2'!'#5'Width'#2'9'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.'
-  +'Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pi'
-  +'tch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'Par'
-  +'entShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#1#0#0#5'TEdit'#6'Edit17'#4'Left'
-  +#2'>'#6'Height'#2#25#4'Hint'#6#18'Link safety margin'#3'Top'#2'>'#5'Width'#2
-  +'9'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.H'
-  ,'eight'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Fon'
-  +'t.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9
-  +#8'TabOrder'#2#2#0#0#9'TComboBox'#9'ComboBox2'#4'Left'#2#8#6'Height'#2#27#4
-  +'Hint'#6#15'Modulation type'#3'Top'#2']'#5'Width'#2'r'#12'Font.CharSet'#7#12
-  +'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'
-  +#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10
-  +'Font.Style'#11#6'fsBold'#0#10'ItemHeight'#2#0#13'Items.Strings'#1#6#4'BPSK'
-  +#6#4'QPSK'#6#4'8PSK'#0#9'MaxLength'#4#255#255#0#0#10'ParentFont'#8#14'Parent'
-  +'ShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#3#4'Text'#6#10'Modulation'#0#0#9'TC'
-  +'omboBox'#9'ComboBox3'#4'Left'#2#8#6'Height'#2#27#4'Hint'#6#30'Forward error'
-  +' correction ratio'#3'Top'#2'|'#5'Width'#2'r'#12'Font.CharSet'#7#12'ANSI_CHA'
-  +'RSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Ari'
-  +'al'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.S'
-  +'tyle'#11#6'fsBold'#0#10'ItemHeight'#2#0#13'Items.Strings'#1#6#3'1/2'#6#3'2/'
-  +'3'#6#3'3/4'#6#3'5/8'#6#3'6/8'#6#3'7/8'#0#9'MaxLength'#4#255#255#0#0#10'Pare'
-  +'ntFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#4#4'Text'#6#3'FE'
-  +'C'#0#0#9'TComboBox'#9'ComboBox4'#4'Left'#2#8#6'Height'#2#27#4'Hint'#6#17'Fr'
-  +'equency Spacing'#3'Top'#3#157#0#5'Width'#2'r'#12'Font.CharSet'#7#12'ANSI_CH'
-  +'ARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Ar'
-  +'ial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.'
-  +'Style'#11#6'fsBold'#0#10'ItemHeight'#2#0#13'Items.Strings'#1#6#3'1.3'#6#3'1'
-  +'.4'#0#9'MaxLength'#4#255#255#0#0#10'ParentFont'#8#14'ParentShowHint'#8#8'Sh'
-  +'owHint'#9#8'TabOrder'#2#5#4'Text'#6#2'FS'#0#0#5'TEdit'#6'Edit24'#4'Left'#3
-  +#202#3#6'Height'#2#25#4'Hint'#6'>Signal to noise ratio in the demodulator''s'
-  +' input for 1 carrier'#3'Top'#2#4#5'Width'#2'9'#5'Color'#4#191#220#191#0#7'E'
-  +'nabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#5'clRed'#11
-  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
-  +#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8
-  +#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#6#0#0#5'TEdit'#6'Edit25'#4
-  +'Left'#3#202#3#6'Height'#2#25#4'Hint'#6#17'Carrier bandwidth'#3'Top'#2'#'#5
-  +'Width'#2'9'#5'Color'#4#191#220#191#0#7'Enabled'#8#12'Font.CharSet'#7#12'ANS'
-  +'I_CHARSET'#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#243#9'Font.Name'#6#5
-  +'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Fon'
-  +'t.Style'#11#6'fsBold'#0#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9
-  +#8'TabOrder'#2#7#0#0#5'TEdit'#6'Edit26'#4'Left'#3#202#3#6'Height'#2#25#4'Hin'
-  +'t'#6'!SNR required for full transponder'#3'Top'#3#128#0#5'Width'#2'9'#5'Col'
-  +'or'#4#166#201#239#0#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Fon'
-  +'t.Color'#7#5'clRed'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.P'
-  +'itch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fs'
-  +'Bold'#0#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#8
-  +#0#0#5'TEdit'#6'Edit27'#4'Left'#3#202#3#6'Height'#2#25#4'Hint'#6#14'Calculat'
-  +'ed SNR'#3'Top'#3#158#0#5'Width'#2'9'#5'Color'#4#166#201#239#0#7'Enabled'#8
-  +#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#5'clRed'#11'Font.Heigh'
-  +'t'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Qu'
-  +'ality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#14'Paren'
-  +'tShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#9#0#0#9'TGroupBox'#9'GroupBox4'#4
-  +'Left'#3#227#0#6'Height'#3#182#0#3'Top'#2#4#5'Width'#3#240#0#7'Caption'#6#7
-  +' Uplink'#12'ClientHeight'#3#165#0#11'ClientWidth'#3#236#0#8'TabOrder'#2#10#0
-  +#6'TLabel'#7'Label56'#4'Left'#2#6#6'Height'#2#16#3'Top'#2#14#5'Width'#2'$'#7
-  +'Caption'#6#5'FPsat'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
+  +'ty'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label53'
+  +#4'Left'#3'n'#3#6'Height'#2#15#3'Top'#3#163#0#5'Width'#2'D'#7'Caption'#6#11
+  +'(C/No) Calc'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'
+  +#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariabl'
+  +'e'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'T'
+  +'Label'#7'Label54'#4'Left'#3#10#4#6'Height'#2#15#3'Top'#3#163#0#5'Width'#2'%'
+  +#7'Caption'#6#5'dB*Hz'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
   +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
   +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#6'TLabel'#7'Label57'#4'Left'#3#166#0#6'Height'#2#16#3'Top'#2#17#5'Width'
-  +#2'6'#7'Caption'#6#7'dBw/m^2'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Co'
-  +'lor'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pit'
-  +'ch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'Par'
-  +'entFont'#8#0#0#6'TLabel'#7'Label58'#4'Left'#2#6#6'Height'#2#16#3'Top'#2''''
-  +#5'Width'#2'2'#7'Caption'#6#8'Back-off'#12'Font.CharSet'#7#12'ANSI_CHARSET'
-  +#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10
-  +'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8
-  +#10'ParentFont'#8#0#0#6'TLabel'#7'Label59'#4'Left'#3#190#0#6'Height'#2#16#3
-  +'Top'#2'+'#5'Width'#2#17#7'Caption'#6#2'dB'#12'Font.CharSet'#7#12'ANSI_CHARS'
+  +#0#0#6'TLabel'#7'Label80'#4'Left'#3#150#3#6'Height'#2#15#3'Top'#2'H'#5'Width'
+  +#2#18#7'Caption'#6#2'Qp'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7
+  +#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
+  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
+  +#0#0#5'TEdit'#6'Edit14'#4'Left'#2'>'#6'Height'#2#29#4'Hint'#6'GProvided by t'
+  +'he demodulator manufacturer. Changes with BER,FEC and Mod.'#3'Top'#2#4#5'Wi'
+  +'dth'#2'9'#5'Color'#7#6'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.'
+  +'Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pi'
+  +'tch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'Par'
+  ,'entShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#0#0#0#5'TEdit'#6'Edit16'#4'Left'
+  +#2'>'#6'Height'#2#29#4'Hint'#6#18'Transmission speed'#3'Top'#2'!'#5'Width'#2
+  +'9'#5'Color'#7#6'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7
+  +#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
+  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHin'
+  +'t'#8#8'ShowHint'#9#8'TabOrder'#2#1#0#0#5'TEdit'#6'Edit17'#4'Left'#2'>'#6'He'
+  +'ight'#2#29#4'Hint'#6#18'Link safety margin'#3'Top'#2'>'#5'Width'#2'9'#5'Col'
+  +'or'#7#6'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNa'
+  +'vy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVar'
+  +'iable'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'#8#8
+  +'ShowHint'#9#8'TabOrder'#2#2#0#0#9'TComboBox'#9'ComboBox2'#4'Left'#2#8#6'Hei'
+  +'ght'#2' '#4'Hint'#6#15'Modulation type'#3'Top'#2']'#5'Width'#2'r'#5'Color'#7
+  +#6'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11
+  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
+  +#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ItemHeight'#2
+  +#21#13'Items.Strings'#1#6#4'BPSK'#6#4'QPSK'#6#4'8PSK'#0#10'ParentFont'#8#14
+  +'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#3#4'Text'#6#10'Modulation'#0#0
+  +#9'TComboBox'#9'ComboBox3'#4'Left'#2#8#6'Height'#2' '#4'Hint'#6#30'Forward e'
+  +'rror correction ratio'#3'Top'#2'|'#5'Width'#2'r'#5'Color'#7#6'clGray'#12'Fo'
+  +'nt.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2
+  +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
+  +#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ItemHeight'#2#21#13'Items.Str'
+  +'ings'#1#6#3'1/2'#6#3'2/3'#6#3'3/4'#6#3'5/8'#6#3'6/8'#6#3'7/8'#0#10'ParentFo'
+  +'nt'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#4#4'Text'#6#3'FEC'#0
+  +#0#9'TComboBox'#9'ComboBox4'#4'Left'#2#8#6'Height'#2' '#4'Hint'#6#17'Frequen'
+  +'cy Spacing'#3'Top'#3#157#0#5'Width'#2'r'#5'Color'#7#6'clGray'#12'Font.CharS'
+  +'et'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'F'
+  +'ont.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'f'
+  +'qDraft'#10'Font.Style'#11#6'fsBold'#0#10'ItemHeight'#2#21#13'Items.Strings'
+  +#1#6#3'1.3'#6#3'1.4'#0#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8
+  +'TabOrder'#2#5#4'Text'#6#2'FS'#0#0#5'TEdit'#6'Edit24'#4'Left'#3#202#3#6'Heig'
+  +'ht'#2#29#4'Hint'#6'>Signal to noise ratio in the demodulator''s input for 1'
+  +' carrier'#3'Top'#2#4#5'Width'#2'9'#5'Color'#4#191#220#191#0#7'Enabled'#8#12
+  +'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#5'clRed'#11'Font.Height'#2
+  +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
+  +#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#14'ParentShowHi'
+  +'nt'#8#8'ShowHint'#9#8'TabOrder'#2#6#0#0#5'TEdit'#6'Edit25'#4'Left'#3#202#3#6
+  +'Height'#2#29#4'Hint'#6#17'Carrier bandwidth'#3'Top'#2'#'#5'Width'#2'9'#5'Co'
+  +'lor'#4#191#220#191#0#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Fo'
+  +'nt.Color'#7#5'clRed'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.'
+  +'Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'f'
+  +'sBold'#0#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#7
+  +#0#0#5'TEdit'#6'Edit26'#4'Left'#3#202#3#6'Height'#2#29#4'Hint'#6'!SNR requir'
+  +'ed for full transponder'#3'Top'#3#128#0#5'Width'#2'9'#5'Color'#4#166#201#239
+  +#0#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#5'clRed'
+  +#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariabl'
+  +'e'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFon'
+  +'t'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#8#0#0#5'TEdit'#6'Edit'
+  +'27'#4'Left'#3#202#3#6'Height'#2#29#4'Hint'#6#14'Calculated SNR'#3'Top'#3#158
+  +#0#5'Width'#2'9'#5'Color'#4#166#201#239#0#7'Enabled'#8#12'Font.CharSet'#7#12
+  +'ANSI_CHARSET'#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#243#9'Font.Name'#6
+  +#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'F'
+  +'ont.Style'#11#6'fsBold'#0#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'
+  +#9#8'TabOrder'#2#9#0#0#9'TGroupBox'#9'GroupBox4'#4'Left'#3#227#0#6'Height'#3
+  +#182#0#3'Top'#2#4#5'Width'#3#240#0#7'Caption'#6#7' Uplink'#12'ClientHeight'#3
+  +#156#0#11'ClientWidth'#3#236#0#16'ParentBackground'#8#8'TabOrder'#2#10#0#6'T'
+  +'Label'#7'Label56'#4'Left'#2#6#6'Height'#2#15#3'Top'#2#14#5'Width'#2'"'#7'Ca'
+  +'ption'#6#5'FPsat'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'cl'
+  +'Black'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fp'
+  +'Variable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0
+  +#0#6'TLabel'#7'Label57'#4'Left'#3#166#0#6'Height'#2#15#3'Top'#2#17#5'Width'#2
+  +'5'#7'Caption'#6#7'dBw/m^2'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Colo'
+  +'r'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'
+  +#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentF'
+  ,'ont'#8#0#0#6'TLabel'#7'Label58'#4'Left'#2#6#6'Height'#2#15#3'Top'#2''''#5'W'
+  +'idth'#2'0'#7'Caption'#6#8'Back-off'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10
+  +'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'F'
+  +'ont.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8
+  +#10'ParentFont'#8#0#0#6'TLabel'#7'Label59'#4'Left'#3#190#0#6'Height'#2#15#3
+  +'Top'#2'+'#5'Width'#2#16#7'Caption'#6#2'dB'#12'Font.CharSet'#7#12'ANSI_CHARS'
   +'ET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Aria'
   +'l'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentC'
-  ,'olor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label60'#4'Left'#2#6#6'Height'#2#16
+  +'olor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label60'#4'Left'#2#6#6'Height'#2#15
   +#3'Top'#2'F'#5'Width'#2'8'#7'Caption'#6#8'GR(m^ 2)'#12'Font.CharSet'#7#12'AN'
   +'SI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6
   +#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'P'
   +'arentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label61'#4'Left'#3#190#0#6'H'
-  +'eight'#2#16#3'Top'#2'F'#5'Width'#2#17#7'Caption'#6#2'dB'#12'Font.CharSet'#7
+  +'eight'#2#15#3'Top'#2'F'#5'Width'#2#16#7'Caption'#6#2'dB'#12'Font.CharSet'#7
   +#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.N'
   +'ame'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraf'
   +'t'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label62'#4'Left'#2#6#6
-  +'Height'#2#16#3'Top'#2'g'#5'Width'#2'G'#7'Caption'#6#12'Merit Factor'#12'Fon'
+  +'Height'#2#15#3'Top'#2'g'#5'Width'#2'G'#7'Caption'#6#12'Merit Factor'#12'Fon'
   +'t.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2
   +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
   +#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label63'#4
-  +'Left'#3#190#0#6'Height'#2#16#3'Top'#2'g'#5'Width'#2#17#7'Caption'#6#2'dB'#12
+  +'Left'#3#190#0#6'Height'#2#15#3'Top'#2'g'#5'Width'#2#16#7'Caption'#6#2'dB'#12
   +'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'
   +#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quali'
   +'ty'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label64'
-  +#4'Left'#2#6#6'Height'#2#16#3'Top'#3#135#0#5'Width'#2'?'#7'Caption'#6#10'(C/'
+  +#4'Left'#2#6#6'Height'#2#15#3'Top'#3#135#0#5'Width'#2'?'#7'Caption'#6#10'(C/'
   +'No) sub'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11
   +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
   +#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLab'
-  +'el'#7'Label65'#4'Left'#3#179#0#6'Height'#2#16#3'Top'#3#135#0#5'Width'#2'&'#7
+  +'el'#7'Label65'#4'Left'#3#179#0#6'Height'#2#15#3'Top'#3#135#0#5'Width'#2'%'#7
   +'Caption'#6#5'dB*Hz'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
   +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
   +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#5'TEdit'#6'Edit29'#4'Left'#2'f'#6'Height'#2#25#4'Hint'#6#25'Satellite s'
-  +'aturation flow'#3'Top'#2#9#5'Width'#2'9'#14'ParentShowHint'#8#8'ShowHint'#9
-  +#8'TabOrder'#2#0#0#0#5'TEdit'#6'Edit30'#4'Left'#2'f'#6'Height'#2#25#4'Hint'#6
-  +#30'Satellite input power back-off'#3'Top'#2'&'#5'Width'#2'9'#14'ParentShowH'
-  +'int'#8#8'ShowHint'#9#8'TabOrder'#2#1#0#0#5'TEdit'#6'Edit31'#4'Left'#2'f'#6
-  +'Height'#2#25#4'Hint'#6'+Gain per area unit of the satellite antenna'#3'Top'
-  +#2'A'#5'Width'#2'9'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#2#0#0#5
-  +'TEdit'#6'Edit32'#4'Left'#2'f'#6'Height'#2#25#4'Hint'#6#18'Merit factor (G/T'
-  +')'#3'Top'#2']'#5'Width'#2'9'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'
-  +#2#3#0#0#5'TEdit'#6'Edit33'#4'Left'#2'f'#6'Height'#2#25#4'Hint'#6'"Uplink si'
-  +'gnal to noise ratio (SNR)'#3'Top'#2#127#5'Width'#2'9'#5'Color'#7#12'clMoney'
-  +'Green'#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6
-  +'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'f'
-  +'pVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'P'
-  +'arentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#4#0#0#0#9'TGr'
-  +'oupBox'#9'GroupBox5'#4'Left'#3'#'#2#6'Height'#3#182#0#3'Top'#2#4#5'Width'#3
-  +'@'#1#7'Caption'#6#9' Downlink'#12'ClientHeight'#3#165#0#11'ClientWidth'#3'<'
-  +#1#8'TabOrder'#2#11#0#6'TLabel'#7'Label44'#4'Left'#2'v'#6'Height'#2#16#3'Top'
-  +#2'c'#5'Width'#2#17#7'Caption'#6#2'Ad'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10
-  +'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'F'
-  +'ont.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8
-  +#10'ParentFont'#8#0#0#6'TLabel'#7'Label55'#4'Left'#3#206#0#6'Height'#2#16#3
-  +'Top'#2'a'#5'Width'#2#17#7'Caption'#6#2'dB'#12'Font.CharSet'#7#12'ANSI_CHARS'
-  +'ET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Aria'
-  +'l'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentC'
-  +'olor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label66'#4'Left'#2#6#6'Height'#2#16
-  +#3'Top'#2#7#5'Width'#2' '#7'Caption'#6#4'EIRP'#12'Font.CharSet'#7#12'ANSI_CH'
-  +'ARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'A'
-  +'rial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'Pare'
-  +'ntColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label67'#4'Left'#3#131#0#6'Heig'
-  +'ht'#2#16#3'Top'#2#7#5'Width'#2#26#7'Caption'#6#3'dBw'#12'Font.CharSet'#7#12
-  +'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'
-  +#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11
-  +'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label68'#4'Left'#2#6#6'Heig'
-  +'ht'#2#16#3'Top'#2'#'#5'Width'#2'2'#7'Caption'#6#8'Back-off'#12'Font.CharSet'
-  +#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font'
-  +'.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDr'
-  +'aft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label69'#4'Left'#3
-  +#131#0#6'Height'#2#16#3'Top'#2'#'#5'Width'#2#17#7'Caption'#6#2'dB'#12'Font.C'
-  ,'harSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243
-  +#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7
-  +'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label70'#4'Left'
-  +#3#182#0#6'Height'#2#16#3'Top'#2#7#5'Width'#2#20#7'Caption'#6#2'GR'#12'Font.'
-  +'CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2
-  +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
-  +#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label71'#4
-  +'Left'#3#30#1#6'Height'#2#16#3'Top'#2#7#5'Width'#2#20#7'Caption'#6#3'dBi'#12
+  +#0#0#5'TEdit'#6'Edit29'#4'Left'#2'f'#6'Height'#2#29#4'Hint'#6#25'Satellite s'
+  +'aturation flow'#3'Top'#2#9#5'Width'#2'9'#5'Color'#7#6'clGray'#14'ParentShow'
+  +'Hint'#8#8'ShowHint'#9#8'TabOrder'#2#0#0#0#5'TEdit'#6'Edit30'#4'Left'#2'f'#6
+  +'Height'#2#29#4'Hint'#6#30'Satellite input power back-off'#3'Top'#2'&'#5'Wid'
+  +'th'#2'9'#5'Color'#7#6'clGray'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'
+  +#2#1#0#0#5'TEdit'#6'Edit31'#4'Left'#2'f'#6'Height'#2#29#4'Hint'#6'+Gain per '
+  +'area unit of the satellite antenna'#3'Top'#2'A'#5'Width'#2'9'#5'Color'#7#6
+  +'clGray'#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#2#0#0#5'TEdit'#6'E'
+  +'dit32'#4'Left'#2'f'#6'Height'#2#29#4'Hint'#6#18'Merit factor (G/T)'#3'Top'#2
+  +']'#5'Width'#2'9'#5'Color'#7#6'clGray'#14'ParentShowHint'#8#8'ShowHint'#9#8
+  +'TabOrder'#2#3#0#0#5'TEdit'#6'Edit33'#4'Left'#2'f'#6'Height'#2#29#4'Hint'#6
+  +'"Uplink signal to noise ratio (SNR)'#3'Top'#2#127#5'Width'#2'9'#5'Color'#7
+  +#12'clMoneyGreen'#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.C'
+  +'olor'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pit'
+  +'ch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBo'
+  +'ld'#0#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#4#0
+  +#0#0#9'TGroupBox'#9'GroupBox5'#4'Left'#3'#'#2#6'Height'#3#182#0#3'Top'#2#4#5
+  +'Width'#3'@'#1#7'Caption'#6#9' Downlink'#12'ClientHeight'#3#156#0#11'ClientW'
+  +'idth'#3'<'#1#16'ParentBackground'#8#8'TabOrder'#2#11#0#6'TLabel'#7'Label44'
+  +#4'Left'#2'v'#6'Height'#2#15#3'Top'#2'c'#5'Width'#2#16#7'Caption'#6#2'Ad'#12
   +'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'
   +#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quali'
-  +'ty'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label72'
-  +#4'Left'#3#182#0#6'Height'#2#16#3'Top'#2'!'#5'Width'#2#18#7'Caption'#6#2'TA'
+  +'ty'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label55'
+  +#4'Left'#3#206#0#6'Height'#2#15#3'Top'#2'a'#5'Width'#2#16#7'Caption'#6#2'dB'
   +#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Hei'
   +'ght'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.'
   +'Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'La'
-  +'bel73'#4'Left'#3#30#1#6'Height'#2#16#3'Top'#2'#'#5'Width'#2#10#7'Caption'#6
-  +#1'K'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Fon'
+  +'bel66'#4'Left'#2#6#6'Height'#2#15#3'Top'#2#7#5'Width'#2#31#7'Caption'#6#4'E'
+  +'IRP'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Fon'
   +'t.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12
   +'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'TLabel'
-  +#7'Label74'#4'Left'#3#174#0#6'Height'#2#16#3'Top'#2'?'#5'Width'#2'$'#7'Capti'
-  +'on'#6#4'TABR'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlac'
-  +'k'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVari'
-  +'able'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6
-  +'TLabel'#7'Label75'#4'Left'#3#30#1#6'Height'#2#16#3'Top'#2'?'#5'Width'#2#10#7
-  +'Caption'#6#1'K'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBl'
-  +'ack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVa'
-  +'riable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0
-  +#6'TLabel'#7'Label76'#4'Left'#2#21#6'Height'#2#16#3'Top'#2'?'#5'Width'#2#20#7
-  +'Caption'#6#2'VG'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clB'
-  +'lack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpV'
-  +'ariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0
-  +#0#6'TLabel'#7'Label77'#4'Left'#3#131#0#6'Height'#2#16#3'Top'#2'?'#5'Width'#2
-  +#17#7'Caption'#6#2'dB'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
+  ,#7'Label67'#4'Left'#3#131#0#6'Height'#2#15#3'Top'#2#7#5'Width'#2#27#7'Captio'
+  +'n'#6#3'dBw'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'
+  +#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariabl'
+  +'e'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#6'T'
+  +'Label'#7'Label68'#4'Left'#2#6#6'Height'#2#15#3'Top'#2'#'#5'Width'#2'0'#7'Ca'
+  +'ption'#6#8'Back-off'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
   +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
   +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
-  +#0#0#6'TLabel'#7'Label78'#4'Left'#2'>'#6'Height'#2#16#3'Top'#3#130#0#5'Width'
-  +#2'F'#7'Caption'#6#11'(C/No) desc'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Fo'
-  +'nt.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Fon'
-  +'t.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10
-  +'ParentFont'#8#0#0#6'TLabel'#7'Label79'#4'Left'#3#206#0#6'Height'#2#16#3'Top'
-  +#3#130#0#5'Width'#2''''#7'Caption'#6#5'dB*HZ'#12'Font.CharSet'#7#12'ANSI_CHA'
-  +'RSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Ar'
-  +'ial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'Paren'
-  +'tColor'#8#10'ParentFont'#8#0#0#5'TEdit'#6'Edit28'#4'Left'#3#142#0#6'Height'
-  +#2#25#4'Hint'#6#26'Free space loss - Downlink'#3'Top'#2'\'#5'Width'#2'9'#5'C'
-  +'olor'#4#191#220#191#0#7'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'F'
-  +'ont.Color'#7#5'clRed'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font'
-  +'.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6
-  +'fsBold'#0#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2
-  +#0#0#0#5'TEdit'#6'Edit34'#4'Left'#2'F'#6'Height'#2#25#4'Hint'#6#30'EIRP radi'
-  +'ated by the satellite'#3'Top'#2#2#5'Width'#2'9'#12'Font.CharSet'#7#12'ANSI_'
-  +'CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5
-  +'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Par'
-  +'entFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#1#0#0#5'TEdit'#6
-  +'Edit35'#4'Left'#2'F'#6'Height'#2#25#4'Hint'#6#15'Output back-off'#3'Top'#2
-  +#30#5'Width'#2'9'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clN'
-  +'avy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVa'
-  +'riable'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'#8
-  +#8'ShowHint'#9#8'TabOrder'#2#2#0#0#5'TEdit'#6'Edit36'#4'Left'#3#222#0#6'Heig'
-  +'ht'#2#25#4'Hint'#6'"Gain of receiving antenna on earth'#3'Top'#2#2#5'Width'
-  +#2'9'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font'
-  +'.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'F'
-  +'ont.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'
-  +#9#8'TabOrder'#2#3#0#0#5'TEdit'#6'Edit37'#4'Left'#3#222#0#6'Height'#2#25#4'H'
-  ,'int'#6'*Noise temperature of the receiving antenna'#3'Top'#2#30#5'Width'#2
-  +'9'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.H'
-  +'eight'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Fon'
-  +'t.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9
-  +#8'TabOrder'#2#4#0#0#5'TEdit'#6'Edit38'#4'Left'#3#222#0#6'Height'#2#25#4'Hin'
-  +'t'#6#21'LNA noise temperature'#3'Top'#2':'#5'Width'#2'9'#12'Font.CharSet'#7
-  +#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Na'
-  +'me'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'
-  +#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#5#0#0#5'T'
-  +'Edit'#6'Edit39'#4'Left'#2'F'#6'Height'#2#25#4'Hint'#6'0Downlink Geographica'
-  +'l advantage. (Check the map)'#3'Top'#2':'#5'Width'#2'9'#12'Font.CharSet'#7
-  +#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Na'
-  +'me'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'
-  +#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#6#0#0#5'T'
-  +'Edit'#6'Edit40'#4'Left'#3#142#0#6'Height'#2#25#4'Hint'#6'%Downlink, signal '
-  +'to noise ratio (SNR)'#3'Top'#2'}'#5'Width'#2'9'#5'Color'#4#191#220#191#0#7
-  +'Enabled'#8#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#5'clRed'#11
-  +'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'
-  +#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8
-  +#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#7#0#0#0#5'TEdit'#6'Edit41'
-  +#4'Left'#3#202#3#6'Height'#2#25#4'Hint'#6'%Number of carriers in the transpo'
-  +'nder'#3'Top'#2'B'#5'Width'#2'9'#5'Color'#4#191#220#191#0#7'Enabled'#8#12'Fo'
-  +'nt.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#5'clRed'#11'Font.Height'#2
+  +#0#0#6'TLabel'#7'Label69'#4'Left'#3#131#0#6'Height'#2#15#3'Top'#2'#'#5'Width'
+  +#2#16#7'Caption'#6#2'dB'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7
+  +#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
+  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
+  +#0#0#6'TLabel'#7'Label70'#4'Left'#3#182#0#6'Height'#2#15#3'Top'#2#7#5'Width'
+  +#2#20#7'Caption'#6#2'GR'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7
+  +#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
+  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
+  +#0#0#6'TLabel'#7'Label71'#4'Left'#3#30#1#6'Height'#2#15#3'Top'#2#7#5'Width'#2
+  +#19#7'Caption'#6#3'dBi'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7
+  +#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
+  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
+  +#0#0#6'TLabel'#7'Label72'#4'Left'#3#182#0#6'Height'#2#15#3'Top'#2'!'#5'Width'
+  +#2#16#7'Caption'#6#2'TA'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7
+  +#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
+  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
+  +#0#0#6'TLabel'#7'Label73'#4'Left'#3#30#1#6'Height'#2#15#3'Top'#2'#'#5'Width'
+  +#2#9#7'Caption'#6#1'K'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7
+  +'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10
+  +'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFont'#8
+  +#0#0#6'TLabel'#7'Label74'#4'Left'#3#174#0#6'Height'#2#15#3'Top'#2'?'#5'Width'
+  +#2'"'#7'Caption'#6#4'TABR'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'
+  +#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7
+  +#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'ParentFon'
+  +'t'#8#0#0#6'TLabel'#7'Label75'#4'Left'#3#30#1#6'Height'#2#15#3'Top'#2'?'#5'W'
+  +'idth'#2#9#7'Caption'#6#1'K'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Col'
+  +'or'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitc'
+  +'h'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'Pare'
+  +'ntFont'#8#0#0#6'TLabel'#7'Label76'#4'Left'#2#21#6'Height'#2#15#3'Top'#2'?'#5
+  +'Width'#2#19#7'Caption'#6#2'VG'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.'
+  +'Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.P'
+  +'itch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8#10'P'
+  +'arentFont'#8#0#0#6'TLabel'#7'Label77'#4'Left'#3#131#0#6'Height'#2#15#3'Top'
+  +#2'?'#5'Width'#2#16#7'Caption'#6#2'dB'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10
+  +'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'F'
+  +'ont.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'ParentColor'#8
+  +#10'ParentFont'#8#0#0#6'TLabel'#7'Label78'#4'Left'#2'>'#6'Height'#2#15#3'Top'
+  +#3#130#0#5'Width'#2'F'#7'Caption'#6#11'(C/No) desc'#12'Font.CharSet'#7#12'AN'
+  +'SI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9'Font.Name'#6
+  +#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#11'P'
+  +'arentColor'#8#10'ParentFont'#8#0#0#6'TLabel'#7'Label79'#4'Left'#3#206#0#6'H'
+  +'eight'#2#15#3'Top'#3#130#0#5'Width'#2''''#7'Caption'#6#5'dB*HZ'#12'Font.Cha'
+  +'rSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#243#9
+  +'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7
+  +'fqDraft'#11'ParentColor'#8#10'ParentFont'#8#0#0#5'TEdit'#6'Edit28'#4'Left'#3
+  +#142#0#6'Height'#2#29#4'Hint'#6#26'Free space loss - Downlink'#3'Top'#2'\'#5
+  +'Width'#2'9'#5'Color'#4#191#220#191#0#7'Enabled'#8#12'Font.CharSet'#7#12'ANS'
+  +'I_CHARSET'#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#243#9'Font.Name'#6#5
+  +'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Fon'
+  +'t.Style'#11#6'fsBold'#0#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9
+  +#8'TabOrder'#2#0#0#0#5'TEdit'#6'Edit34'#4'Left'#2'F'#6'Height'#2#29#4'Hint'#6
+  +#30'EIRP radiated by the satellite'#3'Top'#2#2#5'Width'#2'9'#5'Color'#7#6'cl'
+  +'Gray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Fon'
+  +'t.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12
+  +'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'
+  +#9#8'TabOrder'#2#1#0#0#5'TEdit'#6'Edit35'#4'Left'#2'F'#6'Height'#2#29#4'Hint'
+  ,#6#15'Output back-off'#3'Top'#2#30#5'Width'#2'9'#5'Color'#7#6'clGray'#12'Fon'
+  +'t.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2
   +#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'
-  +#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#14'ParentShowHi'
-  +'nt'#8#8'ShowHint'#9#8'TabOrder'#2#12#0#0#0#6'TPanel'#6'Panel1'#4'Left'#2#16
-  +#6'Height'#2#31#3'Top'#3#132#2#5'Width'#3'H'#4#12'Font.CharSet'#7#12'ANSI_CH'
-  +'ARSET'#10'Font.Color'#7#7'clBlack'#11'Font.Height'#2#237#9'Font.Name'#6#5'A'
-  +'rial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font'
-  +'.Style'#11#6'fsBold'#0#10'ParentFont'#8#8'TabOrder'#2#5#0#0#9'TMainMenu'#9
-  +'MainMenu1'#4'left'#3'A'#1#3'top'#3#232#0#0#9'TMenuItem'#9'MenuItem2'#7'Capt'
-  +'ion'#6#10'&Converter'#7'OnClick'#7#14'MenuItem2Click'#0#0#9'TMenuItem'#9'Me'
-  +'nuItem3'#7'Caption'#6#5'&MAPs'#0#0#9'TMenuItem'#9'MenuItem4'#7'Caption'#6#6
-  +'&About'#7'OnClick'#7#14'MenuItem4Click'#0#0#0#0
+  +#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'
+  +#2#2#0#0#5'TEdit'#6'Edit36'#4'Left'#3#222#0#6'Height'#2#29#4'Hint'#6'"Gain o'
+  +'f receiving antenna on earth'#3'Top'#2#2#5'Width'#2'9'#5'Color'#7#6'clGray'
+  +#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'clNavy'#11'Font.Heig'
+  +'ht'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Q'
+  +'uality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9#8
+  +'TabOrder'#2#3#0#0#5'TEdit'#6'Edit37'#4'Left'#3#222#0#6'Height'#2#29#4'Hint'
+  +#6'*Noise temperature of the receiving antenna'#3'Top'#2#30#5'Width'#2'9'#5
+  +'Color'#7#6'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'c'
+  +'lNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fp'
+  +'Variable'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'
+  +#8#8'ShowHint'#9#8'TabOrder'#2#4#0#0#5'TEdit'#6'Edit38'#4'Left'#3#222#0#6'He'
+  +'ight'#2#29#4'Hint'#6#21'LNA noise temperature'#3'Top'#2':'#5'Width'#2'9'#5
+  +'Color'#7#6'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#6'c'
+  +'lNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fp'
+  +'Variable'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8#14'ParentShowHint'
+  +#8#8'ShowHint'#9#8'TabOrder'#2#5#0#0#5'TEdit'#6'Edit39'#4'Left'#2'F'#6'Heigh'
+  +'t'#2#29#4'Hint'#6'0Downlink Geographical advantage. (Check the map)'#3'Top'
+  +#2':'#5'Width'#2'9'#5'Color'#7#6'clGray'#12'Font.CharSet'#7#12'ANSI_CHARSET'
+  +#10'Font.Color'#7#6'clNavy'#11'Font.Height'#2#243#9'Font.Name'#6#5'Arial'#10
+  +'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'ParentFont'#8
+  +#14'ParentShowHint'#8#8'ShowHint'#9#8'TabOrder'#2#6#0#0#5'TEdit'#6'Edit40'#4
+  +'Left'#3#142#0#6'Height'#2#29#4'Hint'#6'%Downlink, signal to noise ratio (SN'
+  +'R)'#3'Top'#2'}'#5'Width'#2'9'#5'Color'#4#191#220#191#0#7'Enabled'#8#12'Font'
+  +'.CharSet'#7#12'ANSI_CHARSET'#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#243
+  +#9'Font.Name'#6#5'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7
+  +'fqDraft'#10'Font.Style'#11#6'fsBold'#0#10'ParentFont'#8#14'ParentShowHint'#8
+  +#8'ShowHint'#9#8'TabOrder'#2#7#0#0#0#5'TEdit'#6'Edit41'#4'Left'#3#202#3#6'He'
+  +'ight'#2#29#4'Hint'#6'%Number of carriers in the transponder'#3'Top'#2'B'#5
+  +'Width'#2'9'#5'Color'#4#191#220#191#0#7'Enabled'#8#12'Font.CharSet'#7#12'ANS'
+  +'I_CHARSET'#10'Font.Color'#7#5'clRed'#11'Font.Height'#2#243#9'Font.Name'#6#5
+  +'Arial'#10'Font.Pitch'#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Fon'
+  +'t.Style'#11#6'fsBold'#0#10'ParentFont'#8#14'ParentShowHint'#8#8'ShowHint'#9
+  +#8'TabOrder'#2#12#0#0#0#6'TPanel'#6'Panel1'#4'Left'#2#16#6'Height'#2#31#3'To'
+  +'p'#3#132#2#5'Width'#3'H'#4#12'Font.CharSet'#7#12'ANSI_CHARSET'#10'Font.Colo'
+  +'r'#7#7'clBlack'#11'Font.Height'#2#237#9'Font.Name'#6#5'Arial'#10'Font.Pitch'
+  +#7#10'fpVariable'#12'Font.Quality'#7#7'fqDraft'#10'Font.Style'#11#6'fsBold'#0
+  +#10'ParentFont'#8#8'TabOrder'#2#5#0#0#9'TMainMenu'#9'MainMenu1'#4'Left'#3'A'
+  +#1#3'Top'#3#232#0#0#9'TMenuItem'#9'MenuItem2'#7'Caption'#6#10'&Converter'#7
+  +'OnClick'#7#14'MenuItem2Click'#0#0#9'TMenuItem'#9'MenuItem3'#7'Caption'#6#5
+  +'&MAPs'#0#0#9'TMenuItem'#9'MenuItem4'#7'Caption'#6#6'&About'#7'OnClick'#7#14
+  +'MenuItem4Click'#0#0#0#0
 ]);

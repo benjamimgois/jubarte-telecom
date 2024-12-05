@@ -588,7 +588,7 @@ object satlinkform: Tsatlinkform
   }
   Menu = MainMenu1
   Position = poScreenCenter
-  LCLVersion = '0.9.30'
+  LCLVersion = '3.6.0.0'
   object Image2: TImage
     Left = -4
     Height = 730
@@ -5011,8 +5011,9 @@ object satlinkform: Tsatlinkform
     Top = 144
     Width = 1098
     Caption = ' Frequency'
-    ClientHeight = 119
+    ClientHeight = 110
     ClientWidth = 1094
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clGreen
     Font.Height = -13
@@ -5020,13 +5021,15 @@ object satlinkform: Tsatlinkform
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
     ParentFont = False
     TabOrder = 1
     object Label24: TLabel
       Left = 8
-      Height = 16
+      Height = 15
       Top = 12
-      Width = 48
+      Width = 47
       Caption = 'UPLINK'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5039,9 +5042,9 @@ object satlinkform: Tsatlinkform
     end
     object Label25: TLabel
       Left = 92
-      Height = 16
+      Height = 15
       Top = 38
-      Width = 28
+      Width = 27
       Caption = 'MHz'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5054,9 +5057,9 @@ object satlinkform: Tsatlinkform
     end
     object Label27: TLabel
       Left = 92
-      Height = 16
+      Height = 15
       Top = 86
-      Width = 28
+      Width = 27
       Caption = 'MHz'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5069,7 +5072,7 @@ object satlinkform: Tsatlinkform
     end
     object Label28: TLabel
       Left = 9
-      Height = 16
+      Height = 15
       Top = 60
       Width = 70
       Caption = 'DOWNLINK'
@@ -5084,9 +5087,9 @@ object satlinkform: Tsatlinkform
     end
     object Label33: TLabel
       Left = 423
-      Height = 16
+      Height = 15
       Top = 34
-      Width = 73
+      Width = 75
       Caption = 'Transponder'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5099,7 +5102,7 @@ object satlinkform: Tsatlinkform
     end
     object Label34: TLabel
       Left = 522
-      Height = 16
+      Height = 15
       Top = 34
       Width = 22
       Caption = 'BW'
@@ -5114,9 +5117,9 @@ object satlinkform: Tsatlinkform
     end
     object Label35: TLabel
       Left = 556
-      Height = 16
+      Height = 15
       Top = 56
-      Width = 28
+      Width = 27
       Caption = 'MHz'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5129,7 +5132,7 @@ object satlinkform: Tsatlinkform
     end
     object Label36: TLabel
       Left = 758
-      Height = 16
+      Height = 15
       Top = 65
       Width = 90
       Caption = 'Demodulator IF'
@@ -5144,9 +5147,9 @@ object satlinkform: Tsatlinkform
     end
     object Label37: TLabel
       Left = 811
-      Height = 16
+      Height = 15
       Top = 89
-      Width = 28
+      Width = 27
       Caption = 'MHz'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5159,9 +5162,9 @@ object satlinkform: Tsatlinkform
     end
     object Label38: TLabel
       Left = 886
-      Height = 16
+      Height = 15
       Top = 65
-      Width = 134
+      Width = 135
       Caption = 'Downlink Converter RF'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5174,9 +5177,9 @@ object satlinkform: Tsatlinkform
     end
     object Label39: TLabel
       Left = 947
-      Height = 16
+      Height = 15
       Top = 89
-      Width = 28
+      Width = 27
       Caption = 'MHz'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5189,9 +5192,9 @@ object satlinkform: Tsatlinkform
     end
     object Label40: TLabel
       Left = 757
-      Height = 16
+      Height = 15
       Top = 9
-      Width = 74
+      Width = 73
       Caption = 'Modulator IF'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5204,9 +5207,9 @@ object satlinkform: Tsatlinkform
     end
     object Label41: TLabel
       Left = 810
-      Height = 16
+      Height = 15
       Top = 33
-      Width = 28
+      Width = 27
       Caption = 'MHz'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5219,9 +5222,9 @@ object satlinkform: Tsatlinkform
     end
     object Label42: TLabel
       Left = 886
-      Height = 16
+      Height = 15
       Top = 9
-      Width = 116
+      Width = 115
       Caption = 'Uplink converter RF'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5234,9 +5237,9 @@ object satlinkform: Tsatlinkform
     end
     object Label43: TLabel
       Left = 946
-      Height = 16
+      Height = 15
       Top = 33
-      Width = 28
+      Width = 27
       Caption = 'MHz'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5249,9 +5252,10 @@ object satlinkform: Tsatlinkform
     end
     object Edit15: TEdit
       Left = 8
-      Height = 25
+      Height = 29
       Top = 76
       Width = 64
+      Color = clGray
       Enabled = False
       Font.CharSet = ANSI_CHARSET
       Font.Color = clGreen
@@ -5278,7 +5282,7 @@ object satlinkform: Tsatlinkform
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 2
-      ClientHeight = 31
+      ClientHeight = 22
       ClientWidth = 102
       Columns = 2
       Font.CharSet = ANSI_CHARSET
@@ -5292,22 +5296,25 @@ object satlinkform: Tsatlinkform
         'H'
       )
       OnClick = RadioGroup1Click
+      ParentBackground = False
       ParentFont = False
       TabOrder = 1
     end
     object Edit18: TEdit
       Left = 423
-      Height = 25
+      Height = 29
       Top = 49
       Width = 80
+      Color = clGray
       Enabled = False
       TabOrder = 2
     end
     object Edit19: TEdit
       Left = 522
-      Height = 25
+      Height = 29
       Top = 49
       Width = 28
+      Color = clGray
       Enabled = False
       TabOrder = 3
     end
@@ -5326,7 +5333,7 @@ object satlinkform: Tsatlinkform
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 2
-      ClientHeight = 31
+      ClientHeight = 22
       ClientWidth = 102
       Columns = 2
       Font.CharSet = ANSI_CHARSET
@@ -5339,15 +5346,17 @@ object satlinkform: Tsatlinkform
         'V'
         'H'
       )
+      ParentBackground = False
       ParentFont = False
       TabOrder = 4
     end
     object Edit20: TEdit
       Left = 757
-      Height = 25
+      Height = 29
       Hint = 'Demodulator tune frequency'
       Top = 81
       Width = 42
+      Color = clGray
       Enabled = False
       ParentShowHint = False
       ShowHint = True
@@ -5355,10 +5364,11 @@ object satlinkform: Tsatlinkform
     end
     object Edit21: TEdit
       Left = 886
-      Height = 25
+      Height = 29
       Hint = 'Tune frequency of downlink converter'
       Top = 81
       Width = 57
+      Color = clGray
       Enabled = False
       ParentShowHint = False
       ShowHint = True
@@ -5366,9 +5376,10 @@ object satlinkform: Tsatlinkform
     end
     object SpinEdit1: TSpinEdit
       Left = 9
-      Height = 25
+      Height = 29
       Top = 28
       Width = 74
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clGreen
       Font.Height = -13
@@ -5381,10 +5392,11 @@ object satlinkform: Tsatlinkform
     end
     object Edit22: TEdit
       Left = 756
-      Height = 25
+      Height = 29
       Hint = 'Modulator tune frequency'
       Top = 25
       Width = 43
+      Color = clGray
       Enabled = False
       ParentShowHint = False
       ShowHint = True
@@ -5392,10 +5404,11 @@ object satlinkform: Tsatlinkform
     end
     object Edit23: TEdit
       Left = 886
-      Height = 25
+      Height = 29
       Hint = 'Tune frequency of uplink converter'
       Top = 25
       Width = 57
+      Color = clGray
       Enabled = False
       ParentShowHint = False
       ShowHint = True
@@ -5408,8 +5421,9 @@ object satlinkform: Tsatlinkform
     Top = 0
     Width = 1097
     Caption = 'Physical Characteristics'
-    ClientHeight = 119
+    ClientHeight = 110
     ClientWidth = 1093
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clMaroon
     Font.Height = -13
@@ -5417,13 +5431,15 @@ object satlinkform: Tsatlinkform
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
     ParentFont = False
     TabOrder = 0
     object Label1: TLabel
       Left = 70
-      Height = 16
+      Height = 15
       Top = 7
-      Width = 63
+      Width = 61
       Caption = 'Location A'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5436,9 +5452,9 @@ object satlinkform: Tsatlinkform
     end
     object Label2: TLabel
       Left = 947
-      Height = 16
+      Height = 15
       Top = 7
-      Width = 63
+      Width = 62
       Caption = 'Location B'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5451,9 +5467,9 @@ object satlinkform: Tsatlinkform
     end
     object Label4: TLabel
       Left = 6
-      Height = 16
+      Height = 15
       Top = 33
-      Width = 23
+      Width = 22
       Caption = 'Lat.'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5466,9 +5482,9 @@ object satlinkform: Tsatlinkform
     end
     object Label5: TLabel
       Left = 886
-      Height = 16
+      Height = 15
       Top = 33
-      Width = 23
+      Width = 22
       Caption = 'Lat.'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5481,7 +5497,7 @@ object satlinkform: Tsatlinkform
     end
     object Label6: TLabel
       Left = 102
-      Height = 16
+      Height = 15
       Top = 33
       Width = 29
       Caption = 'Long'
@@ -5496,7 +5512,7 @@ object satlinkform: Tsatlinkform
     end
     object Label7: TLabel
       Left = 974
-      Height = 16
+      Height = 15
       Top = 33
       Width = 29
       Caption = 'Long'
@@ -5511,9 +5527,9 @@ object satlinkform: Tsatlinkform
     end
     object Label8: TLabel
       Left = 6
-      Height = 16
+      Height = 15
       Top = 65
-      Width = 55
+      Width = 54
       Caption = 'Elevation'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5526,9 +5542,9 @@ object satlinkform: Tsatlinkform
     end
     object Label9: TLabel
       Left = 86
-      Height = 16
+      Height = 15
       Top = 65
-      Width = 49
+      Width = 47
       Caption = 'Azimuth'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5541,9 +5557,9 @@ object satlinkform: Tsatlinkform
     end
     object Label10: TLabel
       Left = 166
-      Height = 16
+      Height = 15
       Top = 65
-      Width = 106
+      Width = 104
       Caption = 'Polarization Angle'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5556,9 +5572,9 @@ object satlinkform: Tsatlinkform
     end
     object Label11: TLabel
       Left = 822
-      Height = 16
+      Height = 15
       Top = 65
-      Width = 55
+      Width = 54
       Caption = 'Elevation'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5571,9 +5587,9 @@ object satlinkform: Tsatlinkform
     end
     object Label12: TLabel
       Left = 902
-      Height = 16
+      Height = 15
       Top = 65
-      Width = 49
+      Width = 47
       Caption = 'Azimuth'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5586,9 +5602,9 @@ object satlinkform: Tsatlinkform
     end
     object Label13: TLabel
       Left = 974
-      Height = 16
+      Height = 15
       Top = 65
-      Width = 106
+      Width = 104
       Caption = 'Polarization Angle'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5601,7 +5617,7 @@ object satlinkform: Tsatlinkform
     end
     object Label14: TLabel
       Left = 66
-      Height = 16
+      Height = 15
       Top = 77
       Width = 8
       Caption = 'o'
@@ -5616,7 +5632,7 @@ object satlinkform: Tsatlinkform
     end
     object Label15: TLabel
       Left = 150
-      Height = 16
+      Height = 15
       Top = 76
       Width = 8
       Caption = 'o'
@@ -5631,7 +5647,7 @@ object satlinkform: Tsatlinkform
     end
     object Label16: TLabel
       Left = 227
-      Height = 16
+      Height = 15
       Top = 77
       Width = 8
       Caption = 'o'
@@ -5646,7 +5662,7 @@ object satlinkform: Tsatlinkform
     end
     object Label17: TLabel
       Left = 883
-      Height = 16
+      Height = 15
       Top = 77
       Width = 8
       Caption = 'o'
@@ -5661,7 +5677,7 @@ object satlinkform: Tsatlinkform
     end
     object Label18: TLabel
       Left = 963
-      Height = 16
+      Height = 15
       Top = 77
       Width = 8
       Caption = 'o'
@@ -5676,7 +5692,7 @@ object satlinkform: Tsatlinkform
     end
     object Label19: TLabel
       Left = 1043
-      Height = 16
+      Height = 15
       Top = 76
       Width = 8
       Caption = 'o'
@@ -5691,9 +5707,9 @@ object satlinkform: Tsatlinkform
     end
     object Label20: TLabel
       Left = 482
-      Height = 16
+      Height = 15
       Top = 87
-      Width = 21
+      Width = 20
       Caption = 'Km'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5706,9 +5722,9 @@ object satlinkform: Tsatlinkform
     end
     object Label21: TLabel
       Left = 367
-      Height = 16
+      Height = 15
       Top = 65
-      Width = 121
+      Width = 117
       Caption = 'Distance A - Satelite'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5721,9 +5737,9 @@ object satlinkform: Tsatlinkform
     end
     object Label22: TLabel
       Left = 525
-      Height = 16
+      Height = 15
       Top = 65
-      Width = 121
+      Width = 118
       Caption = 'Distance B - Satelite'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5736,9 +5752,9 @@ object satlinkform: Tsatlinkform
     end
     object Label23: TLabel
       Left = 633
-      Height = 16
+      Height = 15
       Top = 87
-      Width = 21
+      Width = 20
       Caption = 'Km'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -5751,7 +5767,7 @@ object satlinkform: Tsatlinkform
     end
     object Label45: TLabel
       Left = 599
-      Height = 16
+      Height = 15
       Top = 23
       Width = 8
       Caption = 'o'
@@ -5766,10 +5782,11 @@ object satlinkform: Tsatlinkform
     end
     object Edit1: TEdit
       Left = 38
-      Height = 25
+      Height = 29
       Hint = 'Enter the geographical coordinates, without using signs.'
       Top = 25
       Width = 56
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -5783,10 +5800,11 @@ object satlinkform: Tsatlinkform
     end
     object Edit2: TEdit
       Left = 142
-      Height = 25
+      Height = 29
       Hint = 'Enter the geographical coordinates, without using signs.'
       Top = 25
       Width = 56
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -5800,10 +5818,11 @@ object satlinkform: Tsatlinkform
     end
     object Edit3: TEdit
       Left = 910
-      Height = 25
+      Height = 29
       Hint = 'Enter the geographical coordenates, without using signs.'
       Top = 25
       Width = 56
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -5817,10 +5836,11 @@ object satlinkform: Tsatlinkform
     end
     object Edit4: TEdit
       Left = 1014
-      Height = 25
+      Height = 29
       Hint = 'Enter the geographical coordinates, without using signs.'
       Top = 25
       Width = 56
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -5834,10 +5854,10 @@ object satlinkform: Tsatlinkform
     end
     object ComboBox1: TComboBox
       Left = 429
-      Height = 27
+      Height = 32
       Top = 23
       Width = 120
-      Color = clActiveBorder
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clMaroon
       Font.Height = -13
@@ -5845,7 +5865,7 @@ object satlinkform: Tsatlinkform
       Font.Pitch = fpVariable
       Font.Quality = fqDraft
       Font.Style = [fsBold]
-      ItemHeight = 0
+      ItemHeight = 21
       Items.Strings = (
         'StarOne C1'
         'Amazonas'
@@ -5855,25 +5875,25 @@ object satlinkform: Tsatlinkform
         'BrasilSat B4'
         'Other'
       )
-      MaxLength = 65535
-      OnChange = ComboBox1Change
       ParentFont = False
       TabOrder = 4
       Text = '  - Satellite -'
+      OnChange = ComboBox1Change
     end
     object Edit5: TEdit
       Left = 558
-      Height = 25
+      Height = 29
       Hint = 'West longitude'
       Top = 23
       Width = 32
+      Color = clGray
       ParentShowHint = False
       ShowHint = True
       TabOrder = 5
     end
     object Edit6: TEdit
       Left = 6
-      Height = 25
+      Height = 29
       Top = 81
       Width = 48
       Color = clMoneyGreen
@@ -5890,7 +5910,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit7: TEdit
       Left = 86
-      Height = 25
+      Height = 29
       Top = 81
       Width = 57
       Color = clMoneyGreen
@@ -5907,7 +5927,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit8: TEdit
       Left = 174
-      Height = 25
+      Height = 29
       Top = 81
       Width = 48
       Color = clMoneyGreen
@@ -5924,7 +5944,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit9: TEdit
       Left = 830
-      Height = 25
+      Height = 29
       Top = 81
       Width = 48
       Color = clMoneyGreen
@@ -5941,7 +5961,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit10: TEdit
       Left = 902
-      Height = 25
+      Height = 29
       Top = 81
       Width = 56
       Color = clMoneyGreen
@@ -5958,7 +5978,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit11: TEdit
       Left = 987
-      Height = 25
+      Height = 29
       Top = 81
       Width = 45
       Color = clMoneyGreen
@@ -5975,7 +5995,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit12: TEdit
       Left = 382
-      Height = 25
+      Height = 29
       Top = 81
       Width = 88
       Color = clMoneyGreen
@@ -5992,7 +6012,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit13: TEdit
       Left = 534
-      Height = 25
+      Height = 29
       Top = 81
       Width = 88
       Color = clMoneyGreen
@@ -6022,7 +6042,7 @@ object satlinkform: Tsatlinkform
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 2
-      ClientHeight = 31
+      ClientHeight = 22
       ClientWidth = 132
       Columns = 2
       Font.CharSet = ANSI_CHARSET
@@ -6035,6 +6055,7 @@ object satlinkform: Tsatlinkform
         'North'
         'South'
       )
+      ParentBackground = False
       ParentFont = False
       TabOrder = 14
     end
@@ -6053,7 +6074,7 @@ object satlinkform: Tsatlinkform
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 2
-      ClientHeight = 31
+      ClientHeight = 22
       ClientWidth = 132
       Columns = 2
       Font.CharSet = ANSI_CHARSET
@@ -6066,6 +6087,7 @@ object satlinkform: Tsatlinkform
         'North'
         'South'
       )
+      ParentBackground = False
       ParentFont = False
       TabOrder = 15
     end
@@ -6076,6 +6098,7 @@ object satlinkform: Tsatlinkform
     Top = 515
     Width = 104
     Caption = 'Calculate'
+    Color = clSkyBlue
     Default = True
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -6085,7 +6108,6 @@ object satlinkform: Tsatlinkform
     Font.Quality = fqDraft
     Kind = bkOK
     ModalResult = 1
-    NumGlyphs = 0
     OnClick = BitBtn1Click
     ParentFont = False
     TabOrder = 2
@@ -6097,6 +6119,7 @@ object satlinkform: Tsatlinkform
     Width = 104
     Cancel = True
     Caption = 'Clear'
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -6105,7 +6128,6 @@ object satlinkform: Tsatlinkform
     Font.Quality = fqDraft
     Kind = bkCancel
     ModalResult = 2
-    NumGlyphs = 0
     OnClick = BitBtn2Click
     ParentFont = False
     TabOrder = 3
@@ -6116,8 +6138,9 @@ object satlinkform: Tsatlinkform
     Top = 288
     Width = 1097
     Caption = 'Link'
-    ClientHeight = 199
+    ClientHeight = 190
     ClientWidth = 1093
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clNavy
     Font.Height = -13
@@ -6125,11 +6148,13 @@ object satlinkform: Tsatlinkform
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
     ParentFont = False
     TabOrder = 4
     object Label26: TLabel
       Left = 8
-      Height = 16
+      Height = 15
       Top = 9
       Width = 37
       Caption = 'Eb/No'
@@ -6144,9 +6169,9 @@ object satlinkform: Tsatlinkform
     end
     object Label29: TLabel
       Left = 126
-      Height = 16
+      Height = 15
       Top = 9
-      Width = 17
+      Width = 16
       Caption = 'dB'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6159,7 +6184,7 @@ object satlinkform: Tsatlinkform
     end
     object Label30: TLabel
       Left = 8
-      Height = 16
+      Height = 15
       Top = 38
       Width = 17
       Caption = 'Rb'
@@ -6174,9 +6199,9 @@ object satlinkform: Tsatlinkform
     end
     object Label31: TLabel
       Left = 126
-      Height = 16
+      Height = 15
       Top = 38
-      Width = 31
+      Width = 30
       Caption = 'Kbps'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6189,9 +6214,9 @@ object satlinkform: Tsatlinkform
     end
     object Label32: TLabel
       Left = 8
-      Height = 16
+      Height = 15
       Top = 67
-      Width = 21
+      Width = 20
       Caption = 'SM'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6204,9 +6229,9 @@ object satlinkform: Tsatlinkform
     end
     object Label46: TLabel
       Left = 126
-      Height = 16
+      Height = 15
       Top = 67
-      Width = 17
+      Width = 16
       Caption = 'dB'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6219,9 +6244,9 @@ object satlinkform: Tsatlinkform
     end
     object Label47: TLabel
       Left = 890
-      Height = 16
+      Height = 15
       Top = 9
-      Width = 52
+      Width = 53
       Caption = '(C/No)1p'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6234,9 +6259,9 @@ object satlinkform: Tsatlinkform
     end
     object Label48: TLabel
       Left = 1034
-      Height = 16
+      Height = 15
       Top = 14
-      Width = 38
+      Width = 37
       Caption = 'dB*Hz'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6249,9 +6274,9 @@ object satlinkform: Tsatlinkform
     end
     object Label49: TLabel
       Left = 902
-      Height = 16
+      Height = 15
       Top = 40
-      Width = 40
+      Width = 39
       Caption = 'BW 1p'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6264,9 +6289,9 @@ object satlinkform: Tsatlinkform
     end
     object Label50: TLabel
       Left = 1034
-      Height = 16
+      Height = 15
       Top = 43
-      Width = 28
+      Width = 27
       Caption = 'MHz'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6279,9 +6304,9 @@ object satlinkform: Tsatlinkform
     end
     object Label51: TLabel
       Left = 877
-      Height = 16
+      Height = 15
       Top = 133
-      Width = 60
+      Width = 61
       Caption = '(C/No) req'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6294,9 +6319,9 @@ object satlinkform: Tsatlinkform
     end
     object Label52: TLabel
       Left = 1034
-      Height = 16
+      Height = 15
       Top = 133
-      Width = 38
+      Width = 37
       Caption = 'dB*Hz'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6309,7 +6334,7 @@ object satlinkform: Tsatlinkform
     end
     object Label53: TLabel
       Left = 878
-      Height = 16
+      Height = 15
       Top = 163
       Width = 68
       Caption = '(C/No) Calc'
@@ -6324,9 +6349,9 @@ object satlinkform: Tsatlinkform
     end
     object Label54: TLabel
       Left = 1034
-      Height = 16
+      Height = 15
       Top = 163
-      Width = 38
+      Width = 37
       Caption = 'dB*Hz'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6339,7 +6364,7 @@ object satlinkform: Tsatlinkform
     end
     object Label80: TLabel
       Left = 918
-      Height = 16
+      Height = 15
       Top = 72
       Width = 18
       Caption = 'Qp'
@@ -6354,10 +6379,11 @@ object satlinkform: Tsatlinkform
     end
     object Edit14: TEdit
       Left = 62
-      Height = 25
+      Height = 29
       Hint = 'Provided by the demodulator manufacturer. Changes with BER,FEC and Mod.'
       Top = 4
       Width = 57
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clNavy
       Font.Height = -13
@@ -6371,10 +6397,11 @@ object satlinkform: Tsatlinkform
     end
     object Edit16: TEdit
       Left = 62
-      Height = 25
+      Height = 29
       Hint = 'Transmission speed'
       Top = 33
       Width = 57
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clNavy
       Font.Height = -13
@@ -6388,10 +6415,11 @@ object satlinkform: Tsatlinkform
     end
     object Edit17: TEdit
       Left = 62
-      Height = 25
+      Height = 29
       Hint = 'Link safety margin'
       Top = 62
       Width = 57
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clNavy
       Font.Height = -13
@@ -6405,10 +6433,11 @@ object satlinkform: Tsatlinkform
     end
     object ComboBox2: TComboBox
       Left = 8
-      Height = 27
+      Height = 32
       Hint = 'Modulation type'
       Top = 93
       Width = 114
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clNavy
       Font.Height = -13
@@ -6416,13 +6445,12 @@ object satlinkform: Tsatlinkform
       Font.Pitch = fpVariable
       Font.Quality = fqDraft
       Font.Style = [fsBold]
-      ItemHeight = 0
+      ItemHeight = 21
       Items.Strings = (
         'BPSK'
         'QPSK'
         '8PSK'
       )
-      MaxLength = 65535
       ParentFont = False
       ParentShowHint = False
       ShowHint = True
@@ -6431,10 +6459,11 @@ object satlinkform: Tsatlinkform
     end
     object ComboBox3: TComboBox
       Left = 8
-      Height = 27
+      Height = 32
       Hint = 'Forward error correction ratio'
       Top = 124
       Width = 114
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clNavy
       Font.Height = -13
@@ -6442,7 +6471,7 @@ object satlinkform: Tsatlinkform
       Font.Pitch = fpVariable
       Font.Quality = fqDraft
       Font.Style = [fsBold]
-      ItemHeight = 0
+      ItemHeight = 21
       Items.Strings = (
         '1/2'
         '2/3'
@@ -6451,7 +6480,6 @@ object satlinkform: Tsatlinkform
         '6/8'
         '7/8'
       )
-      MaxLength = 65535
       ParentFont = False
       ParentShowHint = False
       ShowHint = True
@@ -6460,10 +6488,11 @@ object satlinkform: Tsatlinkform
     end
     object ComboBox4: TComboBox
       Left = 8
-      Height = 27
+      Height = 32
       Hint = 'Frequency Spacing'
       Top = 157
       Width = 114
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clNavy
       Font.Height = -13
@@ -6471,12 +6500,11 @@ object satlinkform: Tsatlinkform
       Font.Pitch = fpVariable
       Font.Quality = fqDraft
       Font.Style = [fsBold]
-      ItemHeight = 0
+      ItemHeight = 21
       Items.Strings = (
         '1.3'
         '1.4'
       )
-      MaxLength = 65535
       ParentFont = False
       ParentShowHint = False
       ShowHint = True
@@ -6485,7 +6513,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit24: TEdit
       Left = 970
-      Height = 25
+      Height = 29
       Hint = 'Signal to noise ratio in the demodulator''s input for 1 carrier'
       Top = 4
       Width = 57
@@ -6505,7 +6533,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit25: TEdit
       Left = 970
-      Height = 25
+      Height = 29
       Hint = 'Carrier bandwidth'
       Top = 35
       Width = 57
@@ -6525,7 +6553,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit26: TEdit
       Left = 970
-      Height = 25
+      Height = 29
       Hint = 'SNR required for full transponder'
       Top = 128
       Width = 57
@@ -6545,7 +6573,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit27: TEdit
       Left = 970
-      Height = 25
+      Height = 29
       Hint = 'Calculated SNR'
       Top = 158
       Width = 57
@@ -6569,14 +6597,15 @@ object satlinkform: Tsatlinkform
       Top = 4
       Width = 240
       Caption = ' Uplink'
-      ClientHeight = 165
+      ClientHeight = 156
       ClientWidth = 236
+      ParentBackground = False
       TabOrder = 10
       object Label56: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 14
-        Width = 36
+        Width = 34
         Caption = 'FPsat'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6589,9 +6618,9 @@ object satlinkform: Tsatlinkform
       end
       object Label57: TLabel
         Left = 166
-        Height = 16
+        Height = 15
         Top = 17
-        Width = 54
+        Width = 53
         Caption = 'dBw/m^2'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6604,9 +6633,9 @@ object satlinkform: Tsatlinkform
       end
       object Label58: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 39
-        Width = 50
+        Width = 48
         Caption = 'Back-off'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6619,9 +6648,9 @@ object satlinkform: Tsatlinkform
       end
       object Label59: TLabel
         Left = 190
-        Height = 16
+        Height = 15
         Top = 43
-        Width = 17
+        Width = 16
         Caption = 'dB'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6634,7 +6663,7 @@ object satlinkform: Tsatlinkform
       end
       object Label60: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 70
         Width = 56
         Caption = 'GR(m^ 2)'
@@ -6649,9 +6678,9 @@ object satlinkform: Tsatlinkform
       end
       object Label61: TLabel
         Left = 190
-        Height = 16
+        Height = 15
         Top = 70
-        Width = 17
+        Width = 16
         Caption = 'dB'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6664,7 +6693,7 @@ object satlinkform: Tsatlinkform
       end
       object Label62: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 103
         Width = 71
         Caption = 'Merit Factor'
@@ -6679,9 +6708,9 @@ object satlinkform: Tsatlinkform
       end
       object Label63: TLabel
         Left = 190
-        Height = 16
+        Height = 15
         Top = 103
-        Width = 17
+        Width = 16
         Caption = 'dB'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6694,7 +6723,7 @@ object satlinkform: Tsatlinkform
       end
       object Label64: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 135
         Width = 63
         Caption = '(C/No) sub'
@@ -6709,9 +6738,9 @@ object satlinkform: Tsatlinkform
       end
       object Label65: TLabel
         Left = 179
-        Height = 16
+        Height = 15
         Top = 135
-        Width = 38
+        Width = 37
         Caption = 'dB*Hz'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6724,47 +6753,51 @@ object satlinkform: Tsatlinkform
       end
       object Edit29: TEdit
         Left = 102
-        Height = 25
+        Height = 29
         Hint = 'Satellite saturation flow'
         Top = 9
         Width = 57
+        Color = clGray
         ParentShowHint = False
         ShowHint = True
         TabOrder = 0
       end
       object Edit30: TEdit
         Left = 102
-        Height = 25
+        Height = 29
         Hint = 'Satellite input power back-off'
         Top = 38
         Width = 57
+        Color = clGray
         ParentShowHint = False
         ShowHint = True
         TabOrder = 1
       end
       object Edit31: TEdit
         Left = 102
-        Height = 25
+        Height = 29
         Hint = 'Gain per area unit of the satellite antenna'
         Top = 65
         Width = 57
+        Color = clGray
         ParentShowHint = False
         ShowHint = True
         TabOrder = 2
       end
       object Edit32: TEdit
         Left = 102
-        Height = 25
+        Height = 29
         Hint = 'Merit factor (G/T)'
         Top = 93
         Width = 57
+        Color = clGray
         ParentShowHint = False
         ShowHint = True
         TabOrder = 3
       end
       object Edit33: TEdit
         Left = 102
-        Height = 25
+        Height = 29
         Hint = 'Uplink signal to noise ratio (SNR)'
         Top = 127
         Width = 57
@@ -6789,14 +6822,15 @@ object satlinkform: Tsatlinkform
       Top = 4
       Width = 320
       Caption = ' Downlink'
-      ClientHeight = 165
+      ClientHeight = 156
       ClientWidth = 316
+      ParentBackground = False
       TabOrder = 11
       object Label44: TLabel
         Left = 118
-        Height = 16
+        Height = 15
         Top = 99
-        Width = 17
+        Width = 16
         Caption = 'Ad'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6809,9 +6843,9 @@ object satlinkform: Tsatlinkform
       end
       object Label55: TLabel
         Left = 206
-        Height = 16
+        Height = 15
         Top = 97
-        Width = 17
+        Width = 16
         Caption = 'dB'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6824,9 +6858,9 @@ object satlinkform: Tsatlinkform
       end
       object Label66: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 7
-        Width = 32
+        Width = 31
         Caption = 'EIRP'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6839,9 +6873,9 @@ object satlinkform: Tsatlinkform
       end
       object Label67: TLabel
         Left = 131
-        Height = 16
+        Height = 15
         Top = 7
-        Width = 26
+        Width = 27
         Caption = 'dBw'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6854,9 +6888,9 @@ object satlinkform: Tsatlinkform
       end
       object Label68: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 35
-        Width = 50
+        Width = 48
         Caption = 'Back-off'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6869,9 +6903,9 @@ object satlinkform: Tsatlinkform
       end
       object Label69: TLabel
         Left = 131
-        Height = 16
+        Height = 15
         Top = 35
-        Width = 17
+        Width = 16
         Caption = 'dB'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6884,7 +6918,7 @@ object satlinkform: Tsatlinkform
       end
       object Label70: TLabel
         Left = 182
-        Height = 16
+        Height = 15
         Top = 7
         Width = 20
         Caption = 'GR'
@@ -6899,9 +6933,9 @@ object satlinkform: Tsatlinkform
       end
       object Label71: TLabel
         Left = 286
-        Height = 16
+        Height = 15
         Top = 7
-        Width = 20
+        Width = 19
         Caption = 'dBi'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6914,9 +6948,9 @@ object satlinkform: Tsatlinkform
       end
       object Label72: TLabel
         Left = 182
-        Height = 16
+        Height = 15
         Top = 33
-        Width = 18
+        Width = 16
         Caption = 'TA'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6929,9 +6963,9 @@ object satlinkform: Tsatlinkform
       end
       object Label73: TLabel
         Left = 286
-        Height = 16
+        Height = 15
         Top = 35
-        Width = 10
+        Width = 9
         Caption = 'K'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6944,9 +6978,9 @@ object satlinkform: Tsatlinkform
       end
       object Label74: TLabel
         Left = 174
-        Height = 16
+        Height = 15
         Top = 63
-        Width = 36
+        Width = 34
         Caption = 'TABR'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6959,9 +6993,9 @@ object satlinkform: Tsatlinkform
       end
       object Label75: TLabel
         Left = 286
-        Height = 16
+        Height = 15
         Top = 63
-        Width = 10
+        Width = 9
         Caption = 'K'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6974,9 +7008,9 @@ object satlinkform: Tsatlinkform
       end
       object Label76: TLabel
         Left = 21
-        Height = 16
+        Height = 15
         Top = 63
-        Width = 20
+        Width = 19
         Caption = 'VG'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -6989,9 +7023,9 @@ object satlinkform: Tsatlinkform
       end
       object Label77: TLabel
         Left = 131
-        Height = 16
+        Height = 15
         Top = 63
-        Width = 17
+        Width = 16
         Caption = 'dB'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -7004,7 +7038,7 @@ object satlinkform: Tsatlinkform
       end
       object Label78: TLabel
         Left = 62
-        Height = 16
+        Height = 15
         Top = 130
         Width = 70
         Caption = '(C/No) desc'
@@ -7019,7 +7053,7 @@ object satlinkform: Tsatlinkform
       end
       object Label79: TLabel
         Left = 206
-        Height = 16
+        Height = 15
         Top = 130
         Width = 39
         Caption = 'dB*HZ'
@@ -7034,7 +7068,7 @@ object satlinkform: Tsatlinkform
       end
       object Edit28: TEdit
         Left = 142
-        Height = 25
+        Height = 29
         Hint = 'Free space loss - Downlink'
         Top = 92
         Width = 57
@@ -7054,10 +7088,11 @@ object satlinkform: Tsatlinkform
       end
       object Edit34: TEdit
         Left = 70
-        Height = 25
+        Height = 29
         Hint = 'EIRP radiated by the satellite'
         Top = 2
         Width = 57
+        Color = clGray
         Font.CharSet = ANSI_CHARSET
         Font.Color = clNavy
         Font.Height = -13
@@ -7071,10 +7106,11 @@ object satlinkform: Tsatlinkform
       end
       object Edit35: TEdit
         Left = 70
-        Height = 25
+        Height = 29
         Hint = 'Output back-off'
         Top = 30
         Width = 57
+        Color = clGray
         Font.CharSet = ANSI_CHARSET
         Font.Color = clNavy
         Font.Height = -13
@@ -7088,10 +7124,11 @@ object satlinkform: Tsatlinkform
       end
       object Edit36: TEdit
         Left = 222
-        Height = 25
+        Height = 29
         Hint = 'Gain of receiving antenna on earth'
         Top = 2
         Width = 57
+        Color = clGray
         Font.CharSet = ANSI_CHARSET
         Font.Color = clNavy
         Font.Height = -13
@@ -7105,10 +7142,11 @@ object satlinkform: Tsatlinkform
       end
       object Edit37: TEdit
         Left = 222
-        Height = 25
+        Height = 29
         Hint = 'Noise temperature of the receiving antenna'
         Top = 30
         Width = 57
+        Color = clGray
         Font.CharSet = ANSI_CHARSET
         Font.Color = clNavy
         Font.Height = -13
@@ -7122,10 +7160,11 @@ object satlinkform: Tsatlinkform
       end
       object Edit38: TEdit
         Left = 222
-        Height = 25
+        Height = 29
         Hint = 'LNA noise temperature'
         Top = 58
         Width = 57
+        Color = clGray
         Font.CharSet = ANSI_CHARSET
         Font.Color = clNavy
         Font.Height = -13
@@ -7139,10 +7178,11 @@ object satlinkform: Tsatlinkform
       end
       object Edit39: TEdit
         Left = 70
-        Height = 25
+        Height = 29
         Hint = 'Downlink Geographical advantage. (Check the map)'
         Top = 58
         Width = 57
+        Color = clGray
         Font.CharSet = ANSI_CHARSET
         Font.Color = clNavy
         Font.Height = -13
@@ -7156,7 +7196,7 @@ object satlinkform: Tsatlinkform
       end
       object Edit40: TEdit
         Left = 142
-        Height = 25
+        Height = 29
         Hint = 'Downlink, signal to noise ratio (SNR)'
         Top = 125
         Width = 57
@@ -7177,7 +7217,7 @@ object satlinkform: Tsatlinkform
     end
     object Edit41: TEdit
       Left = 970
-      Height = 25
+      Height = 29
       Hint = 'Number of carriers in the transponder'
       Top = 66
       Width = 57
@@ -7212,8 +7252,8 @@ object satlinkform: Tsatlinkform
     TabOrder = 5
   end
   object MainMenu1: TMainMenu
-    left = 321
-    top = 232
+    Left = 321
+    Top = 232
     object MenuItem2: TMenuItem
       Caption = '&Converter'
       OnClick = MenuItem2Click

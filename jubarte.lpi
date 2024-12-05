@@ -110,9 +110,13 @@
         <ComponentName Value="satlinkform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="1346"/>
-        <CursorPos X="7" Y="1372"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="14"/>
+        <TopLine Value="1349"/>
+        <CursorPos X="76" Y="1358"/>
         <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit6>
       <Unit7>
         <Filename Value="cooling.pas"/>
@@ -155,7 +159,7 @@
         <EditorIndex Value="1"/>
         <TopLine Value="81"/>
         <CursorPos X="3" Y="99"/>
-        <UsageCount Value="181"/>
+        <UsageCount Value="182"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit11>
@@ -169,7 +173,7 @@
         <EditorIndex Value="7"/>
         <TopLine Value="271"/>
         <CursorPos Y="223"/>
-        <UsageCount Value="181"/>
+        <UsageCount Value="182"/>
         <Loaded Value="True"/>
       </Unit12>
       <Unit13>
@@ -182,7 +186,7 @@
         <EditorIndex Value="10"/>
         <TopLine Value="19"/>
         <CursorPos X="5" Y="7"/>
-        <UsageCount Value="180"/>
+        <UsageCount Value="181"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit13>
@@ -202,7 +206,6 @@
         <ComponentName Value="fresnelform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="13"/>
         <TopLine Value="42"/>
         <CursorPos X="6" Y="84"/>
@@ -259,7 +262,7 @@
         <EditorIndex Value="5"/>
         <TopLine Value="162"/>
         <CursorPos X="27" Y="177"/>
-        <UsageCount Value="177"/>
+        <UsageCount Value="178"/>
         <Loaded Value="True"/>
       </Unit20>
       <Unit21>
@@ -288,7 +291,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="151"/>
         <CursorPos X="48" Y="151"/>
-        <UsageCount Value="141"/>
+        <UsageCount Value="142"/>
       </Unit24>
       <Unit25>
         <Filename Value="../../plotpanel_lazarus_0.95/Demo/plotpaneldemounit.pas"/>
@@ -305,7 +308,7 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="12"/>
         <CursorPos X="15" Y="249"/>
-        <UsageCount Value="88"/>
+        <UsageCount Value="89"/>
         <Loaded Value="True"/>
       </Unit26>
       <Unit27>
@@ -351,7 +354,7 @@
       </Unit32>
       <Unit33>
         <Filename Value="/usr/lib/lazarus/lcl/include/customform.inc"/>
-        <EditorIndex Value="14"/>
+        <EditorIndex Value="15"/>
         <TopLine Value="2382"/>
         <CursorPos Y="2393"/>
         <UsageCount Value="10"/>
