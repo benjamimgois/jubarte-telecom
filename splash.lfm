@@ -1,8 +1,8 @@
 object SplashScreenForm: TSplashScreenForm
   Cursor = crAppStart
-  Left = 369
+  Left = 0
   Height = 310
-  Top = 245
+  Top = 0
   Width = 541
   BorderIcons = []
   BorderStyle = bsNone
@@ -592,7 +592,8 @@ object SplashScreenForm: TSplashScreenForm
     C2F51EF1638E158074F1FF01081287C3A5A722580000000049454E44AE426082
   }
   Position = poScreenCenter
-  LCLVersion = '1.0.4.0'
+  LCLVersion = '3.6.0.0'
+  Visible = True
   object Image4: TImage
     Left = 0
     Height = 310
@@ -3106,9 +3107,9 @@ object SplashScreenForm: TSplashScreenForm
   end
   object Label1: TLabel
     Left = 16
-    Height = 25
+    Height = 24
     Top = 24
-    Width = 78
+    Width = 76
     Caption = 'Jubarte'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clForm
@@ -3122,9 +3123,9 @@ object SplashScreenForm: TSplashScreenForm
   end
   object Label2: TLabel
     Left = 16
-    Height = 25
+    Height = 24
     Top = 52
-    Width = 243
+    Width = 244
     Caption = 'Telecommunications Suite'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clForm

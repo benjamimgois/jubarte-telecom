@@ -20,7 +20,8 @@ begin
   Application.Initialize;
 
   //cria e exibe formulario com splash
-  SplashScreenForm := TSplashScreenForm.Create(nil) ;
+  //SplashScreenForm := TSplashScreenForm.Create(nil) ;
+  Application.CreateForm(TSplashScreenForm, SplashScreenForm);
   //SplashScreenForm := TSplashScreenForm.Create(Application);
   SplashScreenForm.show;
   SplashScreenForm.update;
@@ -37,22 +38,8 @@ begin
   Application.CreateForm(Tiptelform, iptelform);
   Application.CreateForm(Tconverterform, converterform);
 
-  SplashScreenForm.ProgressBar1.position:=100;
-  SplashScreenForm.refresh;
-  SplashScreenForm.ProgressBar1.position:=200;
-  SplashScreenForm.refresh;
-   sleep(1000);
-  SplashScreenForm.ProgressBar1.position:=300;
-  SplashScreenForm.refresh;
-  SplashScreenForm.ProgressBar1.position:=500;
-  SplashScreenForm.refresh;
-    sleep(1000);
-  SplashScreenForm.ProgressBar1.position:=700;
-  SplashScreenForm.refresh;
-   sleep(3000);
-  SplashScreenForm.ProgressBar1.position:=1000;
-  SplashScreenForm.refresh;
-  sleep(1000);
+
+  //sleep(3000);
   // Application.CreateForm(Tmultiradioform, multiradioform);
 
   SplashScreenForm.Hide;
