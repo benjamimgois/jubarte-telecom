@@ -215,7 +215,6 @@
         <CursorPos X="35" Y="181"/>
         <UsageCount Value="74"/>
         <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
       </Unit16>
       <Unit17>
         <Filename Value="../../usr/lib/lazarus/0.9.28.2/lcl/include/customform.inc"/>
@@ -328,7 +327,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="3"/>
-        <CursorPos Y="3"/>
+        <CursorPos Y="6511"/>
         <UsageCount Value="14"/>
         <Loaded Value="True"/>
       </Unit30>
