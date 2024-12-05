@@ -18,7 +18,6 @@ type
     Image1: TImage;
     Label2: TLabel;
     Label3: TLabel;
-    Label4: TLabel;
     Process1: TProcess;
     SpeedButton1: TSpeedButton;
     SpeedButton2: TSpeedButton;
@@ -26,8 +25,6 @@ type
     SpeedButton4: TSpeedButton;
     SpeedButton5: TSpeedButton;
     SpeedButton6: TSpeedButton;
-    SpeedButton7: TSpeedButton;
-    SpeedButton8: TSpeedButton;
     SpeedButton9: TSpeedButton;
     procedure BitBtn1Click(Sender: TObject);
     procedure SpeedButton1Click(Sender: TObject);

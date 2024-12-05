@@ -81,7 +81,7 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="2"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit3>
@@ -153,10 +153,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Main"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="47"/>
-        <CursorPos Y="58"/>
-        <UsageCount Value="179"/>
+        <TopLine Value="44"/>
+        <CursorPos Y="55"/>
+        <UsageCount Value="180"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit11>
@@ -167,11 +168,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="RadioLink"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="7"/>
         <TopLine Value="553"/>
         <CursorPos X="25" Y="555"/>
-        <UsageCount Value="179"/>
+        <UsageCount Value="180"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit12>
@@ -185,7 +185,7 @@
         <EditorIndex Value="10"/>
         <TopLine Value="19"/>
         <CursorPos X="33" Y="7"/>
-        <UsageCount Value="178"/>
+        <UsageCount Value="179"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit13>
@@ -197,7 +197,7 @@
         <EditorIndex Value="8"/>
         <TopLine Value="28"/>
         <CursorPos X="7" Y="75"/>
-        <UsageCount Value="64"/>
+        <UsageCount Value="65"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit14>
@@ -218,7 +218,7 @@
         <EditorIndex Value="9"/>
         <TopLine Value="174"/>
         <CursorPos X="35" Y="181"/>
-        <UsageCount Value="73"/>
+        <UsageCount Value="74"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit16>
@@ -236,7 +236,7 @@
         <EditorIndex Value="6"/>
         <TopLine Value="439"/>
         <CursorPos X="6" Y="373"/>
-        <UsageCount Value="68"/>
+        <UsageCount Value="69"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit18>
@@ -248,7 +248,7 @@
         <UnitName Value="About"/>
         <TopLine Value="8"/>
         <CursorPos X="38" Y="8"/>
-        <UsageCount Value="78"/>
+        <UsageCount Value="79"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit19>
@@ -261,7 +261,7 @@
         <EditorIndex Value="5"/>
         <TopLine Value="162"/>
         <CursorPos X="36" Y="177"/>
-        <UsageCount Value="175"/>
+        <UsageCount Value="176"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit20>
@@ -291,7 +291,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="151"/>
         <CursorPos X="48" Y="151"/>
-        <UsageCount Value="139"/>
+        <UsageCount Value="140"/>
       </Unit24>
       <Unit25>
         <Filename Value="../../plotpanel_lazarus_0.95/Demo/plotpaneldemounit.pas"/>
@@ -308,7 +308,7 @@
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="237"/>
         <CursorPos X="15" Y="249"/>
-        <UsageCount Value="86"/>
+        <UsageCount Value="87"/>
       </Unit26>
       <Unit27>
         <Filename Value="plotpanel_lazarus_0.95/plotpanel.pas"/>
@@ -336,7 +336,7 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="3"/>
         <CursorPos Y="3"/>
-        <UsageCount Value="13"/>
+        <UsageCount Value="14"/>
         <Loaded Value="True"/>
       </Unit30>
       <Unit31>
@@ -355,123 +355,123 @@
     <JumpHistory Count="30" HistoryIndex="29">
       <Position1>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="256" Column="25" TopLine="254"/>
+        <Caret Line="449" Column="27" TopLine="447"/>
       </Position1>
       <Position2>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="431" Column="27" TopLine="429"/>
+        <Caret Line="454" Column="25" TopLine="452"/>
       </Position2>
       <Position3>
-        <Filename Value="radiolink.pas"/>
-        <Caret Line="437" Column="25" TopLine="435"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="58" TopLine="47"/>
       </Position3>
       <Position4>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="443" Column="27" TopLine="441"/>
+        <Caret Line="203" TopLine="193"/>
       </Position4>
       <Position5>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="449" Column="27" TopLine="447"/>
+        <Caret Line="205" TopLine="195"/>
       </Position5>
       <Position6>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="454" Column="25" TopLine="452"/>
+        <Caret Line="268" Column="3" TopLine="265"/>
       </Position6>
       <Position7>
-        <Filename Value="main.pas"/>
-        <Caret Line="58" TopLine="47"/>
+        <Filename Value="radiolink.pas"/>
+        <Caret Line="274" Column="25" TopLine="272"/>
       </Position7>
       <Position8>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="203" TopLine="193"/>
+        <Caret Line="474" Column="26" TopLine="472"/>
       </Position8>
       <Position9>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="205" TopLine="195"/>
+        <Caret Line="485" Column="25" TopLine="483"/>
       </Position9>
       <Position10>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="268" Column="3" TopLine="265"/>
+        <Caret Line="476" Column="26" TopLine="474"/>
       </Position10>
       <Position11>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="274" Column="25" TopLine="272"/>
+        <Caret Line="481" Column="25" TopLine="479"/>
       </Position11>
       <Position12>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="474" Column="26" TopLine="472"/>
+        <Caret Line="482" Column="25" TopLine="480"/>
       </Position12>
       <Position13>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="485" Column="25" TopLine="483"/>
+        <Caret Line="489" Column="25" TopLine="487"/>
       </Position13>
       <Position14>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="476" Column="26" TopLine="474"/>
+        <Caret Line="286" Column="3" TopLine="266"/>
       </Position14>
       <Position15>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="481" Column="25" TopLine="479"/>
+        <Caret Line="287" Column="3" TopLine="281"/>
       </Position15>
       <Position16>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="482" Column="25" TopLine="480"/>
+        <Caret Line="512" Column="26" TopLine="510"/>
       </Position16>
       <Position17>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="489" Column="25" TopLine="487"/>
+        <Caret Line="518" Column="25" TopLine="516"/>
       </Position17>
       <Position18>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="286" Column="3" TopLine="266"/>
+        <Caret Line="524" Column="26" TopLine="522"/>
       </Position18>
       <Position19>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="287" Column="3" TopLine="281"/>
+        <Caret Line="535" Column="25" TopLine="533"/>
       </Position19>
       <Position20>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="512" Column="26" TopLine="510"/>
+        <Caret Line="307" Column="26" TopLine="305"/>
       </Position20>
       <Position21>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="518" Column="25" TopLine="516"/>
+        <Caret Line="313" Column="25" TopLine="311"/>
       </Position21>
       <Position22>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="524" Column="26" TopLine="522"/>
+        <Caret Line="548" Column="26" TopLine="546"/>
       </Position22>
       <Position23>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="535" Column="25" TopLine="533"/>
+        <Caret Line="554" Column="26" TopLine="552"/>
       </Position23>
       <Position24>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="307" Column="26" TopLine="305"/>
+        <Caret Line="560" Column="26" TopLine="558"/>
       </Position24>
       <Position25>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="313" Column="25" TopLine="311"/>
+        <Caret Line="565" Column="25" TopLine="563"/>
       </Position25>
       <Position26>
         <Filename Value="radiolink.pas"/>
-        <Caret Line="548" Column="26" TopLine="546"/>
+        <Caret Line="555" Column="25" TopLine="553"/>
       </Position26>
       <Position27>
-        <Filename Value="radiolink.pas"/>
-        <Caret Line="554" Column="26" TopLine="552"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="58" TopLine="47"/>
       </Position27>
       <Position28>
-        <Filename Value="radiolink.pas"/>
-        <Caret Line="560" Column="26" TopLine="558"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="57" TopLine="46"/>
       </Position28>
       <Position29>
-        <Filename Value="radiolink.pas"/>
-        <Caret Line="565" Column="25" TopLine="563"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="56" TopLine="45"/>
       </Position29>
       <Position30>
-        <Filename Value="radiolink.pas"/>
-        <Caret Line="555" Column="25" TopLine="553"/>
+        <Filename Value="main.pas"/>
+        <Caret Line="55" TopLine="44"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>
