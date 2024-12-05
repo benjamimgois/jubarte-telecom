@@ -1,11 +1,11 @@
 object coolingform: Tcoolingform
   Left = 328
-  Height = 615
+  Height = 589
   Top = 80
   Width = 1069
   ActiveControl = SpinEdit6
   Caption = 'Cooling System'
-  ClientHeight = 615
+  ClientHeight = 589
   ClientWidth = 1069
   Font.CharSet = ANSI_CHARSET
   Font.Height = 10
@@ -593,7 +593,7 @@ object coolingform: Tcoolingform
   }
   Menu = MainMenu1
   Position = poScreenCenter
-  LCLVersion = '0.9.30.4'
+  LCLVersion = '3.6.0.0'
   object Image10: TImage
     Left = -56
     Height = 607
@@ -20026,9 +20026,9 @@ object coolingform: Tcoolingform
   end
   object Label13: TLabel
     Left = 944
-    Height = 16
+    Height = 15
     Top = 246
-    Width = 40
+    Width = 39
     Caption = 'Kcal/H'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -20041,7 +20041,7 @@ object coolingform: Tcoolingform
   end
   object Label16: TLabel
     Left = 840
-    Height = 16
+    Height = 15
     Top = 216
     Width = 80
     Caption = 'Thermic Load'
@@ -20056,9 +20056,9 @@ object coolingform: Tcoolingform
   end
   object Label14: TLabel
     Left = 286
-    Height = 16
+    Height = 17
     Top = 332
-    Width = 143
+    Width = 126
     Caption = 'Temperature outside'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clMaroon
@@ -20071,9 +20071,9 @@ object coolingform: Tcoolingform
   end
   object Label15: TLabel
     Left = 438
-    Height = 16
+    Height = 17
     Top = 426
-    Width = 133
+    Width = 117
     Caption = 'Temperature inside'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clNavy
@@ -20086,12 +20086,13 @@ object coolingform: Tcoolingform
   end
   object GroupBox1: TGroupBox
     Left = 8
-    Height = 320
+    Height = 344
     Top = 8
     Width = 808
     Caption = ' Room '
-    ClientHeight = 303
+    ClientHeight = 318
     ClientWidth = 804
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -20099,13 +20100,15 @@ object coolingform: Tcoolingform
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
     ParentFont = False
     TabOrder = 0
     object Label1: TLabel
       Left = 6
-      Height = 16
+      Height = 15
       Top = 1
-      Width = 28
+      Width = 29
       Caption = 'Area'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -20118,7 +20121,7 @@ object coolingform: Tcoolingform
     end
     object Label2: TLabel
       Left = 78
-      Height = 16
+      Height = 15
       Top = 23
       Width = 54
       Caption = 'Meters^2'
@@ -20133,7 +20136,7 @@ object coolingform: Tcoolingform
     end
     object Label3: TLabel
       Left = 150
-      Height = 16
+      Height = 15
       Top = 1
       Width = 38
       Caption = 'Height'
@@ -20148,9 +20151,9 @@ object coolingform: Tcoolingform
     end
     object Label4: TLabel
       Left = 222
-      Height = 16
+      Height = 15
       Top = 23
-      Width = 41
+      Width = 40
       Caption = 'Meters'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -21137,9 +21140,9 @@ object coolingform: Tcoolingform
     end
     object Label19: TLabel
       Left = 11
-      Height = 16
+      Height = 15
       Top = 175
-      Width = 55
+      Width = 56
       Caption = 'Wall area'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -21152,7 +21155,7 @@ object coolingform: Tcoolingform
     end
     object Label20: TLabel
       Left = 79
-      Height = 16
+      Height = 15
       Top = 196
       Width = 54
       Caption = 'Meters^2'
@@ -21180,7 +21183,7 @@ object coolingform: Tcoolingform
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 2
-      ClientHeight = 31
+      ClientHeight = 22
       ClientWidth = 261
       Columns = 2
       Font.CharSet = ANSI_CHARSET
@@ -21194,17 +21197,19 @@ object coolingform: Tcoolingform
         'Between floors'
         'Roof'
       )
+      ParentBackground = False
       ParentFont = False
       TabOrder = 0
     end
     object GroupBox2: TGroupBox
       Left = 294
-      Height = 294
+      Height = 310
       Top = 1
       Width = 344
       Caption = ' Windows '
-      ClientHeight = 277
+      ClientHeight = 284
       ClientWidth = 340
+      ParentBackground = False
       TabOrder = 1
       object Image4: TImage
         Left = 140
@@ -23090,9 +23095,9 @@ object coolingform: Tcoolingform
       end
       object Label17: TLabel
         Left = 78
-        Height = 16
+        Height = 15
         Top = 5
-        Width = 28
+        Width = 29
         Caption = 'Area'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -23105,7 +23110,7 @@ object coolingform: Tcoolingform
       end
       object Label18: TLabel
         Left = 142
-        Height = 16
+        Height = 15
         Top = 25
         Width = 54
         Caption = 'Meters^2'
@@ -23120,9 +23125,9 @@ object coolingform: Tcoolingform
       end
       object Label21: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 5
-        Width = 50
+        Width = 49
         Caption = 'Quantity'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -23148,7 +23153,7 @@ object coolingform: Tcoolingform
         ChildSizing.ShrinkVertical = crsScaleChilds
         ChildSizing.Layout = cclLeftToRightThenTopToBottom
         ChildSizing.ControlsPerLine = 3
-        ClientHeight = 31
+        ClientHeight = 22
         ClientWidth = 324
         Columns = 3
         Font.CharSet = ANSI_CHARSET
@@ -23164,14 +23169,16 @@ object coolingform: Tcoolingform
           'No curtains'
         )
         OnClick = RadioGroup2ChangeBounds
+        ParentBackground = False
         ParentFont = False
         TabOrder = 0
       end
       object SpinEdit3: TSpinEdit
         Left = 6
-        Height = 25
+        Height = 29
         Top = 24
         Width = 56
+        Color = clGray
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
         Font.Height = -13
@@ -23197,7 +23204,7 @@ object coolingform: Tcoolingform
         ChildSizing.ShrinkVertical = crsScaleChilds
         ChildSizing.Layout = cclLeftToRightThenTopToBottom
         ChildSizing.ControlsPerLine = 3
-        ClientHeight = 31
+        ClientHeight = 22
         ClientWidth = 324
         Columns = 3
         Font.CharSet = ANSI_CHARSET
@@ -23212,14 +23219,16 @@ object coolingform: Tcoolingform
           'Afternoon'
           'Shadow'
         )
+        ParentBackground = False
         ParentFont = False
         TabOrder = 2
       end
       object FloatSpinEdit4: TFloatSpinEdit
         Left = 78
-        Height = 25
+        Height = 29
         Top = 24
         Width = 60
+        Color = clGray
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
         Font.Height = -13
@@ -23228,7 +23237,6 @@ object coolingform: Tcoolingform
         Font.Quality = fqDraft
         Increment = 0.2
         MaxValue = 100
-        MinValue = 0
         ParentFont = False
         TabOrder = 3
         Value = 1.4
@@ -23236,18 +23244,19 @@ object coolingform: Tcoolingform
     end
     object GroupBox3: TGroupBox
       Left = 646
-      Height = 184
+      Height = 199
       Top = 1
       Width = 152
       Caption = ' Doors '
-      ClientHeight = 167
+      ClientHeight = 173
       ClientWidth = 148
+      ParentBackground = False
       TabOrder = 2
       object Label5: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 62
-        Width = 28
+        Width = 29
         Caption = 'Area'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -23260,7 +23269,7 @@ object coolingform: Tcoolingform
       end
       object Label6: TLabel
         Left = 78
-        Height = 16
+        Height = 15
         Top = 84
         Width = 54
         Caption = 'Meters^2'
@@ -23275,9 +23284,9 @@ object coolingform: Tcoolingform
       end
       object Label22: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 5
-        Width = 50
+        Width = 49
         Caption = 'Quantity'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -23290,9 +23299,10 @@ object coolingform: Tcoolingform
       end
       object SpinEdit4: TSpinEdit
         Left = 6
-        Height = 25
+        Height = 29
         Top = 24
         Width = 56
+        Color = clGray
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
         Font.Height = -13
@@ -23305,16 +23315,17 @@ object coolingform: Tcoolingform
       end
       object ComboBox1: TComboBox
         Left = 6
-        Height = 27
+        Height = 32
         Top = 125
         Width = 129
+        Color = clGray
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
         Font.Height = -13
         Font.Name = 'Arial'
         Font.Pitch = fpVariable
         Font.Quality = fqDraft
-        ItemHeight = 0
+        ItemHeight = 21
         Items.Strings = (
           'Wood'
           'Stainless steel'
@@ -23325,9 +23336,10 @@ object coolingform: Tcoolingform
       end
       object FloatSpinEdit3: TFloatSpinEdit
         Left = 6
-        Height = 25
+        Height = 29
         Top = 78
         Width = 60
+        Color = clGray
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
         Font.Height = -13
@@ -23336,7 +23348,6 @@ object coolingform: Tcoolingform
         Font.Quality = fqDraft
         Increment = 0.2
         MaxValue = 100
-        MinValue = 0
         ParentFont = False
         TabOrder = 2
         Value = 1.5
@@ -23344,16 +23355,17 @@ object coolingform: Tcoolingform
     end
     object ComboBox2: TComboBox
       Left = 144
-      Height = 27
+      Height = 32
       Top = 194
       Width = 144
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
       Font.Name = 'Arial'
       Font.Pitch = fpVariable
       Font.Quality = fqDraft
-      ItemHeight = 0
+      ItemHeight = 21
       Items.Strings = (
         '1/2 Hollow brick'
         '1 Massive brick'
@@ -23365,18 +23377,19 @@ object coolingform: Tcoolingform
     end
     object GroupBox6: TGroupBox
       Left = 11
-      Height = 72
-      Top = 223
+      Height = 80
+      Top = 232
       Width = 260
       Caption = 'Temperature'
-      ClientHeight = 55
+      ClientHeight = 54
       ClientWidth = 256
+      ParentBackground = False
       TabOrder = 4
       object Label7: TLabel
         Left = 22
-        Height = 16
+        Height = 15
         Top = 4
-        Width = 36
+        Width = 35
         Caption = 'Inside'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -23389,9 +23402,9 @@ object coolingform: Tcoolingform
       end
       object Label9: TLabel
         Left = 150
-        Height = 16
+        Height = 15
         Top = 4
-        Width = 46
+        Width = 45
         Caption = 'Outside'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -23404,7 +23417,7 @@ object coolingform: Tcoolingform
       end
       object Label8: TLabel
         Left = 84
-        Height = 16
+        Height = 15
         Top = 28
         Width = 10
         Caption = 'C'
@@ -23419,7 +23432,7 @@ object coolingform: Tcoolingform
       end
       object Label10: TLabel
         Left = 75
-        Height = 16
+        Height = 15
         Top = 23
         Width = 8
         Caption = 'o'
@@ -23434,7 +23447,7 @@ object coolingform: Tcoolingform
       end
       object Label11: TLabel
         Left = 215
-        Height = 16
+        Height = 15
         Top = 28
         Width = 10
         Caption = 'C'
@@ -23449,7 +23462,7 @@ object coolingform: Tcoolingform
       end
       object Label12: TLabel
         Left = 206
-        Height = 16
+        Height = 15
         Top = 22
         Width = 8
         Caption = 'o'
@@ -23464,7 +23477,7 @@ object coolingform: Tcoolingform
       end
       object SpinEdit8: TSpinEdit
         Left = 22
-        Height = 25
+        Height = 29
         Hint = 'Temperature inside the room'
         Top = 22
         Width = 50
@@ -23482,7 +23495,7 @@ object coolingform: Tcoolingform
       end
       object SpinEdit9: TSpinEdit
         Left = 150
-        Height = 25
+        Height = 29
         Hint = 'Temperature outside the room'
         Top = 20
         Width = 50
@@ -23501,9 +23514,10 @@ object coolingform: Tcoolingform
     end
     object FloatSpinEdit1: TFloatSpinEdit
       Left = 6
-      Height = 25
+      Height = 29
       Top = 20
       Width = 66
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -23512,16 +23526,16 @@ object coolingform: Tcoolingform
       Font.Quality = fqDraft
       Increment = 0.5
       MaxValue = 100
-      MinValue = 0
       ParentFont = False
       TabOrder = 5
       Value = 2
     end
     object FloatSpinEdit2: TFloatSpinEdit
       Left = 150
-      Height = 25
+      Height = 29
       Top = 20
       Width = 66
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -23530,17 +23544,17 @@ object coolingform: Tcoolingform
       Font.Quality = fqDraft
       Increment = 0.2
       MaxValue = 100
-      MinValue = 0
       ParentFont = False
       TabOrder = 6
       Value = 2.8
     end
     object FloatSpinEdit5: TFloatSpinEdit
       Left = 11
-      Height = 25
+      Height = 29
       Hint = 'Area of the wall that receives direct sun radiation'
       Top = 195
       Width = 66
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -23549,7 +23563,6 @@ object coolingform: Tcoolingform
       Font.Quality = fqDraft
       Increment = 0.5
       MaxValue = 1000
-      MinValue = 0
       ParentFont = False
       ParentShowHint = False
       ShowHint = True
@@ -23563,8 +23576,9 @@ object coolingform: Tcoolingform
     Top = 8
     Width = 225
     Caption = ' People '
-    ClientHeight = 64
+    ClientHeight = 55
     ClientWidth = 221
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -23572,13 +23586,15 @@ object coolingform: Tcoolingform
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
     ParentFont = False
     TabOrder = 1
     object Label23: TLabel
       Left = 6
-      Height = 16
+      Height = 15
       Top = 5
-      Width = 50
+      Width = 49
       Caption = 'Quantity'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -23591,10 +23607,11 @@ object coolingform: Tcoolingform
     end
     object SpinEdit6: TSpinEdit
       Left = 5
-      Height = 25
+      Height = 29
       Hint = 'Human beans iradiate heat too. '#10'Specify how many people are working inside the room.'
       Top = 23
       Width = 56
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -23608,17 +23625,18 @@ object coolingform: Tcoolingform
     end
     object ComboBox3: TComboBox
       Left = 78
-      Height = 27
+      Height = 32
       Hint = 'Man and woman irradiate diferent amount of heat.'
       Top = 23
       Width = 136
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
       Font.Name = 'Arial'
       Font.Pitch = fpVariable
       Font.Quality = fqDraft
-      ItemHeight = 0
+      ItemHeight = 21
       Items.Strings = (
         'Male'
         'Female'
@@ -23637,21 +23655,24 @@ object coolingform: Tcoolingform
     Top = 103
     Width = 225
     Caption = ' Equipment '
-    ClientHeight = 71
+    ClientHeight = 62
     ClientWidth = 221
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
+    ParentBackground = False
+    ParentColor = False
     ParentFont = False
     TabOrder = 2
     object Label24: TLabel
       Left = 5
-      Height = 16
+      Height = 15
       Top = 5
-      Width = 130
+      Width = 129
       Caption = 'Total power dissipated'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -23664,9 +23685,9 @@ object coolingform: Tcoolingform
     end
     object Label25: TLabel
       Left = 126
-      Height = 16
+      Height = 15
       Top = 38
-      Width = 35
+      Width = 33
       Caption = 'Watts'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -23679,10 +23700,11 @@ object coolingform: Tcoolingform
     end
     object SpinEdit7: TSpinEdit
       Left = 5
-      Height = 25
+      Height = 29
       Hint = 'Specify the total amount of power '#10'dissipated by all the equipaments.'
       Top = 29
       Width = 113
+      Color = clGray
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
@@ -23701,6 +23723,7 @@ object coolingform: Tcoolingform
     Top = 288
     Width = 94
     Caption = 'Calculate'
+    Color = clSkyBlue
     Default = True
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -23710,7 +23733,6 @@ object coolingform: Tcoolingform
     Font.Quality = fqDraft
     Kind = bkOK
     ModalResult = 1
-    NumGlyphs = 0
     OnClick = BitBtn1Click
     ParentFont = False
     TabOrder = 3
@@ -23722,6 +23744,7 @@ object coolingform: Tcoolingform
     Width = 75
     Cancel = True
     Caption = 'Clear'
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -23730,14 +23753,13 @@ object coolingform: Tcoolingform
     Font.Quality = fqDraft
     Kind = bkCancel
     ModalResult = 2
-    NumGlyphs = 0
     OnClick = BitBtn2Click
     ParentFont = False
     TabOrder = 4
   end
   object Edit1: TEdit
     Left = 840
-    Height = 25
+    Height = 29
     Top = 235
     Width = 95
     Color = clSkyBlue
@@ -23797,8 +23819,8 @@ object coolingform: Tcoolingform
     TabOrder = 8
   end
   object MainMenu1: TMainMenu
-    left = 688
-    top = 256
+    Left = 688
+    Top = 256
     object MenuItem2: TMenuItem
       Caption = '&About'
       OnClick = MenuItem2Click
