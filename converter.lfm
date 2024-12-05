@@ -3,7 +3,6 @@ object converterform: Tconverterform
   Height = 300
   Top = 224
   Width = 400
-  ActiveControl = Edit1
   Caption = 'Converter'
   ClientHeight = 300
   ClientWidth = 400
@@ -586,7 +585,7 @@ object converterform: Tconverterform
     5BC4DB2106ABF5E2431C3F00842B00081CB4DE27BE237E2BEE17B3AC6D758AAC
     C2F51EF1638E158074F1FF01081287C3A5A722580000000049454E44AE426082
   }
-  LCLVersion = '0.9.28.2'
+  LCLVersion = '3.6.0.0'
   object Image1: TImage
     Left = -8
     Height = 306
@@ -2503,8 +2502,9 @@ object converterform: Tconverterform
     ChildSizing.ShrinkVertical = crsScaleChilds
     ChildSizing.Layout = cclLeftToRightThenTopToBottom
     ChildSizing.ControlsPerLine = 2
-    ClientHeight = 62
+    ClientHeight = 54
     ClientWidth = 340
+    Color = clGray
     Columns = 2
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -2518,25 +2518,10 @@ object converterform: Tconverterform
       'dBw > Watt'
       'dBw > dBm'
     )
+    ParentBackground = False
     ParentFont = False
+    ParentColor = False
     TabOrder = 0
-  end
-  object Edit1: TEdit
-    Left = 24
-    Height = 26
-    Hint = 'Type the initial value then click "convert"'
-    Top = 105
-    Width = 125
-    Font.CharSet = ANSI_CHARSET
-    Font.Color = clBlack
-    Font.Height = -13
-    Font.Name = 'Arial'
-    Font.Pitch = fpVariable
-    Font.Quality = fqDraft
-    ParentFont = False
-    ParentShowHint = False
-    ShowHint = True
-    TabOrder = 1
   end
   object RadioGroup2: TRadioGroup
     Left = 24
@@ -2553,8 +2538,9 @@ object converterform: Tconverterform
     ChildSizing.ShrinkVertical = crsScaleChilds
     ChildSizing.Layout = cclLeftToRightThenTopToBottom
     ChildSizing.ControlsPerLine = 1
-    ClientHeight = 62
+    ClientHeight = 54
     ClientWidth = 340
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -2565,15 +2551,56 @@ object converterform: Tconverterform
       'dBd > dBi'
       'dBi > dBd'
     )
+    ParentBackground = False
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 216
+    Height = 30
+    Top = 105
+    Width = 104
+    Caption = 'Convert'
+    Color = clGray
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Kind = bkRetry
+    ModalResult = 4
+    OnClick = BitBtn1Click
     ParentFont = False
     TabOrder = 2
   end
+  object BitBtn2: TBitBtn
+    Left = 216
+    Height = 30
+    Top = 247
+    Width = 104
+    Caption = 'Convert'
+    Color = clGray
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Arial'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Kind = bkRetry
+    ModalResult = 4
+    OnClick = BitBtn2Click
+    ParentFont = False
+    TabOrder = 3
+  end
   object Edit2: TEdit
-    Left = 24
-    Height = 26
+    Left = 72
+    Height = 29
     Hint = 'Type the initial value then click "convert"'
     Top = 248
     Width = 125
+    Color = clSkyBlue
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -2583,44 +2610,24 @@ object converterform: Tconverterform
     ParentFont = False
     ParentShowHint = False
     ShowHint = True
-    TabOrder = 3
-  end
-  object BitBtn1: TBitBtn
-    Left = 192
-    Height = 30
-    Top = 103
-    Width = 104
-    Caption = 'Convert'
-    Font.CharSet = ANSI_CHARSET
-    Font.Color = clBlack
-    Font.Height = -13
-    Font.Name = 'Arial'
-    Font.Pitch = fpVariable
-    Font.Quality = fqDraft
-    Kind = bkRetry
-    ModalResult = 4
-    NumGlyphs = 0
-    OnClick = BitBtn1Click
-    ParentFont = False
     TabOrder = 4
   end
-  object BitBtn2: TBitBtn
-    Left = 192
-    Height = 30
-    Top = 246
-    Width = 104
-    Caption = 'Convert'
+  object Edit1: TEdit
+    Left = 72
+    Height = 29
+    Hint = 'Type the initial value then click "convert"'
+    Top = 105
+    Width = 125
+    Color = clSkyBlue
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
     Font.Name = 'Arial'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
-    Kind = bkRetry
-    ModalResult = 4
-    NumGlyphs = 0
-    OnClick = BitBtn2Click
     ParentFont = False
+    ParentShowHint = False
+    ShowHint = True
     TabOrder = 5
   end
 end

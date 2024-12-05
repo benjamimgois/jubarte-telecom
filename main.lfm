@@ -22234,6 +22234,7 @@ object MainForm: TMainForm
       0000000000000000000000000000000000000000000000000000000000000000
       00000000000000000000
     }
+    OnClick = SpeedButton9Click
     ShowHint = True
     ParentFont = False
     ParentShowHint = False

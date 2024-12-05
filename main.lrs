@@ -28524,9 +28524,10 @@ LazarusResources.Add('TMainForm','FORMDATA',[
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
   +#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0#0
-  +#0#0#0#0#0#0#0#0#0#8'ShowHint'#9#10'ParentFont'#8#14'ParentShowHint'#8#0#0#8
-  +'TProcess'#8'Process1'#6'Active'#8#7'Options'#11#0#8'Priority'#7#8'ppNormal'
-  +#14'StartupOptions'#11#0#10'ShowWindow'#7#7'swoNone'#13'WindowColumns'#2#0#12
-  +'WindowHeight'#2#0#10'WindowLeft'#2#0#10'WindowRows'#2#0#9'WindowTop'#2#0#11
-  +'WindowWidth'#2#0#13'FillAttribute'#2#0#4'Left'#2'('#3'Top'#3#24#1#0#0#0
+  +#0#0#0#0#0#0#0#0#0#7'OnClick'#7#17'SpeedButton9Click'#8'ShowHint'#9#10'Paren'
+  +'tFont'#8#14'ParentShowHint'#8#0#0#8'TProcess'#8'Process1'#6'Active'#8#7'Opt'
+  +'ions'#11#0#8'Priority'#7#8'ppNormal'#14'StartupOptions'#11#0#10'ShowWindow'
+  +#7#7'swoNone'#13'WindowColumns'#2#0#12'WindowHeight'#2#0#10'WindowLeft'#2#0
+  +#10'WindowRows'#2#0#9'WindowTop'#2#0#11'WindowWidth'#2#0#13'FillAttribute'#2
+  +#0#4'Left'#2'('#3'Top'#3#24#1#0#0#0
 ]);
