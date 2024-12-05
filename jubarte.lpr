@@ -26,6 +26,7 @@ begin
   SplashScreenForm.show;
   SplashScreenForm.update;
   Application.CreateForm(TMainForm, MainForm);
+  Application.CreateForm(Tfresnelform, fresnelform);
   Application.CreateForm(Tcoolingform, coolingform);
   Application.CreateForm(Tiptelqosform, iptelqosform);
   Application.CreateForm(Topticallinkform, opticallinkform);

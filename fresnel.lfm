@@ -591,7 +591,7 @@ object fresnelform: Tfresnelform
     C2F51EF1638E158074F1FF01081287C3A5A722580000000049454E44AE426082
   }
   Position = poScreenCenter
-  LCLVersion = '0.9.28.2'
+  LCLVersion = '3.6.0.0'
   object Image2: TImage
     Left = 0
     Height = 554
@@ -2495,9 +2495,9 @@ object fresnelform: Tfresnelform
   end
   object Label1: TLabel
     Left = 16
-    Height = 17
+    Height = 15
     Top = 24
-    Width = 107
+    Width = 104
     Caption = 'Fresnel Ellipsoid'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -2511,9 +2511,9 @@ object fresnelform: Tfresnelform
   end
   object Label2: TLabel
     Left = 144
-    Height = 17
+    Height = 15
     Top = 165
-    Width = 18
+    Width = 17
     Caption = 'D1'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -2527,9 +2527,9 @@ object fresnelform: Tfresnelform
   end
   object Label3: TLabel
     Left = 440
-    Height = 17
+    Height = 15
     Top = 165
-    Width = 18
+    Width = 17
     Caption = 'D2'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -2543,9 +2543,9 @@ object fresnelform: Tfresnelform
   end
   object Label4: TLabel
     Left = 16
-    Height = 17
+    Height = 15
     Top = 96
-    Width = 66
+    Width = 67
     Caption = 'Frequency'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -5313,7 +5313,7 @@ object fresnelform: Tfresnelform
   end
   object Label5: TLabel
     Left = 216
-    Height = 17
+    Height = 15
     Top = 24
     Width = 103
     Caption = 'Antennas height'
@@ -5329,9 +5329,9 @@ object fresnelform: Tfresnelform
   end
   object Label6: TLabel
     Left = 216
-    Height = 17
+    Height = 15
     Top = 96
-    Width = 98
+    Width = 99
     Caption = 'Obstacle height'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -5345,9 +5345,9 @@ object fresnelform: Tfresnelform
   end
   object Label7: TLabel
     Left = 677
-    Height = 19
+    Height = 17
     Top = 39
-    Width = 101
+    Width = 103
     Caption = 'Fresnel radius'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -5361,9 +5361,9 @@ object fresnelform: Tfresnelform
   end
   object Label8: TLabel
     Left = 107
-    Height = 17
+    Height = 15
     Top = 128
-    Width = 29
+    Width = 27
     Caption = 'MHz'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -5376,9 +5376,9 @@ object fresnelform: Tfresnelform
   end
   object Label9: TLabel
     Left = 321
-    Height = 17
+    Height = 15
     Top = 56
-    Width = 41
+    Width = 40
     Caption = 'Meters'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -5391,9 +5391,9 @@ object fresnelform: Tfresnelform
   end
   object Label10: TLabel
     Left = 321
-    Height = 17
+    Height = 15
     Top = 128
-    Width = 41
+    Width = 40
     Caption = 'Meters'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -5406,9 +5406,9 @@ object fresnelform: Tfresnelform
   end
   object Label11: TLabel
     Left = 200
-    Height = 17
+    Height = 15
     Top = 189
-    Width = 41
+    Width = 40
     Caption = 'Meters'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -5421,9 +5421,9 @@ object fresnelform: Tfresnelform
   end
   object Label12: TLabel
     Left = 496
-    Height = 17
+    Height = 15
     Top = 189
-    Width = 41
+    Width = 40
     Caption = 'Meters'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -5436,9 +5436,9 @@ object fresnelform: Tfresnelform
   end
   object Label13: TLabel
     Left = 790
-    Height = 17
+    Height = 15
     Top = 71
-    Width = 41
+    Width = 40
     Caption = 'Meters'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -5451,10 +5451,11 @@ object fresnelform: Tfresnelform
   end
   object Edit1: TEdit
     Left = 16
-    Height = 26
+    Height = 29
     Hint = 'Desired ellipsoid number (1,2,3..)'
     Top = 48
     Width = 80
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -5468,10 +5469,11 @@ object fresnelform: Tfresnelform
   end
   object Edit2: TEdit
     Left = 112
-    Height = 26
+    Height = 29
     Hint = 'Distance from the first antenna to the reflexion point'
     Top = 181
     Width = 80
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -5485,10 +5487,11 @@ object fresnelform: Tfresnelform
   end
   object Edit3: TEdit
     Left = 411
-    Height = 26
+    Height = 29
     Hint = 'Distance from the second antenna to the reflexion point'
     Top = 181
     Width = 80
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -5502,9 +5505,10 @@ object fresnelform: Tfresnelform
   end
   object Edit4: TEdit
     Left = 16
-    Height = 26
+    Height = 29
     Top = 120
     Width = 80
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -5535,9 +5539,10 @@ object fresnelform: Tfresnelform
   end
   object Edit5: TEdit
     Left = 216
-    Height = 26
+    Height = 29
     Top = 48
     Width = 80
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -5551,10 +5556,11 @@ object fresnelform: Tfresnelform
   end
   object Edit6: TEdit
     Left = 216
-    Height = 26
+    Height = 29
     Hint = 'N'
     Top = 120
     Width = 80
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -5568,25 +5574,23 @@ object fresnelform: Tfresnelform
   end
   object UpDown1: TUpDown
     Left = 296
-    Height = 26
+    Height = 29
     Top = 48
     Width = 17
     Associate = Edit5
     Min = 0
     Position = 0
     TabOrder = 7
-    Wrap = False
   end
   object UpDown2: TUpDown
     Left = 296
-    Height = 26
+    Height = 29
     Top = 120
     Width = 17
     Associate = Edit6
     Min = 0
     Position = 0
     TabOrder = 8
-    Wrap = False
   end
   object BitBtn1: TBitBtn
     Left = 678
@@ -5594,6 +5598,7 @@ object fresnelform: Tfresnelform
     Top = 128
     Width = 100
     Caption = '&Calculate'
+    Color = clSkyBlue
     Default = True
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -5603,17 +5608,16 @@ object fresnelform: Tfresnelform
     Font.Quality = fqDraft
     Kind = bkOK
     ModalResult = 1
-    NumGlyphs = 0
     OnClick = BitBtn1Click
     ParentFont = False
     TabOrder = 9
   end
   object Edit7: TEdit
     Left = 672
-    Height = 26
+    Height = 29
     Top = 64
     Width = 112
-    Color = clBtnFace
+    Color = clSilver
     Enabled = False
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack

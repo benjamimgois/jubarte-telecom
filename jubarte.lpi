@@ -52,10 +52,9 @@
       <Unit0>
         <Filename Value="jubarte.lpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="11"/>
-        <TopLine Value="16"/>
-        <CursorPos X="3" Y="27"/>
+        <TopLine Value="22"/>
+        <CursorPos X="51" Y="29"/>
         <UsageCount Value="200"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -203,9 +202,13 @@
         <ComponentName Value="fresnelform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="13"/>
         <TopLine Value="42"/>
         <CursorPos X="6" Y="84"/>
         <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit15>
       <Unit16>
         <Filename Value="ups.pas"/>
@@ -300,9 +303,10 @@
         <ComponentName Value="wavesimform"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="237"/>
+        <EditorIndex Value="12"/>
         <CursorPos X="15" Y="249"/>
         <UsageCount Value="88"/>
+        <Loaded Value="True"/>
       </Unit26>
       <Unit27>
         <Filename Value="plotpanel_lazarus_0.95/plotpanel.pas"/>
@@ -347,7 +351,7 @@
       </Unit32>
       <Unit33>
         <Filename Value="/usr/lib/lazarus/lcl/include/customform.inc"/>
-        <EditorIndex Value="12"/>
+        <EditorIndex Value="14"/>
         <TopLine Value="2382"/>
         <CursorPos Y="2393"/>
         <UsageCount Value="10"/>
@@ -473,7 +477,7 @@
       </Position29>
       <Position30>
         <Filename Value="jubarte.lpr"/>
-        <Caret Line="27" TopLine="15"/>
+        <Caret Line="27" Column="3"/>
       </Position30>
     </JumpHistory>
   </ProjectOptions>
