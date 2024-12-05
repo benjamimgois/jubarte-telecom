@@ -8,7 +8,7 @@ object iptelform: Tiptelform
   ClientWidth = 1035
   Menu = MainMenu1
   Position = poScreenCenter
-  LCLVersion = '1.0.4.0'
+  LCLVersion = '3.6.0.0'
   object Image6: TImage
     Left = -8
     Height = 576
@@ -1913,7 +1913,7 @@ object iptelform: Tiptelform
   object Image1: TImage
     Left = 43
     Height = 144
-    Top = 421
+    Top = 432
     Width = 917
     Picture.Data = {
       1754506F727461626C654E6574776F726B477261706869639684000089504E47
@@ -2984,9 +2984,9 @@ object iptelform: Tiptelform
   end
   object Label12: TLabel
     Left = 774
-    Height = 19
-    Top = 199
-    Width = 157
+    Height = 17
+    Top = 212
+    Width = 159
     Caption = 'Total Voice Bandwidth'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -3000,9 +3000,9 @@ object iptelform: Tiptelform
   end
   object Label13: TLabel
     Left = 774
-    Height = 19
+    Height = 17
     Top = 290
-    Width = 185
+    Width = 187
     Caption = 'Total Signaling Bandwidth'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -3016,9 +3016,9 @@ object iptelform: Tiptelform
   end
   object Label32: TLabel
     Left = 918
-    Height = 16
-    Top = 242
-    Width = 31
+    Height = 15
+    Top = 255
+    Width = 30
     Caption = 'Kbps'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -3031,9 +3031,9 @@ object iptelform: Tiptelform
   end
   object Label33: TLabel
     Left = 918
-    Height = 16
+    Height = 15
     Top = 334
-    Width = 31
+    Width = 30
     Caption = 'Kbps'
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -3046,12 +3046,13 @@ object iptelform: Tiptelform
   end
   object GroupBox1: TGroupBox
     Left = 8
-    Height = 400
+    Height = 424
     Top = 8
     Width = 400
     Caption = ' Terminal '
-    ClientHeight = 380
+    ClientHeight = 396
     ClientWidth = 396
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -15
@@ -3059,15 +3060,17 @@ object iptelform: Tiptelform
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
     ParentFont = False
     TabOrder = 0
     object GroupBox2: TGroupBox
       Left = 6
-      Height = 173
+      Height = 191
       Top = 9
       Width = 382
       Caption = ' Networking '
-      ClientHeight = 153
+      ClientHeight = 163
       ClientWidth = 378
       Font.CharSet = ANSI_CHARSET
       Font.Color = clMaroon
@@ -3075,11 +3078,12 @@ object iptelform: Tiptelform
       Font.Name = 'Arial'
       Font.Pitch = fpVariable
       Font.Quality = fqDraft
+      ParentBackground = False
       ParentFont = False
       TabOrder = 0
       object Label7: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 9
         Width = 47
         Caption = 'CODEC'
@@ -3094,7 +3098,7 @@ object iptelform: Tiptelform
       end
       object Label8: TLabel
         Left = 119
-        Height = 16
+        Height = 15
         Top = 9
         Width = 38
         Caption = 'Period'
@@ -3109,7 +3113,7 @@ object iptelform: Tiptelform
       end
       object Label9: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 57
         Width = 61
         Caption = 'Bandwidth'
@@ -3124,9 +3128,9 @@ object iptelform: Tiptelform
       end
       object Label5: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 105
-        Width = 73
+        Width = 71
         Caption = 'Packet Rate'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3139,9 +3143,9 @@ object iptelform: Tiptelform
       end
       object Label6: TLabel
         Left = 59
-        Height = 16
+        Height = 15
         Top = 128
-        Width = 28
+        Width = 26
         Caption = 'PPS'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3154,9 +3158,9 @@ object iptelform: Tiptelform
       end
       object Label2: TLabel
         Left = 119
-        Height = 16
+        Height = 15
         Top = 105
-        Width = 85
+        Width = 83
         Caption = 'Voice Payload'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3169,9 +3173,9 @@ object iptelform: Tiptelform
       end
       object Label4: TLabel
         Left = 172
-        Height = 16
+        Height = 15
         Top = 128
-        Width = 35
+        Width = 33
         Caption = 'Bytes'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3184,9 +3188,9 @@ object iptelform: Tiptelform
       end
       object Label1: TLabel
         Left = 119
-        Height = 16
+        Height = 15
         Top = 57
-        Width = 31
+        Width = 30
         Caption = 'MOS'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3199,9 +3203,9 @@ object iptelform: Tiptelform
       end
       object Label14: TLabel
         Left = 172
-        Height = 16
+        Height = 15
         Top = 35
-        Width = 19
+        Width = 18
         Caption = 'ms'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3214,9 +3218,9 @@ object iptelform: Tiptelform
       end
       object Label21: TLabel
         Left = 59
-        Height = 16
+        Height = 15
         Top = 80
-        Width = 31
+        Width = 30
         Caption = 'Kbps'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3229,7 +3233,7 @@ object iptelform: Tiptelform
       end
       object Label23: TLabel
         Left = 257
-        Height = 16
+        Height = 15
         Top = 9
         Width = 54
         Caption = 'Signaling'
@@ -3244,7 +3248,7 @@ object iptelform: Tiptelform
       end
       object Label29: TLabel
         Left = 257
-        Height = 16
+        Height = 15
         Top = 57
         Width = 82
         Caption = 'Signalling BW'
@@ -3259,9 +3263,9 @@ object iptelform: Tiptelform
       end
       object Label30: TLabel
         Left = 309
-        Height = 16
+        Height = 15
         Top = 80
-        Width = 65
+        Width = 63
         Caption = 'Kbps / Call'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3281,17 +3285,18 @@ object iptelform: Tiptelform
       end
       object ComboBox1: TComboBox
         Left = 6
-        Height = 27
+        Height = 32
         Hint = 'Choose the Audio Codec used on the end device.'
         Top = 24
         Width = 88
+        Color = clSilver
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
         Font.Height = -13
         Font.Name = 'Arial'
         Font.Pitch = fpVariable
         Font.Quality = fqDraft
-        ItemHeight = 0
+        ItemHeight = 21
         Items.Strings = (
           'G.711'
           'G.723.1'
@@ -3301,15 +3306,15 @@ object iptelform: Tiptelform
           'GSM FR'
           'NB AMR'
         )
-        OnChange = ComboBox1Change
         ParentFont = False
         ParentShowHint = False
         ShowHint = True
         TabOrder = 0
+        OnChange = ComboBox1Change
       end
       object Edit5: TEdit
         Left = 6
-        Height = 25
+        Height = 29
         Hint = 'Amount of bandwidth consumed by the CODEC'
         Top = 73
         Width = 48
@@ -3328,7 +3333,7 @@ object iptelform: Tiptelform
       end
       object Edit4: TEdit
         Left = 6
-        Height = 25
+        Height = 29
         Hint = 'Number of packets per second'
         Top = 121
         Width = 48
@@ -3347,7 +3352,7 @@ object iptelform: Tiptelform
       end
       object Edit3: TEdit
         Left = 119
-        Height = 25
+        Height = 29
         Hint = 'Also called Packetization Size.'
         Top = 121
         Width = 48
@@ -3366,7 +3371,7 @@ object iptelform: Tiptelform
       end
       object Edit1: TEdit
         Left = 119
-        Height = 25
+        Height = 29
         Hint = 'Mean opinion score. A measure of voice quality'
         Top = 73
         Width = 48
@@ -3385,10 +3390,11 @@ object iptelform: Tiptelform
       end
       object SpinEdit1: TSpinEdit
         Left = 119
-        Height = 25
+        Height = 29
         Hint = 'The Packetization Period represents the amount of 10ms voice samples used by the codec. Default=20ms'
         Top = 24
         Width = 48
+        Color = clSilver
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
         Font.Height = -13
@@ -3405,17 +3411,18 @@ object iptelform: Tiptelform
       end
       object ComboBox5: TComboBox
         Left = 246
-        Height = 27
+        Height = 32
         Hint = 'Choose the Signalling protocol that will be used to stablish calls'
         Top = 24
         Width = 115
+        Color = clSilver
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
         Font.Height = -13
         Font.Name = 'Arial'
         Font.Pitch = fpVariable
         Font.Quality = fqDraft
-        ItemHeight = 0
+        ItemHeight = 21
         Items.Strings = (
           'H.323'
           'SIP'
@@ -3424,15 +3431,15 @@ object iptelform: Tiptelform
           'IAX2'
           'IAX2 Trunked'
         )
-        OnChange = ComboBox5Change
         ParentFont = False
         ParentShowHint = False
         ShowHint = True
         TabOrder = 6
+        OnChange = ComboBox5Change
       end
       object Edit10: TEdit
         Left = 257
-        Height = 25
+        Height = 29
         Hint = 'One call signalling Bandwidth.'#10'This values are based on non official information, use with caution.'
         Top = 73
         Width = 48
@@ -3453,10 +3460,10 @@ object iptelform: Tiptelform
     object GroupBox3: TGroupBox
       Left = 6
       Height = 184
-      Top = 188
+      Top = 208
       Width = 376
       Caption = ' Computing '
-      ClientHeight = 164
+      ClientHeight = 156
       ClientWidth = 372
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlue
@@ -3465,13 +3472,14 @@ object iptelform: Tiptelform
       Font.Pitch = fpVariable
       Font.Quality = fqDraft
       Font.Style = [fsBold]
+      ParentBackground = False
       ParentFont = False
       TabOrder = 1
       object Label3: TLabel
         Left = 78
-        Height = 16
+        Height = 15
         Top = 50
-        Width = 34
+        Width = 32
         Caption = 'MIPS'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3524,9 +3532,9 @@ object iptelform: Tiptelform
       end
       object Label10: TLabel
         Left = 119
-        Height = 16
+        Height = 15
         Top = 19
-        Width = 98
+        Width = 97
         Caption = 'CPU Benchmark'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3538,10 +3546,10 @@ object iptelform: Tiptelform
         ParentFont = False
       end
       object Label11: TLabel
-        Left = 108
-        Height = 19
-        Top = 98
-        Width = 82
+        Left = 85
+        Height = 17
+        Top = 80
+        Width = 81
         Caption = 'CPU Power'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3554,10 +3562,10 @@ object iptelform: Tiptelform
         ParentFont = False
       end
       object Label15: TLabel
-        Left = 227
-        Height = 16
-        Top = 139
-        Width = 113
+        Left = 204
+        Height = 15
+        Top = 121
+        Width = 112
         Caption = 'Simultaneous Calls'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3570,9 +3578,9 @@ object iptelform: Tiptelform
       end
       object Label31: TLabel
         Left = 6
-        Height = 16
+        Height = 15
         Top = 19
-        Width = 66
+        Width = 65
         Caption = 'Complexity'
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
@@ -3585,7 +3593,7 @@ object iptelform: Tiptelform
       end
       object Edit2: TEdit
         Left = 6
-        Height = 25
+        Height = 29
         Hint = 'Million instructions per second. A Measure of codec complexity.'
         Top = 39
         Width = 66
@@ -3604,17 +3612,18 @@ object iptelform: Tiptelform
       end
       object ComboBox2: TComboBox
         Left = 119
-        Height = 27
+        Height = 32
         Hint = 'Choose a CPU model to run the benchmark test.'
         Top = 39
         Width = 240
+        Color = clSilver
         Font.CharSet = ANSI_CHARSET
         Font.Color = clBlack
         Font.Height = -13
         Font.Name = 'Arial'
         Font.Pitch = fpVariable
         Font.Quality = fqDraft
-        ItemHeight = 0
+        ItemHeight = 21
         Items.Strings = (
           'Intel 286 - 12MHz'
           'Intel 386DX - 33MHz'
@@ -3638,10 +3647,10 @@ object iptelform: Tiptelform
         TabOrder = 1
       end
       object Panel3: TPanel
-        Left = 79
+        Left = 56
         Height = 40
         Hint = 'The amount of simultaneous calls the selected CPU can Handle'
-        Top = 118
+        Top = 100
         Width = 138
         BevelWidth = 3
         BorderStyle = bsSingle
@@ -3652,6 +3661,7 @@ object iptelform: Tiptelform
         Font.Pitch = fpVariable
         Font.Quality = fqDraft
         Font.Style = [fsBold]
+        ParentBackground = False
         ParentFont = False
         ParentShowHint = False
         ShowHint = True
@@ -3661,12 +3671,13 @@ object iptelform: Tiptelform
   end
   object GroupBox4: TGroupBox
     Left = 416
-    Height = 400
+    Height = 424
     Top = 8
     Width = 288
     Caption = ' WAN Specification '
-    ClientHeight = 380
+    ClientHeight = 396
     ClientWidth = 284
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -15
@@ -3674,13 +3685,15 @@ object iptelform: Tiptelform
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
     ParentFont = False
     TabOrder = 1
     object Label16: TLabel
       Left = 14
-      Height = 16
+      Height = 15
       Top = 17
-      Width = 114
+      Width = 113
       Caption = 'Layer 2 Technology'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -3693,7 +3706,7 @@ object iptelform: Tiptelform
     end
     object Label17: TLabel
       Left = 14
-      Height = 16
+      Height = 15
       Top = 78
       Width = 104
       Caption = 'Layer 3 Tunneling'
@@ -3708,9 +3721,9 @@ object iptelform: Tiptelform
     end
     object Label18: TLabel
       Left = 14
-      Height = 16
+      Height = 15
       Top = 178
-      Width = 68
+      Width = 67
       Caption = 'Frame Size'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -3723,9 +3736,9 @@ object iptelform: Tiptelform
     end
     object Label19: TLabel
       Left = 84
-      Height = 16
+      Height = 15
       Top = 205
-      Width = 35
+      Width = 33
       Caption = 'Bytes'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -3738,7 +3751,7 @@ object iptelform: Tiptelform
     end
     object Label20: TLabel
       Left = 14
-      Height = 16
+      Height = 15
       Top = 288
       Width = 115
       Caption = 'One Call Bandwidth'
@@ -3753,9 +3766,9 @@ object iptelform: Tiptelform
     end
     object Label22: TLabel
       Left = 84
-      Height = 16
+      Height = 15
       Top = 315
-      Width = 31
+      Width = 30
       Caption = 'Kbps'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6290,16 +6303,17 @@ object iptelform: Tiptelform
     end
     object ComboBox3: TComboBox
       Left = 14
-      Height = 27
+      Height = 32
       Top = 39
       Width = 248
+      Color = clSilver
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
       Font.Name = 'Arial'
       Font.Pitch = fpVariable
       Font.Quality = fqDraft
-      ItemHeight = 0
+      ItemHeight = 21
       Items.Strings = (
         'Ethernet'
         'PPP'
@@ -6314,16 +6328,17 @@ object iptelform: Tiptelform
     end
     object ComboBox4: TComboBox
       Left = 14
-      Height = 27
+      Height = 32
       Top = 96
       Width = 248
+      Color = clSilver
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
       Font.Height = -13
       Font.Name = 'Arial'
       Font.Pitch = fpVariable
       Font.Quality = fqDraft
-      ItemHeight = 0
+      ItemHeight = 21
       Items.Strings = (
         'None'
         'GRE'
@@ -6339,7 +6354,7 @@ object iptelform: Tiptelform
     end
     object Edit8: TEdit
       Left = 14
-      Height = 25
+      Height = 29
       Hint = 'Frame size including voice payload, L2 and L3 overheads.'
       Top = 194
       Width = 66
@@ -6358,7 +6373,7 @@ object iptelform: Tiptelform
     end
     object Edit9: TEdit
       Left = 15
-      Height = 25
+      Height = 29
       Hint = 'Bandwidth consumed by a single call'
       Top = 304
       Width = 66
@@ -6377,10 +6392,10 @@ object iptelform: Tiptelform
     end
     object CheckBox1: TCheckBox
       Left = 14
-      Height = 24
+      Height = 20
       Hint = 'Compressed RTP'
       Top = 133
-      Width = 59
+      Width = 57
       Caption = 'cRTP'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6395,10 +6410,10 @@ object iptelform: Tiptelform
     end
     object CheckBox2: TCheckBox
       Left = 132
-      Height = 24
+      Height = 20
       Hint = 'Voice Active Detection. Should be used only when more then 24 simultaneous calls are expected.'#10'Otherwise keep it disable.'
       Top = 133
-      Width = 55
+      Width = 50
       Caption = 'VAD'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6414,12 +6429,13 @@ object iptelform: Tiptelform
   end
   object GroupBox5: TGroupBox
     Left = 712
-    Height = 176
+    Height = 189
     Top = 8
     Width = 313
     Caption = ' Traffic Engineering '
-    ClientHeight = 156
+    ClientHeight = 161
     ClientWidth = 309
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -15
@@ -6427,13 +6443,15 @@ object iptelform: Tiptelform
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
+    ParentBackground = False
+    ParentColor = False
     ParentFont = False
     TabOrder = 2
     object Label24: TLabel
       Left = 179
-      Height = 16
-      Top = 80
-      Width = 113
+      Height = 15
+      Top = 87
+      Width = 112
       Caption = 'Simultaneous Calls'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6446,9 +6464,9 @@ object iptelform: Tiptelform
     end
     object Label25: TLabel
       Left = 31
-      Height = 16
-      Top = 55
-      Width = 101
+      Height = 15
+      Top = 62
+      Width = 98
       Caption = 'Telephony Traffic'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6461,8 +6479,8 @@ object iptelform: Tiptelform
     end
     object Label26: TLabel
       Left = 102
-      Height = 16
-      Top = 82
+      Height = 15
+      Top = 89
       Width = 43
       Caption = 'erlangs'
       Font.CharSet = ANSI_CHARSET
@@ -6476,9 +6494,9 @@ object iptelform: Tiptelform
     end
     object Label27: TLabel
       Left = 32
-      Height = 16
-      Top = 107
-      Width = 27
+      Height = 15
+      Top = 114
+      Width = 26
       Caption = 'GoS'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6491,9 +6509,9 @@ object iptelform: Tiptelform
     end
     object Label28: TLabel
       Left = 88
-      Height = 16
-      Top = 130
-      Width = 13
+      Height = 15
+      Top = 137
+      Width = 12
       Caption = '%'
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6506,7 +6524,7 @@ object iptelform: Tiptelform
     end
     object RadioGroup1: TRadioGroup
       Left = 14
-      Height = 37
+      Height = 52
       Hint = 'Simple = Just input the estimated number of simultaneous calls.'#10#10'Erlang-B = Use Traffic measures and Blocking probability to estimate the amount of simultaneous calls.'
       Top = 4
       Width = 288
@@ -6520,7 +6538,7 @@ object iptelform: Tiptelform
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 2
-      ClientHeight = 20
+      ClientHeight = 26
       ClientWidth = 284
       Columns = 2
       Font.CharSet = ANSI_CHARSET
@@ -6534,6 +6552,7 @@ object iptelform: Tiptelform
         'Erlang-B'
       )
       OnClick = RadioGroup1Click
+      ParentBackground = False
       ParentFont = False
       ParentShowHint = False
       ShowHint = True
@@ -6541,10 +6560,11 @@ object iptelform: Tiptelform
     end
     object SpinEdit2: TSpinEdit
       Left = 32
-      Height = 25
+      Height = 29
       Hint = 'Grade of Service or Blocking Probability represents the chances of a call be denied due to lack of system resources.'
-      Top = 121
+      Top = 128
       Width = 50
+      Color = clSilver
       Enabled = False
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6559,10 +6579,11 @@ object iptelform: Tiptelform
     end
     object SpinEdit3: TSpinEdit
       Left = 32
-      Height = 25
+      Height = 29
       Hint = 'Total telephony traffic estimated for the system.'
-      Top = 73
+      Top = 80
       Width = 68
+      Color = clSilver
       Enabled = False
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6578,10 +6599,11 @@ object iptelform: Tiptelform
     end
     object SpinEdit4: TSpinEdit
       Left = 207
-      Height = 25
+      Height = 29
       Hint = 'Simultaneous voice calls through the WAN link'
-      Top = 98
+      Top = 105
       Width = 66
+      Color = clSilver
       Enabled = False
       Font.CharSet = ANSI_CHARSET
       Font.Color = clBlack
@@ -6600,7 +6622,7 @@ object iptelform: Tiptelform
     Left = 774
     Height = 40
     Hint = 'Total bandwidth consumed by all calls in the BHT.'
-    Top = 220
+    Top = 233
     Width = 138
     BevelWidth = 3
     BorderStyle = bsSingle
@@ -6642,6 +6664,7 @@ object iptelform: Tiptelform
     Top = 376
     Width = 93
     Caption = 'Calculate'
+    Color = clMoneyGreen
     Default = True
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -6662,6 +6685,7 @@ object iptelform: Tiptelform
     Width = 93
     Cancel = True
     Caption = 'Clear'
+    Color = clGray
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -13
@@ -6681,6 +6705,7 @@ object iptelform: Tiptelform
     Top = 376
     Width = 67
     Caption = '&QoS'
+    Color = clHighlight
     Enabled = False
     Font.CharSet = ANSI_CHARSET
     Font.Color = clBlack
@@ -6697,82 +6722,44 @@ object iptelform: Tiptelform
     TabOrder = 7
   end
   object MainMenu1: TMainMenu
-    left = 408
-    top = 392
+    Left = 408
+    Top = 392
     object MenuItem1: TMenuItem
       Caption = '&About'
       OnClick = MenuItem1Click
     end
   end
   object ImageList1: TImageList
-    left = 672
-    top = 376
+    Left = 672
+    Top = 376
     Bitmap = {
-      4C69020000001000000010000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000004580ADFF4380AFFF4380AFFF4480AEFF00000000000000000000
-      0000000000000000000000000000000000000000000000000000000000004287
-      C1FF4E94CEFF70B4E6FF9DD9F2FF9EDAF2FF6EB3E5FF4C92CDFF4086C1FF0000
-      00000000000000000000000000000000000000000000000000000000000061AB
-      E6FF60BEF3FF67CAF5FF8AE6F7FF8FE9F7FF6FCFF6FF64C1F3FF5AA7E5FF0000
-      00000000000000000000000000000000000000000000518DBBFF83BDE2FF5ABF
-      F4FF4FADF9FF55B1FAFF6DD0F7FF6FD2F8FF57B2FAFF52AFF9FF60C4F5FF72B5
-      E0FF4A89B9FF0000000000000000000000000000000067A1CDFF72C7EFFF4CAB
-      F8FFAFD2F3FFAFD2F3FF56B2F9FF57B2F9FFAFD2F3FFAFD2F3FF4FADF8FF6CC6
-      EEFF5899C8FF0000000000000000000000004580ADFF73B6E3FF55C0EDFF5DAE
-      F9FFDCE6EFFF666764FF4089CAFF4089CAFF666764FFDCE6EFFF5EAFF9FF5AC5
-      EEFF5DABDDFF3574A5FF00000000000000004380AFFF7CC2EDFF4ABAECFF5BBB
-      F2FFBCDBF1FF5A6365FF53A0C5FF54A1C5FF5A6365FFBCDBF1FF5FBEF3FF50C0
-      EDFF64B7E9FF2D6FA4FF00000000000000003F7DADFF78BFECFF45B7EBFF49BC
-      EDFF5DC6EEFF64CBEFFF5DCBEFFF5FCDEFFF68CEEFFF62CAEEFF50C2EEFF4ABB
-      ECFF5EB3E7FF25679FFF00000000000000003A77A8FF67AFE0FF4AB7ECFF3EA8
-      E5FF44ABE5FF53C4EEFF56C6EEFF57C7EFFF55C6EEFF4CB2EEFF47B0ECFF4CBA
-      ECFF4D9FD8FF1E6299FF0000000000000000000000005392C5FF5BB8EBFF39A7
-      E6FF1E55C5FF2862CCFF3984E0FF418BECFF3B75EDFF376CEDFF41ADECFF51B5
-      EAFF3880B9FF000000000000000000000000000000003779AEFF63A9DAFF45B5
-      ECFF36A0E3FF1E4ECAFF1B2AD1FF2A38EAFF3462EEFF3EA7ECFF46B6ECFF4C9B
-      D5FF2166A2FF00000000000000000000000000000000000000002D6899FF5BA3
-      D7FF54B5EAFF47B6ECFF42B5ECFF42B5EBFF47B7ECFF4FB3E9FF4A99D3FF1D56
-      89FF000000000000000000000000000000000000000000000000000000002768
-      A0FF3B7EB5FF4C9DD6FF59AFE6FF57AEE5FF4699D4FF3178B1FF214F75FF0000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000174C7AFF0E518AFF0E508AFF174B78FF00000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000004580ADFF4380AFFF4380AFFF4480AEFF00000000000000000000
-      000000000000000000000000000000000000000000000000000000000000528E
-      BBFF6BA4CDFF86C4E6FFA0DCF3FFA1DCF2FF85C3E5FF67A2CCFF4F8CBBFF0000
-      0000000000000000000000000000000000000000000000000000000000007CB9
-      E3FF62B8F3FF68C8F5FF8DE8F6FF98EFF7FF85DEF6FF5AB5F3FF5DA8E2FF0000
-      00000000000000000000000000000000000000000000518DBBFF83BDE2FF43B0
-      F3FF4BB6F5FF61C7F5FF7EE0F5FF82E3F6FF6BCEF6FF5BC3F6FF4AB6F3FF60AB
-      E1FF4A89B9FF0000000000000000000000000000000067A1CDFF72C7EFFF44AF
-      F5FF75B9F7FF77BBF7FF5BC0F8FF5DC1F8FF78BBF7FF76BAF7FF4BB4F6FF6BC5
-      EEFF5899C8FF0000000000000000000000004580ADFF73B6E3FF56C0EDFF54A1
-      E8FFB3BBC0FFDBE6EFFF61B0F9FF56A3E9FFB3BBC0FFDBE6EFFF5FAFF8FF5BC5
-      EEFF5DABDDFF3574A5FF00000000000000004380AFFF7CC2EDFF4ABAECFF4593
-      C4FF5E6364FFC6DEF0FF68BFF6FF509AC6FF5E6364FFC6DEF0FF60BAF4FF50C0
-      EDFF64B7E9FF2D6FA4FF00000000000000003F7DADFF78BFECFF45B7EBFF49BC
-      EDFF65C8EEFF6DCDEFFF5ECBEFFF5FCDEFFF70CFEFFF6BCCEEFF50C2EEFF4ABB
-      ECFF5EB3E7FF25679FFF00000000000000003A77A8FF67AFE0FF4AB7ECFF44B9
-      ECFF4BBEEDFF53C4EEFF56C6EEFF57C7EFFF55C6EEFF50C2EEFF4ABEECFF4CBA
-      ECFF4D9FD8FF1E6299FF0000000000000000000000005392C5FF5BB8EBFF3EB4
-      EBFF44B8ECFF3DA9E0FF1C75BEFF1C75BEFF3FAAE0FF48BCECFF43B8EBFF51B5
-      EAFF3880B9FF000000000000000000000000000000003779AEFF63A9DAFF45B5
-      ECFF3EB4EBFF43B8EBFF46B9ECFF46BAECFF45B9ECFF42B7EBFF46B6ECFF4C9B
-      D5FF2166A2FF00000000000000000000000000000000000000002D6899FF5BA3
-      D7FF54B5EAFF47B6ECFF42B5ECFF42B5EBFF47B7ECFF4FB3E9FF4A99D3FF1D56
-      89FF000000000000000000000000000000000000000000000000000000002768
-      A0FF3B7EB5FF4C9DD6FF59AFE6FF57AEE5FF4699D4FF3178B1FF214F75FF0000
-      0000000000000000000000000000000000000000000000000000000000000000
-      000000000000174C7AFF0E518AFF0E508AFF174B78FF00000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000000000000000000000000000000000000000
-      0000000000000000000000000000
+      4C7A0200000010000000100000003D0300000000000078DAED93DB4FD36718C7
+      F90BBCF5C28DC40BB3C5C40B13E76166A850404BB520505C9B7228D53601A751
+      5134CE104F0B6C6E89F3C26E7182BA806B4A1128A72207A54810F07C98A2A992
+      56915FDB8DDA93379FBD6D962693699B25BB58B23779F21EBFCFFBBCDFBC9F94
+      947FA765D658C8A8B1C64256D34CB2BAF4AF06D9746A829DED6ECEFC3ACB4F8F
+      66F9A2CD85E2E4386B8F0F26CC53667653DAE7C7301AA0CE1DE2BBE9103B6E04
+      D10FFA5137BADEA9CF3B61E7C8E5E7A8FB5FA3B44428BCF486ED3785F67698A2
+      D6376CB646281D0AB0CBE6445EDB3D278FA1619C5DD77C28CC61ACB7FDB150B5
+      468436129F2B2D612A87BD6C318DF0B657BB3BA6281CF0A06D8E30E9F6B1CDA0
+      676DED682CA2E3E85AB1A841EDF0A2353FE1933D3FC773443D3E78C583BC4742
+      639FA5F7F1EFA8CBB7925FEFA0A0C1111B47D74A842FB9E20E7DE7344B765C88
+      EBD77C69A1BA5F22B373860DBDA20651A3FEBA0FAD8892711FC6091FBA512FB9
+      57BCC8ED12C56D2F5864381BD77FBAAF098355F8D22991D6E4426676913FE445
+      25F214094F0A45AF68F592DD22A110356E3CFB90549DE92F1EE49F74A0E99A61
+      55A39BD442071FEBC65875D4C9BAAF255657795851E9619D4522CFF68A953573
+      FD5FB1BF99F28B8FC8B4492CAF9F2275D3280B16DF62F1CA572CD379496B94C8
+      EA10F7FF788F85DBCEFDED3F586234A139FF80027147B6389B6E8BC60CD9E25D
+      CAB669E4A63B7CA8AA7DEF1FFCC858CFEA43361467EEF3B9D54D51B38B2CD35D
+      96565F62A1B22A690EE62B0E302FAF8E79B975CCCFA926E53FD6FE29FF9BBFB5
+      5371619CE3436EEA27FD344CCE72ECAA0BC3B93194DFD813E639D83D85AECB8F
+      7124C08997414EFB421C7B1A446DF3A36D7A9E90FF8C163F391D01CAAE0538E4
+      0C70782A48C54410CDD520F20E3FA5E667EFE55F660D50D51D629F3D8466208C
+      76304CB518EFED0991D32E7239DECDBF4AB059D0F09236FB008F05EF652D1154
+      E7A7E3F3126B184D02FE33BF1FA2B85CCFF0D3DF30F607C9FD61383E2FED799D
+      14FF5B47BC6C17DC17FFC9FFCE1B3E2AC692E35FD62D91D3E799C37F4CDB9798
+      FFB4F619645D129F5D74F241555F2CD6FCE2647DAF4486D84F86FF688EE8D92C
+      514B56D413D1A78BB7FDCFFFDCF6073F4F382C
     }
   end
   object PopupNotifier1: TPopupNotifier
@@ -6784,8 +6771,9 @@ object iptelform: Tiptelform
     }
     Text = 'Text'
     Title = 'Information'
+    TitleFont.Style = [fsBold]
     Visible = False
-    left = 289
-    top = 160
+    Left = 289
+    Top = 160
   end
 end
