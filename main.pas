@@ -33,7 +33,7 @@ type
     procedure SpeedButton4Click(Sender: TObject);
     procedure SpeedButton5Click(Sender: TObject);
     procedure SpeedButton6Click(Sender: TObject);
-    procedure SpeedButton8Click(Sender: TObject);
+
 
     procedure SpeedButton9Click(Sender: TObject);
   private
@@ -86,10 +86,7 @@ begin
   iptelform.show;
 end;
 
-procedure TMainForm.SpeedButton8Click(Sender: TObject);
-begin
 
-end;
 
 
 

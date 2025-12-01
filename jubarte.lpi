@@ -500,6 +500,7 @@
         <Win32>
           <GraphicApplication Value="True"/>
         </Win32>
+        <WidgetType Value="qt6"/>
       </Options>
     </Linking>
   </CompilerOptions>

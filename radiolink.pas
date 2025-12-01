@@ -7,7 +7,7 @@ interface
 uses
   Classes, SysUtils, FileUtil, LResources, Forms, Controls, Graphics, Dialogs,
   ExtCtrls, StdCtrls, ComCtrls, Buttons, math, Menus, TAGraph, TASeries,
-  TASources, About, converter, fresnel, powermeter;
+  TASources, About, converter, fresnel, powermeter, RadioLinkLogic;
 
   //plotpanel
 
@@ -175,13 +175,14 @@ type
     { private declarations }
   public
     { public declarations }
+    procedure SetDiagramSelection(ActiveImage: TImage);
+    procedure ToggleHintImage(HintImage: TImage; ShouldShow: Boolean);
    // function AddXY(Const AXValue, AYValue: Double;Const AXLabel: String; AColor: TColor) : Longint;
   end; 
 
+
 var
   RadioLinkForm: TRadioLinkForm;
-  i:Integer;
-  y:Real;
 
 
 
@@ -191,59 +192,88 @@ implementation
 
 
 //Calculate RADIO LINK
+procedure TRadioLinkForm.SetDiagramSelection(ActiveImage: TImage);
+begin
+  Image2.Visible := (ActiveImage = Image2);
+  Image5.Visible := (ActiveImage = Image5);
+  Image6.Visible := (ActiveImage = Image6);
+  Image7.Visible := (ActiveImage = Image7);
+  Image8.Visible := (ActiveImage = Image8);
+  Image9.Visible := (ActiveImage = Image9);
+  Image10.Visible := (ActiveImage = Image10);
+end;
+
+procedure TRadioLinkForm.ToggleHintImage(HintImage: TImage; ShouldShow: Boolean);
+begin
+  if Assigned(HintImage) then
+    HintImage.Visible := ShouldShow;
+end;
+
 procedure TRadioLinkForm.BitBtn1Click(Sender: TObject);
+var
+  Inputs: TRadioLinkInputs;
+  Results: TRadioLinkResults;
 begin
+  try
+    // Enable buttons
+    edit16.Enabled := True;
+    edit17.Enabled := True;
+    edit18.Enabled := True;
+    edit19.Enabled := True;
+    edit20.Enabled := True;
 
-try
+    // Populate Inputs
+    Inputs.Frequency := StrToFloat(Edit1.Text);
+    Inputs.Distance := StrToFloat(Edit15.Text);
+    Inputs.TxPower := StrToFloat(Edit2.Text);
+    Inputs.TxCableLossPerUnit := StrToFloat(Edit3.Text);
+    Inputs.TxCableLength := StrToFloat(Edit4.Text);
+    Inputs.TxConnectorLoss := StrToFloat(Edit5.Text);
+    Inputs.TxAntennaGain := StrToFloat(Edit7.Text);
+    Inputs.RxAntennaGain := StrToFloat(Edit8.Text);
+    Inputs.RxSensitivity := StrToFloat(Edit9.Text);
+    Inputs.RxCableLossPerUnit := StrToFloat(Edit10.Text);
+    Inputs.RxCableLength := StrToFloat(Edit11.Text);
+    Inputs.RxConnectorLoss := StrToFloat(Edit12.Text);
+    Inputs.RxMiscGain := StrToFloat(Edit14.Text);
 
-//enable buttons
-edit16.Enabled:=True;
-edit17.Enabled:=True;
-edit18.Enabled:=True;
-edit19.Enabled:=True;
-edit20.Enabled:=True;
+    // Calculate
+    Results := TRadioLinkCalculator.Calculate(Inputs);
 
-//Free space loss
-Edit16.Text:=floattostr(32.45 + 20*Log10(strtofloat(Edit1.text)) + 20*Log10(strtofloat(Edit15.text)) );
+    // Update UI
+    Edit16.Text := FloatToStr(Results.FreeSpaceLoss);
+    Edit19.Text := FloatToStr(Results.UplinkLoss);
+    Edit17.Text := FloatToStr(Results.EIRP);
+    Edit20.Text := FloatToStr(Results.DownlinkLoss);
+    Edit18.Text := FloatToStr(Results.ReceivedPower);
 
-//Uplink loss
-Edit19.text:=floattostr( (strtofloat(edit3.text) * strtofloat(edit4.text)) + strtofloat(edit5.text));
+    // Viability
+    if Results.IsViable then
+    begin
+      Panel1.Font.Color := clGreen;
+      Panel1.Caption := 'The link is viable';
+      Image3.Visible := True;
+    end
+    else
+    begin
+      Panel1.Font.Color := clRed;
+      Panel1.Caption := 'The link is not viable';
+      Image3.Visible := False;
+    end;
 
-//EIRP
-edit17.text:=floattostr(strtofloat(edit2.text) - strtofloat(edit19.text) + strtofloat(edit7.text));
+  except
+    on E: EMathError do
+      ShowMessage('Calculation Error: ' + E.Message);
+    on E: EConvertError do
+      ShowMessage('Input Error: Please check that all fields contain valid numbers.');
+    else
+      ShowMessage('An unexpected error occurred. Please check your inputs.');
+  end;
 
-//Downlink loss
-Edit20.text:=floattostr( (strtofloat(edit10.text) * strtofloat(edit11.text)) + (strtofloat(edit12.text) ));
-
-
-//Received power
-edit18.text:= floattostr( (strtofloat(edit17.text) - strtofloat(edit16.text) + strtofloat(edit14.text) - strtofloat(edit20.text) + strtofloat(edit8.text)));
-
-//Viability analisys
-
-if strtofloat(edit18.text) >= strtofloat(edit9.text) then
-begin
-Panel1.Font.Color:=clGreen ;
-Panel1.caption:= 'The link is viable';
-
-image3.Visible:=true;
-end
-else
-begin
-Panel1.Font.Color:=clRed   ;
-Panel1.caption:= 'The link is not viable';
-
-image3.Visible:=false;
-end;
-
-except  // Exception treatment
-showmessage ('ERROR - Division by zero or null value, check the numbers and unfilled fileds');
-end;
-
-//Plot Power Meter CHART and Clear
-powermeter.linktype:=0; //clear var
-powermeter.linktype:=1; //set to radio analyser
-powermeterform.show;
+  // Plot Power Meter
+  powermeter.linktype := 0;
+  powermeter.linktype := 1;
+  powermeterform.show;
 end;
 
 
@@ -273,32 +303,32 @@ end;
 
 procedure TRadioLinkForm.Edit17MouseEnter(Sender: TObject);
 begin
-  image11.Visible:=true;
+  ToggleHintImage(Image11, True);
 end;
 
 procedure TRadioLinkForm.Edit17MouseLeave(Sender: TObject);
 begin
-  image11.Visible:=false;
+  ToggleHintImage(Image11, False);
 end;
 
 procedure TRadioLinkForm.Edit18MouseEnter(Sender: TObject);
 begin
-  image12.Visible:=true;
+  ToggleHintImage(Image12, True);
 end;
 
 procedure TRadioLinkForm.Edit18MouseLeave(Sender: TObject);
 begin
-  image12.Visible:=false;
+  ToggleHintImage(Image12, False);
 end;
 
 procedure TRadioLinkForm.Edit19MouseEnter(Sender: TObject);
 begin
-  image13.Visible:=true;
+  ToggleHintImage(Image13, True);
 end;
 
 procedure TRadioLinkForm.Edit19MouseLeave(Sender: TObject);
 begin
-  image13.Visible:=false;
+  ToggleHintImage(Image13, False);
 end;
 
 procedure TRadioLinkForm.Edit1MouseEnter(Sender: TObject);
@@ -308,12 +338,12 @@ end;
 
 procedure TRadioLinkForm.Edit20MouseEnter(Sender: TObject);
 begin
-  image14.Visible:=true;
+  ToggleHintImage(Image14, True);
 end;
 
 procedure TRadioLinkForm.Edit20MouseLeave(Sender: TObject);
 begin
-  image14.Visible:=false;
+  ToggleHintImage(Image14, False);
 end;
 
 
@@ -322,302 +352,182 @@ end;
 
 procedure TRadioLinkForm.GroupBox2MouseEnter(Sender: TObject);
 begin
-image2.Visible:=true; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image2);
 end;
 
 procedure TRadioLinkForm.GroupBox2MouseLeave(Sender: TObject);
 begin
-  image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(nil);
 end;
 
 procedure TRadioLinkForm.GroupBox3MouseEnter(Sender: TObject);
 begin
-  image2.Visible:=false; //tx radio
-  image6.Visible:=true; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image6);
 end;
 
 procedure TRadioLinkForm.GroupBox3MouseLeave(Sender: TObject);
 begin
-  //Apaga todas selections
-  image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(nil);
 end;
 
 procedure TRadioLinkForm.GroupBox4MouseEnter(Sender: TObject);
 begin
-  image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=true; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image8);
 end;
 
 procedure TRadioLinkForm.GroupBox4MouseLeave(Sender: TObject);
 begin
-  //Apaga todas as selections
-  image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(nil);
 end;
 
 procedure TRadioLinkForm.GroupBox6MouseEnter(Sender: TObject);
 begin
-  image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //rx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=true; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image5);
 end;
 
 procedure TRadioLinkForm.GroupBox6MouseLeave(Sender: TObject);
 begin
-  //Apaga selections
-  image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //rx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(nil);
 end;
 
 procedure TRadioLinkForm.GroupBox7MouseEnter(Sender: TObject);
 begin
-  image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //rx antenna
-  image7.Visible:=true; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image7);
 end;
 
 procedure TRadioLinkForm.GroupBox7MouseLeave(Sender: TObject);
 begin
-  //Apaga selections
-  image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //rx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(nil);
 end;
 
 procedure TRadioLinkForm.GroupBox8MouseEnter(Sender: TObject);
 begin
-   image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=true; //rx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image9);
 end;
 
 procedure TRadioLinkForm.GroupBox8MouseLeave(Sender: TObject);
 begin
-//Apaga selections
-image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //rx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(nil);
 end;
 
 procedure TRadioLinkForm.GroupBox9MouseEnter(Sender: TObject);
 begin
-  image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=true; //field
+  SetDiagramSelection(Image10);
 end;
 
 procedure TRadioLinkForm.GroupBox9MouseLeave(Sender: TObject);
 begin
-  //Apaga Selections
-  image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(nil);
 end;
 
 procedure TRadioLinkForm.Label31MouseEnter(Sender: TObject);
 begin
-  image11.Visible:=true;
+  ToggleHintImage(Image11, True);
 end;
 
 procedure TRadioLinkForm.Label31MouseLeave(Sender: TObject);
 begin
-  image11.Visible:=false;
+  ToggleHintImage(Image11, False);
 end;
 
 procedure TRadioLinkForm.Label32Click(Sender: TObject);
 begin
-  image11.Visible:=true;
+  ToggleHintImage(Image11, True);
 end;
 
 procedure TRadioLinkForm.Label32MouseEnter(Sender: TObject);
 begin
-  image11.Visible:=true;
+  ToggleHintImage(Image11, True);
 end;
 
 procedure TRadioLinkForm.Label32MouseLeave(Sender: TObject);
 begin
-  image11.Visible:=false;
+  ToggleHintImage(Image11, False);
 end;
 
 procedure TRadioLinkForm.Label33MouseEnter(Sender: TObject);
 begin
-  image12.Visible:=true;
+  ToggleHintImage(Image12, True);
 end;
 
 procedure TRadioLinkForm.Label33MouseLeave(Sender: TObject);
 begin
-  image12.Visible:=false;
+  ToggleHintImage(Image12, False);
 end;
 
 procedure TRadioLinkForm.Label34MouseEnter(Sender: TObject);
 begin
-  image12.Visible:=true;
+  ToggleHintImage(Image12, True);
 end;
 
 procedure TRadioLinkForm.Label34MouseLeave(Sender: TObject);
 begin
-  image12.Visible:=false;
+  ToggleHintImage(Image12, False);
 end;
 
 procedure TRadioLinkForm.Label35MouseEnter(Sender: TObject);
 begin
-  image13.Visible:=true;
+  ToggleHintImage(Image13, True);
 end;
 
 procedure TRadioLinkForm.Label35MouseLeave(Sender: TObject);
 begin
-  image13.Visible:=false;
+  ToggleHintImage(Image13, False);
 end;
 
 procedure TRadioLinkForm.Label36MouseEnter(Sender: TObject);
 begin
-  image13.Visible:=true;
+  ToggleHintImage(Image13, True);
 end;
 
 procedure TRadioLinkForm.Label36MouseLeave(Sender: TObject);
 begin
-  image13.Visible:=false;
+  ToggleHintImage(Image13, False);
 end;
 
 procedure TRadioLinkForm.Label37MouseEnter(Sender: TObject);
 begin
-  image14.Visible:=true;
+  ToggleHintImage(Image14, True);
 end;
 
 procedure TRadioLinkForm.Label37MouseLeave(Sender: TObject);
 begin
-  image14.Visible:=false;
+  ToggleHintImage(Image14, False);
 end;
 
 procedure TRadioLinkForm.Label38MouseEnter(Sender: TObject);
 begin
-  image14.Visible:=true;
+  ToggleHintImage(Image14, True);
 end;
 
 procedure TRadioLinkForm.Label38MouseLeave(Sender: TObject);
 begin
-  image14.Visible:=false;
+  ToggleHintImage(Image14, False);
 end;
 
 procedure TRadioLinkForm.UpDown10Click(Sender: TObject; Button: TUDBtnType);
 begin
-   image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //rx antenna
-  image7.Visible:=true; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image7);
 end;
 
 procedure TRadioLinkForm.UpDown11Click(Sender: TObject; Button: TUDBtnType);
 begin
-   image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //rx antenna
-  image7.Visible:=true; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image7);
 end;
 
 procedure TRadioLinkForm.UpDown12Click(Sender: TObject; Button: TUDBtnType);
 begin
-    image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=true; //field
+  SetDiagramSelection(Image10);
 end;
 
 procedure TRadioLinkForm.UpDown13Click(Sender: TObject; Button: TUDBtnType);
 begin
-    image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=true; //rx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image9);
 end;
 
 procedure TRadioLinkForm.UpDown1Click(Sender: TObject; Button: TUDBtnType);
 begin
-  image2.Visible:=true; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image2);
 end;
 
 procedure TRadioLinkForm.UpDown1Enter(Sender: TObject);
@@ -627,90 +537,42 @@ end;
 
 procedure TRadioLinkForm.UpDown2Click(Sender: TObject; Button: TUDBtnType);
 begin
-  image2.Visible:=true; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image2);
 end;
 
 procedure TRadioLinkForm.UpDown3Click(Sender: TObject; Button: TUDBtnType);
 begin
-    image2.Visible:=false; //tx radio
-  image6.Visible:=true; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image6);
 end;
 
 procedure TRadioLinkForm.UpDown4Click(Sender: TObject; Button: TUDBtnType);
 begin
-    image2.Visible:=false; //tx radio
-  image6.Visible:=true; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image6);
 end;
 
 procedure TRadioLinkForm.UpDown5Click(Sender: TObject; Button: TUDBtnType);
 begin
-    image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=true; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image8);
 end;
 
 procedure TRadioLinkForm.UpDown6Click(Sender: TObject; Button: TUDBtnType);
 begin
-    image2.Visible:=false; //tx radio
-  image6.Visible:=true; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //tx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image6);
 end;
 
 procedure TRadioLinkForm.UpDown7Click(Sender: TObject; Button: TUDBtnType);
 begin
-    image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //rx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=true; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image5);
 end;
 
 procedure TRadioLinkForm.UpDown8Click(Sender: TObject; Button: TUDBtnType);
 begin
-    image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //rx antenna
-  image7.Visible:=false; //rx line
-  image5.Visible:=true; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image5);
 end;
 
 procedure TRadioLinkForm.UpDown9Click(Sender: TObject; Button: TUDBtnType);
 begin
-   image2.Visible:=false; //tx radio
-  image6.Visible:=false; //tx line
-  image8.Visible:=false; //tx antenna
-  image9.Visible:=false; //rx antenna
-  image7.Visible:=true; //rx line
-  image5.Visible:=false; //tx radio
-  image10.Visible:=false; //field
+  SetDiagramSelection(Image7);
 end;
 
 
